@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T07:36:09.996Z",
+  "updatedAt": "2026-10-07T07:58:53.484Z",
   "retentionDays": 35,
   "repositories": {
     "689344": {
@@ -9,6 +9,10 @@
         {
           "capturedAt": "2026-10-05T10:27:41.996Z",
           "stars": 14233
+        },
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 14242
         }
       ]
     },
@@ -125,6 +129,15 @@
         }
       ]
     },
+    "9752041": {
+      "fullName": "buildroot/buildroot",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 3668
+        }
+      ]
+    },
     "9852918": {
       "fullName": "TryGhost/Ghost",
       "snapshots": [
@@ -148,6 +161,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 398617
+        }
+      ]
+    },
+    "18596168": {
+      "fullName": "MetacoSA/NBitcoin",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 1938
         }
       ]
     },
@@ -297,6 +319,24 @@
         }
       ]
     },
+    "49876476": {
+      "fullName": "apache/shardingsphere",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 20804
+        }
+      ]
+    },
+    "54298946": {
+      "fullName": "camunda/camunda",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 4311
+        }
+      ]
+    },
     "60243197": {
       "fullName": "nextcloud/server",
       "snapshots": [
@@ -415,6 +455,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 95666
+        }
+      ]
+    },
+    "95903234": {
+      "fullName": "renode/renode",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 2986
         }
       ]
     },
@@ -780,12 +829,30 @@
         }
       ]
     },
+    "385037052": {
+      "fullName": "ahrm/sioyek",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 9924
+        }
+      ]
+    },
     "437944910": {
       "fullName": "opensearch-project/opensearch-k8s-operator",
       "snapshots": [
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 584
+        }
+      ]
+    },
+    "465844859": {
+      "fullName": "podman-desktop/podman-desktop",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 8063
         }
       ]
     },
@@ -965,6 +1032,15 @@
         }
       ]
     },
+    "729308541": {
+      "fullName": "homarr-labs/homarr",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 5018
+        }
+      ]
+    },
     "771302083": {
       "fullName": "OpenHands/OpenHands",
       "snapshots": [
@@ -1086,6 +1162,15 @@
         }
       ]
     },
+    "942206898": {
+      "fullName": "ai-dynamo/dynamo",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 8238
+        }
+      ]
+    },
     "965415649": {
       "fullName": "openai/codex",
       "snapshots": [
@@ -1135,6 +1220,24 @@
         {
           "capturedAt": "2026-10-06T02:43:47.227Z",
           "stars": 5250
+        }
+      ]
+    },
+    "990586271": {
+      "fullName": "lingdojo/kana-dojo",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 3572
+        }
+      ]
+    },
+    "1009306148": {
+      "fullName": "ebrasha/free-v2ray-public-list",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 1350
         }
       ]
     },
@@ -1391,6 +1494,24 @@
         }
       ]
     },
+    "1180804216": {
+      "fullName": "doctorhetfield-cmd/simpleui.koplugin",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 1848
+        }
+      ]
+    },
+    "1183888342": {
+      "fullName": "stablyai/orca",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 86708
+        }
+      ]
+    },
     "1185122623": {
       "fullName": "rullerzhou-afk/clawd-on-desk",
       "snapshots": [
@@ -1512,6 +1633,15 @@
         }
       ]
     },
+    "1246600517": {
+      "fullName": "open-gsd/gsd-pi",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 1294
+        }
+      ]
+    },
     "1266797999": {
       "fullName": "DietrichGebert/ponytail",
       "snapshots": [
@@ -1544,6 +1674,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 553
+        }
+      ]
+    },
+    "1303829880": {
+      "fullName": "MIgHTy-alIeN/ethereum-flashloan-mev-bot",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:58:53.484Z",
+          "stars": 2789
         }
       ]
     },
