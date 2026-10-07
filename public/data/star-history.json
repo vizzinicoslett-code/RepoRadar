@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T08:05:56.724Z",
+  "updatedAt": "2026-10-07T08:53:19.637Z",
   "retentionDays": 35,
   "repositories": {
     "206317": {
@@ -22,6 +22,15 @@
         {
           "capturedAt": "2026-10-07T07:58:53.484Z",
           "stars": 14242
+        }
+      ]
+    },
+    "911980": {
+      "fullName": "tarantool/tarantool",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 3669
         }
       ]
     },
@@ -75,6 +84,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 91090
+        }
+      ]
+    },
+    "5453324": {
+      "fullName": "JetBrains/intellij-plugins",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 2276
         }
       ]
     },
@@ -328,6 +346,15 @@
         }
       ]
     },
+    "43449678": {
+      "fullName": "microsoft/TypeScript-DOM-lib-generator",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 742
+        }
+      ]
+    },
     "49876476": {
       "fullName": "apache/shardingsphere",
       "snapshots": [
@@ -415,6 +442,24 @@
         }
       ]
     },
+    "72291379": {
+      "fullName": "unitystation/unitystation",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 734
+        }
+      ]
+    },
+    "73138020": {
+      "fullName": "brave/adblock-lists",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 527
+        }
+      ]
+    },
     "73141763": {
       "fullName": "jodconverter/jodconverter",
       "snapshots": [
@@ -447,6 +492,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 18537
+        }
+      ]
+    },
+    "88298561": {
+      "fullName": "longhorn/longhorn",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 8018
         }
       ]
     },
@@ -507,6 +561,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 129327
+        }
+      ]
+    },
+    "115822316": {
+      "fullName": "Rinnegatamante/vitaGL",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 639
         }
       ]
     },
@@ -677,6 +740,10 @@
         {
           "capturedAt": "2026-10-05T10:27:41.996Z",
           "stars": 40145
+        },
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 40169
         }
       ]
     },
@@ -866,6 +933,15 @@
         {
           "capturedAt": "2026-10-07T07:58:53.484Z",
           "stars": 9924
+        }
+      ]
+    },
+    "408858330": {
+      "fullName": "raycast/extensions",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 7772
         }
       ]
     },
@@ -1091,6 +1167,15 @@
         }
       ]
     },
+    "660776503": {
+      "fullName": "paradedb/paradedb",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 9368
+        }
+      ]
+    },
     "663900193": {
       "fullName": "sxyazi/yazi",
       "snapshots": [
@@ -1105,6 +1190,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 42664
+        }
+      ]
+    },
+    "704781307": {
+      "fullName": "metasequoiaime/msime-windows",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 1696
         }
       ]
     },
@@ -1140,6 +1234,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 90141
+        }
+      ]
+    },
+    "772261363": {
+      "fullName": "tscircuit/tscircuit",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 2803
         }
       ]
     },
@@ -1621,6 +1724,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 45927
+        }
+      ]
+    },
+    "1168481509": {
+      "fullName": "open-pencil/open-pencil",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:53:19.637Z",
+          "stars": 8782
         }
       ]
     },
