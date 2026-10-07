@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T07:58:53.484Z",
+  "generatedAt": "2026-10-07T08:05:56.724Z",
   "source": "github",
   "repoCount": 100,
   "queries": [
@@ -57,8 +57,8 @@
       "htmlUrl": "https://github.com/eternity4719/HowToLiveBetter",
       "homepage": "https://eternity4719.github.io/HowToLiveBetter/",
       "language": "HTML",
-      "stars": 48090,
-      "forks": 3846,
+      "stars": 48119,
+      "forks": 3848,
       "openIssues": 15,
       "topics": [],
       "license": {
@@ -67,40 +67,53 @@
         "spdxId": "CC-BY-4.0"
       },
       "createdAt": "2026-09-07T01:53:36Z",
-      "updatedAt": "2026-10-07T07:58:42Z",
+      "updatedAt": "2026-10-07T08:05:53Z",
       "pushedAt": "2026-10-07T07:49:25Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 95903234,
-      "owner": "renode",
-      "name": "renode",
-      "fullName": "renode/renode",
-      "description": "Renode - Antmicro's open source simulation and virtual development framework for complex embedded systems",
-      "htmlUrl": "https://github.com/renode/renode",
-      "homepage": "https://renode.io",
-      "language": "RobotFramework",
-      "stars": 2986,
-      "forks": 539,
-      "openIssues": 465,
+      "githubId": 560574903,
+      "owner": "zapplyjobs",
+      "name": "New-Grad-Jobs-2027",
+      "fullName": "zapplyjobs/New-Grad-Jobs-2027",
+      "description": "2027 entry-level jobs in tech, finance, healthcare & more — new grad US roles across software, business, operations & beyond",
+      "htmlUrl": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "homepage": "https://zapplyjobs.github.io/New-Grad-Jobs-2027/",
+      "language": "HTML",
+      "stars": 1570,
+      "forks": 71,
+      "openIssues": 0,
       "topics": [
-        "arm",
-        "embedded-systems",
-        "iot",
-        "renode",
-        "risc-v",
-        "simulation",
-        "x86"
+        "2027",
+        "applications",
+        "college",
+        "early-career",
+        "fulltime",
+        "hiring",
+        "intern",
+        "interviews",
+        "job-search",
+        "jobboard",
+        "jobs",
+        "jobs-2027",
+        "junior",
+        "new-grad",
+        "new-grad-jobs",
+        "newgrad",
+        "remote-job",
+        "software-engineering",
+        "tech-jobs",
+        "university"
       ],
       "license": {
         "key": "other",
         "name": "Other",
         "spdxId": "NOASSERTION"
       },
-      "createdAt": "2017-06-30T15:52:08Z",
-      "updatedAt": "2026-10-07T07:58:53Z",
-      "pushedAt": "2026-10-07T07:58:49Z",
+      "createdAt": "2022-11-01T19:50:22Z",
+      "updatedAt": "2026-10-07T07:56:26Z",
+      "pushedAt": "2026-10-07T08:05:57Z",
       "archived": false,
       "fork": false
     },
@@ -146,7 +159,7 @@
       "htmlUrl": "https://github.com/affaan-m/ECC",
       "homepage": "https://ecc.tools",
       "language": "JavaScript",
-      "stars": 274452,
+      "stars": 274455,
       "forks": 40953,
       "openIssues": 363,
       "topics": [
@@ -165,7 +178,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-10-07T07:57:52Z",
+      "updatedAt": "2026-10-07T08:05:35Z",
       "pushedAt": "2026-10-05T04:55:16Z",
       "archived": false,
       "fork": false
@@ -211,7 +224,7 @@
       "language": "TypeScript",
       "stars": 456879,
       "forks": 48428,
-      "openIssues": 205,
+      "openIssues": 207,
       "topics": [
         "careers",
         "certification",
@@ -279,45 +292,22 @@
       "fork": false
     },
     {
-      "githubId": 1183888342,
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "htmlUrl": "https://github.com/stablyai/orca",
-      "homepage": "https://onOrca.dev",
-      "language": "TypeScript",
-      "stars": 86708,
-      "forks": 5567,
-      "openIssues": 7973,
-      "topics": [
-        "ade",
-        "agent-ide",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor-agent",
-        "devtools",
-        "ghostty",
-        "ide",
-        "mobile-app",
-        "opencode",
-        "orchestration",
-        "parallel-agents",
-        "pi",
-        "terminal",
-        "worktrees",
-        "yc-backed"
-      ],
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-10-07T07:58:54Z",
-      "pushedAt": "2026-10-07T07:58:47Z",
+      "githubId": 727073288,
+      "owner": "hujingguang",
+      "name": "ChinaIPTV",
+      "fullName": "hujingguang/ChinaIPTV",
+      "description": "中国电视直播源 cnTV m3u（实时更新,长期有效）",
+      "htmlUrl": "https://github.com/hujingguang/ChinaIPTV",
+      "homepage": "",
+      "language": null,
+      "stars": 2076,
+      "forks": 248,
+      "openIssues": 6,
+      "topics": [],
+      "license": null,
+      "createdAt": "2023-12-04T05:59:48Z",
+      "updatedAt": "2026-10-07T08:05:58Z",
+      "pushedAt": "2026-10-07T08:05:52Z",
       "archived": false,
       "fork": false
     },
@@ -330,7 +320,7 @@
       "htmlUrl": "https://github.com/mattpocock/skills",
       "homepage": "https://aihero.dev/skills",
       "language": "Shell",
-      "stars": 278528,
+      "stars": 278540,
       "forks": 23328,
       "openIssues": 327,
       "topics": [],
@@ -340,7 +330,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-10-07T07:58:22Z",
+      "updatedAt": "2026-10-07T08:05:48Z",
       "pushedAt": "2026-10-06T19:04:26Z",
       "archived": false,
       "fork": false
@@ -354,8 +344,8 @@
       "htmlUrl": "https://github.com/DietrichGebert/ponytail",
       "homepage": "https://ponytail.dev",
       "language": "JavaScript",
-      "stars": 157069,
-      "forks": 8442,
+      "stars": 157073,
+      "forks": 8443,
       "openIssues": 12,
       "topics": [
         "agent-skills",
@@ -375,7 +365,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-06-12T00:52:37Z",
-      "updatedAt": "2026-10-07T07:58:40Z",
+      "updatedAt": "2026-10-07T08:03:34Z",
       "pushedAt": "2026-10-05T20:46:39Z",
       "archived": false,
       "fork": false
@@ -474,26 +464,41 @@
       "fork": false
     },
     {
-      "githubId": 18596168,
-      "owner": "MetacoSA",
-      "name": "NBitcoin",
-      "fullName": "MetacoSA/NBitcoin",
-      "description": "Comprehensive Bitcoin library for the .NET framework.",
-      "htmlUrl": "https://github.com/MetacoSA/NBitcoin",
-      "homepage": "",
-      "language": "C#",
-      "stars": 1938,
-      "forks": 870,
-      "openIssues": 113,
-      "topics": [],
+      "githubId": 1329849289,
+      "owner": "lexmount",
+      "name": "moli",
+      "fullName": "lexmount/moli",
+      "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+      "htmlUrl": "https://github.com/lexmount/moli",
+      "homepage": "https://browser.lexmount.com",
+      "language": "Rust",
+      "stars": 11636,
+      "forks": 319,
+      "openIssues": 245,
+      "topics": [
+        "ai-agents",
+        "ai-tools",
+        "browser",
+        "browser-automation",
+        "cloud-browser",
+        "kitesurf",
+        "playwright",
+        "puppeteer",
+        "rust",
+        "servo",
+        "web-crawler",
+        "web-crawling",
+        "web-scraper",
+        "web-scraping"
+      ],
       "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdxId": "MIT"
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
       },
-      "createdAt": "2014-04-09T12:22:52Z",
-      "updatedAt": "2026-10-07T07:58:48Z",
-      "pushedAt": "2026-10-07T07:58:44Z",
+      "createdAt": "2026-08-10T13:20:30Z",
+      "updatedAt": "2026-10-07T08:05:55Z",
+      "pushedAt": "2026-10-07T08:05:49Z",
       "archived": false,
       "fork": false
     },
@@ -506,7 +511,7 @@
       "htmlUrl": "https://github.com/Graphify-Labs/graphify",
       "homepage": "https://www.graphify.com",
       "language": "Python",
-      "stars": 124479,
+      "stars": 124480,
       "forks": 12005,
       "openIssues": 1519,
       "topics": [
@@ -537,7 +542,7 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2026-04-03T15:49:07Z",
-      "updatedAt": "2026-10-07T07:54:34Z",
+      "updatedAt": "2026-10-07T08:05:01Z",
       "pushedAt": "2026-10-06T23:27:20Z",
       "archived": false,
       "fork": false
@@ -553,7 +558,7 @@
       "language": "Jupyter Notebook",
       "stars": 69516,
       "forks": 13472,
-      "openIssues": 15,
+      "openIssues": 16,
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -625,9 +630,9 @@
       "htmlUrl": "https://github.com/Niko1221/Strata",
       "homepage": "",
       "language": "C++",
-      "stars": 16204,
+      "stars": 16211,
       "forks": 1401,
-      "openIssues": 375,
+      "openIssues": 376,
       "topics": [],
       "license": {
         "key": "mit",
@@ -635,36 +640,41 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-09-24T16:40:20Z",
-      "updatedAt": "2026-10-07T07:57:50Z",
+      "updatedAt": "2026-10-07T08:04:38Z",
       "pushedAt": "2026-10-06T09:53:35Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 385037052,
-      "owner": "ahrm",
-      "name": "sioyek",
-      "fullName": "ahrm/sioyek",
-      "description": "Sioyek is a PDF viewer with a focus on textbooks and research papers",
-      "htmlUrl": "https://github.com/ahrm/sioyek",
-      "homepage": "https://sioyek.info/",
-      "language": "C",
-      "stars": 9924,
-      "forks": 387,
-      "openIssues": 341,
+      "githubId": 651702652,
+      "owner": "unkeyed",
+      "name": "unkey",
+      "fullName": "unkeyed/unkey",
+      "description": "The Developer Platform for Modern APIs",
+      "htmlUrl": "https://github.com/unkeyed/unkey",
+      "homepage": "https://go.unkey.com",
+      "language": "Go",
+      "stars": 5458,
+      "forks": 638,
+      "openIssues": 168,
       "topics": [
-        "pdf",
-        "pdf-viewer",
-        "research-paper"
+        "api",
+        "api-keys",
+        "authentication",
+        "authorization",
+        "deployment",
+        "gateway",
+        "open-source",
+        "rate-limiter"
       ],
       "license": {
-        "key": "gpl-3.0",
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
       },
-      "createdAt": "2021-07-11T19:35:19Z",
-      "updatedAt": "2026-10-07T07:58:48Z",
-      "pushedAt": "2026-10-07T07:58:42Z",
+      "createdAt": "2023-06-09T21:23:20Z",
+      "updatedAt": "2026-10-07T08:05:50Z",
+      "pushedAt": "2026-10-07T08:05:48Z",
       "archived": false,
       "fork": false
     },
@@ -678,8 +688,8 @@
       "homepage": "https://hermes-agent.nousresearch.com",
       "language": "Python",
       "stars": 251772,
-      "forks": 54153,
-      "openIssues": 47709,
+      "forks": 54154,
+      "openIssues": 47711,
       "topics": [
         "ai",
         "ai-agent",
@@ -701,8 +711,8 @@
         "spdxId": "MIT"
       },
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-10-07T07:51:58Z",
-      "pushedAt": "2026-10-07T07:53:48Z",
+      "updatedAt": "2026-10-07T08:03:32Z",
+      "pushedAt": "2026-10-07T08:04:23Z",
       "archived": false,
       "fork": false
     },
@@ -749,7 +759,7 @@
       "htmlUrl": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "homepage": "https://aiengineeringfromscratch.com",
       "language": "Python",
-      "stars": 65405,
+      "stars": 65406,
       "forks": 11280,
       "openIssues": 72,
       "topics": [
@@ -780,7 +790,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-03-18T18:38:02Z",
-      "updatedAt": "2026-10-07T07:58:25Z",
+      "updatedAt": "2026-10-07T08:02:40Z",
       "pushedAt": "2026-10-06T19:16:22Z",
       "archived": false,
       "fork": false
@@ -832,9 +842,9 @@
       "htmlUrl": "https://github.com/storytold/photocraft",
       "homepage": "https://getartcraft.com/apps/photocraft",
       "language": "Rust",
-      "stars": 10492,
-      "forks": 1379,
-      "openIssues": 149,
+      "stars": 10572,
+      "forks": 1386,
+      "openIssues": 150,
       "topics": [
         "adobe",
         "adobe-photoshop-2026",
@@ -855,39 +865,44 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2026-09-30T13:37:48Z",
-      "updatedAt": "2026-10-07T07:58:42Z",
+      "updatedAt": "2026-10-07T08:05:53Z",
       "pushedAt": "2026-10-07T07:05:06Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 729308541,
-      "owner": "homarr-labs",
-      "name": "homarr",
-      "fullName": "homarr-labs/homarr",
-      "description": "A modern and easy to use dashboard. 80+ integrations. 20K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration.",
-      "htmlUrl": "https://github.com/homarr-labs/homarr",
-      "homepage": "https://homarr.dev",
-      "language": "TypeScript",
-      "stars": 5018,
-      "forks": 327,
-      "openIssues": 127,
+      "githubId": 583528771,
+      "owner": "safedep",
+      "name": "vet",
+      "fullName": "safedep/vet",
+      "description": "Protect against malicious open source packages 🤖",
+      "htmlUrl": "https://github.com/safedep/vet",
+      "homepage": "https://safedep.io",
+      "language": "Go",
+      "stars": 1110,
+      "forks": 113,
+      "openIssues": 96,
       "topics": [
-        "dashboard",
-        "docker",
-        "organization",
-        "privacy",
-        "selfhosting",
-        "servarr"
+        "devsecops",
+        "golang",
+        "hacktoberfest",
+        "npm",
+        "policy-as-code",
+        "pypi",
+        "rubygems",
+        "security",
+        "software-composition-analysis",
+        "static-analysis",
+        "supply-chain-security"
       ],
       "license": {
         "key": "apache-2.0",
         "name": "Apache License 2.0",
         "spdxId": "Apache-2.0"
       },
-      "createdAt": "2023-12-08T21:34:43Z",
-      "updatedAt": "2026-10-07T07:58:48Z",
-      "pushedAt": "2026-10-07T07:58:42Z",
+      "createdAt": "2022-12-30T03:39:03Z",
+      "updatedAt": "2026-10-07T08:05:51Z",
+      "pushedAt": "2026-10-07T08:05:47Z",
       "archived": false,
       "fork": false
     },
@@ -902,7 +917,7 @@
       "language": "TypeScript",
       "stars": 212095,
       "forks": 28243,
-      "openIssues": 6225,
+      "openIssues": 6227,
       "topics": [],
       "license": {
         "key": "mit",
@@ -911,7 +926,7 @@
       },
       "createdAt": "2025-04-30T20:08:00Z",
       "updatedAt": "2026-10-07T07:46:56Z",
-      "pushedAt": "2026-10-07T07:13:28Z",
+      "pushedAt": "2026-10-07T08:00:55Z",
       "archived": false,
       "fork": false
     },
@@ -924,7 +939,7 @@
       "htmlUrl": "https://github.com/OpenHands/OpenHands",
       "homepage": "https://openhands.dev",
       "language": "TypeScript",
-      "stars": 90142,
+      "stars": 90143,
       "forks": 11925,
       "openIssues": 917,
       "topics": [
@@ -944,7 +959,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-10-07T07:51:25Z",
+      "updatedAt": "2026-10-07T08:00:27Z",
       "pushedAt": "2026-10-07T06:38:41Z",
       "archived": false,
       "fork": false
@@ -958,9 +973,9 @@
       "htmlUrl": "https://github.com/ultralytics/ultralytics",
       "homepage": "https://platform.ultralytics.com",
       "language": "Python",
-      "stars": 62255,
-      "forks": 11828,
-      "openIssues": 84,
+      "stars": 62256,
+      "forks": 11829,
+      "openIssues": 85,
       "topics": [
         "computer-vision",
         "deep-learning",
@@ -989,8 +1004,8 @@
         "spdxId": "AGPL-3.0"
       },
       "createdAt": "2022-09-11T16:39:45Z",
-      "updatedAt": "2026-10-07T07:32:53Z",
-      "pushedAt": "2026-10-07T07:41:07Z",
+      "updatedAt": "2026-10-07T08:04:33Z",
+      "pushedAt": "2026-10-07T08:04:21Z",
       "archived": false,
       "fork": false
     },
@@ -1036,8 +1051,8 @@
       "htmlUrl": "https://github.com/robbietilton/Compositor",
       "homepage": null,
       "language": "Swift",
-      "stars": 10039,
-      "forks": 949,
+      "stars": 10048,
+      "forks": 951,
       "openIssues": 70,
       "topics": [],
       "license": {
@@ -1046,53 +1061,28 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-09-16T20:35:54Z",
-      "updatedAt": "2026-10-07T07:58:10Z",
+      "updatedAt": "2026-10-07T08:05:40Z",
       "pushedAt": "2026-09-29T21:42:59Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 990586271,
-      "owner": "lingdojo",
-      "name": "kana-dojo",
-      "fullName": "lingdojo/kana-dojo",
-      "description": "Aesthetic, minimalist platform for learning Japanese inspired by Duolingo and Monkeytype, built with Next.js and sponsored by Vercel. Beginner-friendly with plenty of good first issues - all contributions are welcome!",
-      "htmlUrl": "https://github.com/lingdojo/kana-dojo",
-      "homepage": "https://kanadojo.com",
-      "language": "TypeScript",
-      "stars": 3572,
-      "forks": 3543,
-      "openIssues": 620,
-      "topics": [
-        "beginner",
-        "beginner-friendly",
-        "contribute",
-        "contribution",
-        "contributions-welcome",
-        "first-contributions",
-        "first-timers-only",
-        "good-first-contribution",
-        "good-first-issue",
-        "good-first-pr",
-        "hacktoberfest",
-        "help-wanted",
-        "japanese",
-        "japanese-language",
-        "language-learning",
-        "learn-japanese",
-        "nextjs",
-        "open-source",
-        "react",
-        "up-for-grabs"
-      ],
-      "license": {
-        "key": "agpl-3.0",
-        "name": "GNU Affero General Public License v3.0",
-        "spdxId": "AGPL-3.0"
-      },
-      "createdAt": "2025-05-26T10:38:07Z",
-      "updatedAt": "2026-10-07T07:58:47Z",
-      "pushedAt": "2026-10-07T07:58:42Z",
+      "githubId": 26193547,
+      "owner": "rust-lang",
+      "name": "crates.io-index",
+      "fullName": "rust-lang/crates.io-index",
+      "description": "Registry index for crates.io",
+      "htmlUrl": "https://github.com/rust-lang/crates.io-index",
+      "homepage": null,
+      "language": "Tcl",
+      "stars": 750,
+      "forks": 271,
+      "openIssues": 2,
+      "topics": [],
+      "license": null,
+      "createdAt": "2014-11-04T23:26:38Z",
+      "updatedAt": "2026-10-07T08:05:48Z",
+      "pushedAt": "2026-10-07T08:05:46Z",
       "archived": false,
       "fork": false
     },
@@ -1105,8 +1095,8 @@
       "htmlUrl": "https://github.com/firecrawl/firecrawl",
       "homepage": "https://firecrawl.dev",
       "language": "TypeScript",
-      "stars": 189284,
-      "forks": 10042,
+      "stars": 189286,
+      "forks": 10043,
       "openIssues": 533,
       "topics": [
         "ai",
@@ -1135,7 +1125,7 @@
         "spdxId": "AGPL-3.0"
       },
       "createdAt": "2024-04-15T21:02:29Z",
-      "updatedAt": "2026-10-07T07:56:29Z",
+      "updatedAt": "2026-10-07T08:03:44Z",
       "pushedAt": "2026-10-07T07:22:56Z",
       "archived": false,
       "fork": false
@@ -1149,7 +1139,7 @@
       "htmlUrl": "https://github.com/rtk-ai/rtk",
       "homepage": "https://www.rtk-ai.app",
       "language": "Rust",
-      "stars": 82584,
+      "stars": 82586,
       "forks": 5251,
       "openIssues": 1511,
       "topics": [
@@ -1173,7 +1163,7 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2026-01-22T16:54:16Z",
-      "updatedAt": "2026-10-07T07:52:49Z",
+      "updatedAt": "2026-10-07T08:00:51Z",
       "pushedAt": "2026-10-07T07:16:42Z",
       "archived": false,
       "fork": false
@@ -1265,46 +1255,59 @@
       "htmlUrl": "https://github.com/cdyforever/how-to-live-better",
       "homepage": null,
       "language": "HTML",
-      "stars": 8807,
-      "forks": 598,
+      "stars": 8817,
+      "forks": 599,
       "openIssues": 8,
       "topics": [],
       "license": null,
       "createdAt": "2026-09-18T14:35:08Z",
-      "updatedAt": "2026-10-07T07:57:53Z",
+      "updatedAt": "2026-10-07T08:04:29Z",
       "pushedAt": "2026-10-07T01:05:13Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 1180804216,
-      "owner": "doctorhetfield-cmd",
-      "name": "simpleui.koplugin",
-      "fullName": "doctorhetfield-cmd/simpleui.koplugin",
-      "description": "A highly customizable UI plugin for KOReader that features a home screen, bottom navigation bar, top bar and desktop modules/widgets. ",
-      "htmlUrl": "https://github.com/doctorhetfield-cmd/simpleui.koplugin",
-      "homepage": "",
-      "language": "Lua",
-      "stars": 1848,
-      "forks": 107,
-      "openIssues": 35,
+      "githubId": 995029641,
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "htmlUrl": "https://github.com/ruvnet/ruflo",
+      "homepage": "https://Cognitum.One",
+      "language": "TypeScript",
+      "stars": 74023,
+      "forks": 8800,
+      "openIssues": 1120,
       "topics": [
-        "ebook",
-        "kindle",
-        "kobo",
-        "koreader",
-        "lua",
-        "plugin",
-        "reader"
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "agents",
+        "ai-agents",
+        "ai-assistant",
+        "ai-skills",
+        "autonomous-agents",
+        "claude",
+        "codex",
+        "dsh-plugin",
+        "harness",
+        "mcp-server",
+        "multi-agent",
+        "multi-agent-systems",
+        "npm",
+        "skills",
+        "swarm",
+        "swarm-intelligence",
+        "typescript"
       ],
       "license": {
         "key": "mit",
         "name": "MIT License",
         "spdxId": "MIT"
       },
-      "createdAt": "2026-03-13T12:34:19Z",
-      "updatedAt": "2026-10-07T07:58:46Z",
-      "pushedAt": "2026-10-07T07:58:41Z",
+      "createdAt": "2025-06-02T21:24:20Z",
+      "updatedAt": "2026-10-07T08:05:55Z",
+      "pushedAt": "2026-10-07T08:05:46Z",
       "archived": false,
       "fork": false
     },
@@ -1317,7 +1320,7 @@
       "htmlUrl": "https://github.com/anthropics/skills",
       "homepage": "",
       "language": "Python",
-      "stars": 179971,
+      "stars": 179973,
       "forks": 21283,
       "openIssues": 1393,
       "topics": [
@@ -1325,7 +1328,7 @@
       ],
       "license": null,
       "createdAt": "2025-09-22T15:53:31Z",
-      "updatedAt": "2026-10-07T07:58:49Z",
+      "updatedAt": "2026-10-07T08:00:46Z",
       "pushedAt": "2026-10-05T13:46:45Z",
       "archived": false,
       "fork": false
@@ -1462,7 +1465,7 @@
       "htmlUrl": "https://github.com/jaredpalmer/kev",
       "homepage": "",
       "language": "Python",
-      "stars": 8625,
+      "stars": 8626,
       "forks": 567,
       "openIssues": 36,
       "topics": [
@@ -1476,43 +1479,49 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2026-09-17T20:49:39Z",
-      "updatedAt": "2026-10-07T07:24:55Z",
+      "updatedAt": "2026-10-07T08:04:02Z",
       "pushedAt": "2026-10-06T17:39:59Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 465844859,
-      "owner": "podman-desktop",
-      "name": "podman-desktop",
-      "fullName": "podman-desktop/podman-desktop",
-      "description": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes — all from your desktop.",
-      "htmlUrl": "https://github.com/podman-desktop/podman-desktop",
-      "homepage": "https://podman-desktop.io",
-      "language": "TypeScript",
-      "stars": 8063,
-      "forks": 576,
-      "openIssues": 901,
+      "githubId": 206317,
+      "owner": "apache",
+      "name": "camel",
+      "fullName": "apache/camel",
+      "description": "Apache Camel is an open source integration framework with 350+ connectors. Write routes in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.",
+      "htmlUrl": "https://github.com/apache/camel",
+      "homepage": "https://camel.apache.org",
+      "language": "Java",
+      "stars": 6359,
+      "forks": 5169,
+      "openIssues": 55,
       "topics": [
-        "container",
-        "containers",
-        "desktop",
-        "docker",
-        "hacktoberfest",
+        "camel",
+        "cloud-native",
+        "data-transformation",
+        "enterprise-integration-patterns",
+        "integration",
+        "integration-framework",
+        "java",
+        "kafka",
         "kubernetes",
-        "podman",
-        "podman-desktop",
-        "tray-application",
-        "ui"
+        "mcp",
+        "microservices",
+        "middleware",
+        "quarkus",
+        "rest-api",
+        "spring-boot",
+        "yaml"
       ],
       "license": {
         "key": "apache-2.0",
         "name": "Apache License 2.0",
         "spdxId": "Apache-2.0"
       },
-      "createdAt": "2022-03-03T18:45:51Z",
-      "updatedAt": "2026-10-07T07:58:45Z",
-      "pushedAt": "2026-10-07T07:58:52Z",
+      "createdAt": "2009-05-21T00:25:36Z",
+      "updatedAt": "2026-10-07T08:05:51Z",
+      "pushedAt": "2026-10-07T08:05:52Z",
       "archived": false,
       "fork": false
     },
@@ -1525,7 +1534,7 @@
       "htmlUrl": "https://github.com/msitarzewski/agency-agents",
       "homepage": "",
       "language": "Shell",
-      "stars": 158009,
+      "stars": 158014,
       "forks": 25465,
       "openIssues": 166,
       "topics": [],
@@ -1535,7 +1544,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2025-10-13T12:12:29Z",
-      "updatedAt": "2026-10-07T07:55:46Z",
+      "updatedAt": "2026-10-07T08:04:24Z",
       "pushedAt": "2026-10-06T17:53:59Z",
       "archived": false,
       "fork": false
@@ -1549,7 +1558,7 @@
       "htmlUrl": "https://github.com/tt-a1i/archify",
       "homepage": "https://tt-a1i.github.io/archify/",
       "language": "JavaScript",
-      "stars": 78846,
+      "stars": 78851,
       "forks": 5296,
       "openIssues": 203,
       "topics": [
@@ -1580,7 +1589,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-10-07T07:57:53Z",
+      "updatedAt": "2026-10-07T08:05:57Z",
       "pushedAt": "2026-10-07T07:36:06Z",
       "archived": false,
       "fork": false
@@ -1683,30 +1692,46 @@
       "fork": false
     },
     {
-      "githubId": 54298946,
-      "owner": "camunda",
-      "name": "camunda",
-      "fullName": "camunda/camunda",
-      "description": "Process Orchestration Framework",
-      "htmlUrl": "https://github.com/camunda/camunda",
-      "homepage": "https://camunda.com/platform/",
-      "language": "Java",
-      "stars": 4311,
-      "forks": 830,
-      "openIssues": 2832,
+      "githubId": 654659638,
+      "owner": "duggytuxy",
+      "name": "Data-Shield_IPv4_Blocklist",
+      "fullName": "duggytuxy/Data-Shield_IPv4_Blocklist",
+      "description": "Data-Shield IPv4 Blocklist Community provides an official, curated registry of IPv4 addresses identified as malicious. Updated continuously, this resource offers vital threat intelligence to bolster your Firewall and WAF instances,...",
+      "htmlUrl": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
+      "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
+      "language": null,
+      "stars": 614,
+      "forks": 51,
+      "openIssues": 0,
       "topics": [
-        "bpmn",
-        "grpc",
-        "java",
-        "microservices",
-        "orchestration-framework",
-        "workflow",
-        "workflow-engine"
+        "attack-detection",
+        "blacklist-ips",
+        "blocklist",
+        "botnets",
+        "cyber-threat-intelligence",
+        "cybersecurity",
+        "ddos",
+        "dnssinkhole",
+        "firewall",
+        "firewall-configuration",
+        "firewall-rules",
+        "ipaddresses",
+        "ipv4",
+        "malicious",
+        "malware",
+        "network",
+        "network-security",
+        "web",
+        "webapplicationfirewall"
       ],
-      "license": null,
-      "createdAt": "2016-03-20T03:38:04Z",
-      "updatedAt": "2026-10-07T07:58:36Z",
-      "pushedAt": "2026-10-07T07:58:33Z",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-06-16T16:14:41Z",
+      "updatedAt": "2026-10-07T08:05:48Z",
+      "pushedAt": "2026-10-07T08:05:43Z",
       "archived": false,
       "fork": false
     },
@@ -1893,43 +1918,32 @@
       "fork": false
     },
     {
-      "githubId": 49876476,
-      "owner": "apache",
-      "name": "shardingsphere",
-      "fullName": "apache/shardingsphere",
-      "description": "Empowering Data Intelligence with Distributed SQL for Sharding, Scalability, and Security Across All Databases.",
-      "htmlUrl": "https://github.com/apache/shardingsphere",
+      "githubId": 180954037,
+      "owner": "itchyny",
+      "name": "gojq",
+      "fullName": "itchyny/gojq",
+      "description": "Pure Go implementation of jq",
+      "htmlUrl": "https://github.com/itchyny/gojq",
       "homepage": "",
-      "language": "Java",
-      "stars": 20804,
-      "forks": 6904,
-      "openIssues": 202,
+      "language": "Go",
+      "stars": 3808,
+      "forks": 158,
+      "openIssues": 17,
       "topics": [
-        "bigdata",
-        "data-encryption",
-        "data-pipeline",
-        "database",
-        "database-cluster",
-        "database-gateway",
-        "database-middleware",
-        "distributed-database",
-        "distributed-sql-database",
-        "distributed-transaction",
-        "encrypt",
-        "mysql",
-        "postgresql",
-        "read-write-splitting",
-        "shard",
-        "sql"
+        "cli-tool",
+        "cli-utility",
+        "go",
+        "golang",
+        "json"
       ],
       "license": {
-        "key": "apache-2.0",
-        "name": "Apache License 2.0",
-        "spdxId": "Apache-2.0"
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
       },
-      "createdAt": "2016-01-18T12:49:26Z",
-      "updatedAt": "2026-10-07T07:58:36Z",
-      "pushedAt": "2026-10-07T07:58:30Z",
+      "createdAt": "2019-04-12T07:26:07Z",
+      "updatedAt": "2026-10-07T08:05:48Z",
+      "pushedAt": "2026-10-07T08:05:43Z",
       "archived": false,
       "fork": false
     },
@@ -1942,7 +1956,7 @@
       "htmlUrl": "https://github.com/ayghri/i-have-adhd",
       "homepage": "",
       "language": "Python",
-      "stars": 54590,
+      "stars": 54591,
       "forks": 3134,
       "openIssues": 72,
       "topics": [
@@ -1959,7 +1973,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-05-13T20:42:06Z",
-      "updatedAt": "2026-10-07T07:57:43Z",
+      "updatedAt": "2026-10-07T08:00:25Z",
       "pushedAt": "2026-10-06T23:23:46Z",
       "archived": false,
       "fork": false
@@ -2080,37 +2094,32 @@
       "fork": false
     },
     {
-      "githubId": 942206898,
-      "owner": "ai-dynamo",
-      "name": "dynamo",
-      "fullName": "ai-dynamo/dynamo",
-      "description": "A Datacenter Scale Distributed Inference Serving Framework",
-      "htmlUrl": "https://github.com/ai-dynamo/dynamo",
-      "homepage": "https://docs.nvidia.com/dynamo/latest",
-      "language": "Rust",
-      "stars": 8238,
-      "forks": 1670,
-      "openIssues": 1721,
+      "githubId": 257485422,
+      "owner": "vitejs",
+      "name": "vite",
+      "fullName": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "htmlUrl": "https://github.com/vitejs/vite",
+      "homepage": "http://vite.dev",
+      "language": "TypeScript",
+      "stars": 83234,
+      "forks": 8834,
+      "openIssues": 779,
       "topics": [
-        "diffusion",
-        "disaggregated-serving",
-        "kubernetes",
-        "llm-inference",
-        "omni",
-        "routing-engine",
-        "rust",
-        "sglang",
-        "tensorrt-llm",
-        "vllm"
+        "build-tool",
+        "dev-server",
+        "frontend",
+        "hmr",
+        "vite"
       ],
       "license": {
-        "key": "other",
-        "name": "Other",
-        "spdxId": "NOASSERTION"
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
       },
-      "createdAt": "2025-03-03T18:40:07Z",
-      "updatedAt": "2026-10-07T07:58:32Z",
-      "pushedAt": "2026-10-07T07:58:30Z",
+      "createdAt": "2020-04-21T05:03:57Z",
+      "updatedAt": "2026-10-07T08:05:46Z",
+      "pushedAt": "2026-10-07T08:05:41Z",
       "archived": false,
       "fork": false
     },
@@ -2283,22 +2292,41 @@
       "fork": false
     },
     {
-      "githubId": 26193547,
-      "owner": "rust-lang",
-      "name": "crates.io-index",
-      "fullName": "rust-lang/crates.io-index",
-      "description": "Registry index for crates.io",
-      "htmlUrl": "https://github.com/rust-lang/crates.io-index",
-      "homepage": null,
-      "language": "Tcl",
-      "stars": 750,
-      "forks": 271,
-      "openIssues": 2,
-      "topics": [],
-      "license": null,
-      "createdAt": "2014-11-04T23:26:38Z",
-      "updatedAt": "2026-10-07T07:58:33Z",
-      "pushedAt": "2026-10-07T07:58:55Z",
+      "githubId": 1127650407,
+      "owner": "asciimoo",
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "description": "Your own search engine",
+      "htmlUrl": "https://github.com/asciimoo/hister",
+      "homepage": "https://hister.org/",
+      "language": "Go",
+      "stars": 5927,
+      "forks": 264,
+      "openIssues": 61,
+      "topics": [
+        "browser-history",
+        "go",
+        "golang",
+        "history",
+        "index",
+        "mcp",
+        "mcp-server",
+        "personal-search",
+        "personal-search-engine",
+        "privacy",
+        "search",
+        "search-engine",
+        "semantic-search",
+        "web"
+      ],
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2026-01-04T10:25:21Z",
+      "updatedAt": "2026-10-07T08:05:46Z",
+      "pushedAt": "2026-10-07T08:05:40Z",
       "archived": false,
       "fork": false
     },
@@ -2313,7 +2341,7 @@
       "language": "TypeScript",
       "stars": 149673,
       "forks": 25712,
-      "openIssues": 14473,
+      "openIssues": 14475,
       "topics": [],
       "license": null,
       "createdAt": "2025-02-22T17:41:21Z",
@@ -2469,36 +2497,44 @@
       "fork": false
     },
     {
-      "githubId": 1303829880,
-      "owner": "MIgHTy-alIeN",
-      "name": "ethereum-flashloan-mev-bot",
-      "fullName": "MIgHTy-alIeN/ethereum-flashloan-mev-bot",
-      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
-      "htmlUrl": "https://github.com/MIgHTy-alIeN/ethereum-flashloan-mev-bot",
-      "homepage": "",
-      "language": "Solidity",
-      "stars": 2789,
-      "forks": 1956,
-      "openIssues": 1,
+      "githubId": 585146387,
+      "owner": "shadcn-ui",
+      "name": "ui",
+      "fullName": "shadcn-ui/ui",
+      "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+      "htmlUrl": "https://github.com/shadcn-ui/ui",
+      "homepage": "https://ui.shadcn.com",
+      "language": "TypeScript",
+      "stars": 125231,
+      "forks": 12372,
+      "openIssues": 1756,
       "topics": [
         "ai",
-        "aitradingbot",
-        "bot",
-        "btc",
-        "claude",
-        "eth",
-        "etherlab",
-        "mev",
-        "mevbots"
+        "base-ui",
+        "components",
+        "gen-ui",
+        "generative-ai",
+        "generative-ui",
+        "laravel",
+        "nextjs",
+        "radix-ui",
+        "react",
+        "react-aria",
+        "react-aria-components",
+        "shadcn",
+        "tailwindcss",
+        "tanstack",
+        "ui",
+        "vite"
       ],
       "license": {
-        "key": "other",
-        "name": "Other",
-        "spdxId": "NOASSERTION"
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
       },
-      "createdAt": "2026-07-17T09:45:22Z",
-      "updatedAt": "2026-10-07T07:58:31Z",
-      "pushedAt": "2026-10-07T07:58:27Z",
+      "createdAt": "2023-01-04T12:43:27Z",
+      "updatedAt": "2026-10-07T08:05:51Z",
+      "pushedAt": "2026-10-07T08:05:39Z",
       "archived": false,
       "fork": false
     },
@@ -2601,9 +2637,9 @@
       "htmlUrl": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
       "homepage": "https://maa.plus",
       "language": "C++",
-      "stars": 23594,
+      "stars": 23595,
       "forks": 2868,
-      "openIssues": 611,
+      "openIssues": 612,
       "topics": [
         "arknights",
         "computer-vision",
@@ -2615,7 +2651,7 @@
         "spdxId": "AGPL-3.0"
       },
       "createdAt": "2021-07-09T18:26:38Z",
-      "updatedAt": "2026-10-07T07:16:53Z",
+      "updatedAt": "2026-10-07T08:02:23Z",
       "pushedAt": "2026-10-07T06:55:34Z",
       "archived": false,
       "fork": false
@@ -2659,7 +2695,7 @@
       "htmlUrl": "https://github.com/KKKKhazix/AIHOT",
       "homepage": "https://aihot.news",
       "language": "TypeScript",
-      "stars": 6266,
+      "stars": 6270,
       "forks": 1562,
       "openIssues": 3,
       "topics": [
@@ -2682,32 +2718,41 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-09-28T23:40:05Z",
-      "updatedAt": "2026-10-07T07:57:08Z",
+      "updatedAt": "2026-10-07T08:03:20Z",
       "pushedAt": "2026-10-07T06:33:10Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 9752041,
-      "owner": "buildroot",
-      "name": "buildroot",
-      "fullName": "buildroot/buildroot",
-      "description": "Buildroot, making embedded Linux easy. Note that this is not the official repository, but only a mirror. The official Git repository is at https://gitlab.com/buildroot.org/buildroot/. Do not open issues or file pull requests here.",
-      "htmlUrl": "https://github.com/buildroot/buildroot",
-      "homepage": "http://buildroot.org",
-      "language": "Makefile",
-      "stars": 3668,
-      "forks": 2887,
-      "openIssues": 2,
-      "topics": [],
+      "githubId": 1136616428,
+      "owner": "ginlix-ai",
+      "name": "LangAlpha",
+      "fullName": "ginlix-ai/LangAlpha",
+      "description": "Claude Code for Financial Market",
+      "htmlUrl": "https://github.com/ginlix-ai/LangAlpha",
+      "homepage": "https://langalpha.ai",
+      "language": "Python",
+      "stars": 1805,
+      "forks": 293,
+      "openIssues": 32,
+      "topics": [
+        "agent",
+        "investment",
+        "langchain",
+        "langraph",
+        "llm",
+        "mcp",
+        "skills",
+        "trading"
+      ],
       "license": {
-        "key": "other",
-        "name": "Other",
-        "spdxId": "NOASSERTION"
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
       },
-      "createdAt": "2013-04-29T16:03:25Z",
-      "updatedAt": "2026-10-07T07:58:26Z",
-      "pushedAt": "2026-10-07T07:58:21Z",
+      "createdAt": "2026-01-18T02:31:54Z",
+      "updatedAt": "2026-10-07T08:05:43Z",
+      "pushedAt": "2026-10-07T08:05:37Z",
       "archived": false,
       "fork": false
     },
@@ -2720,7 +2765,7 @@
       "htmlUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "homepage": "https://www.theunwindai.com",
       "language": "Python",
-      "stars": 140896,
+      "stars": 140897,
       "forks": 20709,
       "openIssues": 27,
       "topics": [
@@ -2735,7 +2780,7 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2024-04-29T05:30:25Z",
-      "updatedAt": "2026-10-07T07:36:34Z",
+      "updatedAt": "2026-10-07T08:00:30Z",
       "pushedAt": "2026-09-30T20:31:22Z",
       "archived": false,
       "fork": false
@@ -2782,7 +2827,7 @@
       "htmlUrl": "https://github.com/spmallick/learnopencv",
       "homepage": "https://www.learnopencv.com/",
       "language": "Jupyter Notebook",
-      "stars": 23181,
+      "stars": 23182,
       "forks": 11659,
       "openIssues": 220,
       "topics": [
@@ -2802,7 +2847,7 @@
       ],
       "license": null,
       "createdAt": "2015-02-17T08:00:51Z",
-      "updatedAt": "2026-10-07T06:11:47Z",
+      "updatedAt": "2026-10-07T08:05:44Z",
       "pushedAt": "2026-10-06T18:43:32Z",
       "archived": false,
       "fork": false
@@ -2818,7 +2863,7 @@
       "language": "Python",
       "stars": 6842,
       "forks": 5789,
-      "openIssues": 1812,
+      "openIssues": 1813,
       "topics": [
         "angular",
         "appengine",
@@ -2860,9 +2905,9 @@
       "htmlUrl": "https://github.com/shihabal3amri/DiPlay",
       "homepage": "https://shihabal3amri.github.io/DiPlay/",
       "language": "Kotlin",
-      "stars": 5606,
+      "stars": 5607,
       "forks": 724,
-      "openIssues": 196,
+      "openIssues": 197,
       "topics": [],
       "license": {
         "key": "gpl-3.0",
@@ -2870,36 +2915,37 @@
         "spdxId": "GPL-3.0"
       },
       "createdAt": "2026-09-24T15:36:38Z",
-      "updatedAt": "2026-10-07T07:58:22Z",
+      "updatedAt": "2026-10-07T08:02:48Z",
       "pushedAt": "2026-10-07T07:04:39Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 1246600517,
-      "owner": "open-gsd",
-      "name": "gsd-pi",
-      "fullName": "open-gsd/gsd-pi",
-      "description": "A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture",
-      "htmlUrl": "https://github.com/open-gsd/gsd-pi",
-      "homepage": "https://www.opengsd.net",
-      "language": "TypeScript",
-      "stars": 1294,
-      "forks": 107,
-      "openIssues": 62,
+      "githubId": 909614085,
+      "owner": "NetBSDfr",
+      "name": "smolBSD",
+      "fullName": "NetBSDfr/smolBSD",
+      "description": "smolBSD is a tiny BSD UNIX (NetBSD) system creation tool, primarily aimed at building modern, lightweight, fast micro VMs",
+      "htmlUrl": "https://github.com/NetBSDfr/smolBSD",
+      "homepage": "https://smolbsd.org",
+      "language": "Shell",
+      "stars": 718,
+      "forks": 54,
+      "openIssues": 5,
       "topics": [
-        "context-engineering",
-        "meta-prompting",
-        "spec-driven-development"
+        "bsd",
+        "microvm",
+        "netbsd",
+        "qemu"
       ],
       "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdxId": "MIT"
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
       },
-      "createdAt": "2026-05-22T11:03:33Z",
-      "updatedAt": "2026-10-07T07:58:20Z",
-      "pushedAt": "2026-10-07T07:58:16Z",
+      "createdAt": "2024-12-29T08:57:18Z",
+      "updatedAt": "2026-10-07T08:05:39Z",
+      "pushedAt": "2026-10-07T08:05:35Z",
       "archived": false,
       "fork": false
     },
@@ -2912,8 +2958,8 @@
       "htmlUrl": "https://github.com/farion1231/cc-switch",
       "homepage": "https://ccswitch.io",
       "language": "Rust",
-      "stars": 140598,
-      "forks": 9437,
+      "stars": 140599,
+      "forks": 9439,
       "openIssues": 2921,
       "topics": [
         "ai-tools",
@@ -2943,7 +2989,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2025-08-04T14:16:16Z",
-      "updatedAt": "2026-10-07T07:51:08Z",
+      "updatedAt": "2026-10-07T08:04:47Z",
       "pushedAt": "2026-10-07T02:52:39Z",
       "archived": false,
       "fork": false
@@ -3079,7 +3125,7 @@
       "htmlUrl": "https://github.com/yetone/magpie",
       "homepage": "https://usemagpie.ai",
       "language": "Go",
-      "stars": 5586,
+      "stars": 5589,
       "forks": 402,
       "openIssues": 220,
       "topics": [
@@ -3096,49 +3142,52 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-09-23T16:22:35Z",
-      "updatedAt": "2026-10-07T07:58:53Z",
+      "updatedAt": "2026-10-07T08:05:44Z",
       "pushedAt": "2026-10-07T07:43:54Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 1009306148,
-      "owner": "ebrasha",
-      "name": "free-v2ray-public-list",
-      "fullName": "ebrasha/free-v2ray-public-list",
-      "description": "A simple and always-updated list of free, working V2Ray servers. including SS, SSR, Trojan, VLESS, VMess, TUIC, and Hysteria2. Just copy, paste, and connect — no signup, no payment, no nonsense. ⏰ Updated every 15 minutes . Also on Telegram: https://t.me/AbdalV2rayBot",
-      "htmlUrl": "https://github.com/ebrasha/free-v2ray-public-list",
-      "homepage": "https://t.me/AbdalV2rayBot",
-      "language": null,
-      "stars": 1350,
-      "forks": 229,
-      "openIssues": 0,
+      "githubId": 166515022,
+      "owner": "trinodb",
+      "name": "trino",
+      "fullName": "trinodb/trino",
+      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+      "htmlUrl": "https://github.com/trinodb/trino",
+      "homepage": "https://trino.io",
+      "language": "Java",
+      "stars": 13304,
+      "forks": 3810,
+      "openIssues": 2737,
       "topics": [
-        "abdal",
-        "ebrasha",
-        "free-v2ray",
-        "gfw-china",
-        "hysteria2",
-        "proxy",
-        "shadowsocks",
-        "shadowsocksr",
-        "ss",
-        "telegrambot",
-        "trojan",
-        "tuic",
-        "v2ray",
-        "v2ray-config",
-        "v2ray-list",
-        "v2ray-subscriber",
-        "vless",
-        "vmess",
-        "xray",
-        "xray-core"
+        "analytics",
+        "big-data",
+        "data-science",
+        "database",
+        "databases",
+        "datalake",
+        "delta-lake",
+        "distributed-database",
+        "distributed-systems",
+        "hadoop",
+        "hive",
+        "iceberg",
+        "java",
+        "jdbc",
+        "presto",
+        "prestodb",
+        "query-engine",
+        "sql",
+        "trino"
       ],
-      "license": null,
-      "createdAt": "2025-06-26T23:18:19Z",
-      "updatedAt": "2026-10-07T07:58:21Z",
-      "pushedAt": "2026-10-07T07:58:15Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-01-19T06:38:14Z",
+      "updatedAt": "2026-10-07T08:05:37Z",
+      "pushedAt": "2026-10-07T08:05:32Z",
       "archived": false,
       "fork": false
     },
@@ -3151,9 +3200,9 @@
       "htmlUrl": "https://github.com/openai/codex",
       "homepage": "",
       "language": "Rust",
-      "stars": 128110,
+      "stars": 128111,
       "forks": 20070,
-      "openIssues": 21051,
+      "openIssues": 21053,
       "topics": [],
       "license": {
         "key": "apache-2.0",
@@ -3161,7 +3210,7 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2025-04-13T05:37:54Z",
-      "updatedAt": "2026-10-07T07:57:49Z",
+      "updatedAt": "2026-10-07T08:03:50Z",
       "pushedAt": "2026-10-07T07:57:31Z",
       "archived": false,
       "fork": false
@@ -3175,7 +3224,7 @@
       "htmlUrl": "https://github.com/herdrdev/herdr",
       "homepage": "https://herdr.dev",
       "language": "Rust",
-      "stars": 42712,
+      "stars": 42714,
       "forks": 3336,
       "openIssues": 323,
       "topics": [
@@ -3204,7 +3253,7 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2026-03-27T17:54:33Z",
-      "updatedAt": "2026-10-07T07:58:22Z",
+      "updatedAt": "2026-10-07T08:03:01Z",
       "pushedAt": "2026-10-07T01:53:30Z",
       "archived": false,
       "fork": false
@@ -3308,8 +3357,8 @@
       "htmlUrl": "https://github.com/openai/math",
       "homepage": null,
       "language": "Lean",
-      "stars": 5469,
-      "forks": 500,
+      "stars": 5514,
+      "forks": 503,
       "openIssues": 0,
       "topics": [],
       "license": {
@@ -3318,36 +3367,53 @@
         "spdxId": "Apache-2.0"
       },
       "createdAt": "2026-10-06T21:47:02Z",
-      "updatedAt": "2026-10-07T07:58:51Z",
+      "updatedAt": "2026-10-07T08:05:52Z",
       "pushedAt": "2026-10-06T22:01:11Z",
       "archived": false,
       "fork": false
     },
     {
-      "githubId": 689344,
-      "owner": "libretro",
-      "name": "RetroArch",
-      "fullName": "libretro/RetroArch",
-      "description": "Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.",
-      "htmlUrl": "https://github.com/libretro/RetroArch",
-      "homepage": "http://www.libretro.com",
-      "language": "C",
-      "stars": 14242,
-      "forks": 2260,
-      "openIssues": 2968,
+      "githubId": 809730532,
+      "owner": "crbnos",
+      "name": "carbon",
+      "fullName": "crbnos/carbon",
+      "description": "Open-source manufacturing ERP, MES and QMS. Quoting, MRP, inventory, shop floor, quality and lot/serial traceability on one Postgres schema, with a REST API and MCP server. Self-host or use Carbon Cloud.",
+      "htmlUrl": "https://github.com/crbnos/carbon",
+      "homepage": "https://carbon.ms",
+      "language": "TypeScript",
+      "stars": 2689,
+      "forks": 375,
+      "openIssues": 131,
       "topics": [
-        "c",
-        "libretro",
-        "retroarch"
+        "ai-agents",
+        "bill-of-materials",
+        "erp",
+        "inventory-management",
+        "lean",
+        "manufacturing",
+        "manufacturing-execution-system",
+        "mcp-server",
+        "mes",
+        "mrp",
+        "open-source-erp",
+        "postgresql",
+        "production-planning",
+        "qms",
+        "quality-management-system",
+        "react-router",
+        "self-hosted",
+        "supabase",
+        "traceability",
+        "typescript"
       ],
       "license": {
-        "key": "gpl-3.0",
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
       },
-      "createdAt": "2010-05-27T14:47:40Z",
-      "updatedAt": "2026-10-07T07:58:17Z",
-      "pushedAt": "2026-10-07T07:58:13Z",
+      "createdAt": "2024-06-03T10:43:24Z",
+      "updatedAt": "2026-10-07T08:05:38Z",
+      "pushedAt": "2026-10-07T08:05:30Z",
       "archived": false,
       "fork": false
     },
@@ -3360,7 +3426,7 @@
       "htmlUrl": "https://github.com/VoltAgent/awesome-design-md",
       "homepage": "https://getdesign.md/",
       "language": null,
-      "stars": 119859,
+      "stars": 119860,
       "forks": 13358,
       "openIssues": 313,
       "topics": [
@@ -3381,7 +3447,7 @@
         "spdxId": "MIT"
       },
       "createdAt": "2026-03-31T16:37:01Z",
-      "updatedAt": "2026-10-07T07:52:12Z",
+      "updatedAt": "2026-10-07T08:05:14Z",
       "pushedAt": "2026-10-05T07:34:34Z",
       "archived": false,
       "fork": false
@@ -3506,7 +3572,7 @@
     }
   ],
   "metrics": {
-    "689344": {
+    "206317": {
       "growth": {
         "day": null,
         "week": null,
@@ -3516,12 +3582,8 @@
       "hotComponents": null,
       "snapshots": [
         {
-          "capturedAt": "2026-10-05T10:27:41.996Z",
-          "stars": 14233
-        },
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 14242
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 6359
         }
       ]
     },
@@ -3532,7 +3594,7 @@
           "rate": 0.00014273479874393378,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 91078,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3542,7 +3604,7 @@
         "absolute24h": 0.325,
         "relative24h": 0.1625,
         "absolute7d": null,
-        "activity": 0.9993076836419753
+        "activity": 0.9991443966049383
       },
       "snapshots": [
         {
@@ -3566,7 +3628,7 @@
           "rate": 0.0010887772194304857,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 11940,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3576,7 +3638,7 @@
         "absolute24h": 0.325,
         "relative24h": 0.6,
         "absolute7d": null,
-        "activity": 0.9997012021604939
+        "activity": 0.9995379151234568
       },
       "snapshots": [
         {
@@ -3600,7 +3662,7 @@
           "rate": 0.00033215694415611376,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 24085,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3610,7 +3672,7 @@
         "absolute24h": 0.21875,
         "relative24h": 0.375,
         "absolute7d": null,
-        "activity": 0.9755545972222223
+        "activity": 0.9753913101851852
       },
       "snapshots": [
         {
@@ -3634,7 +3696,7 @@
           "rate": 0.0002463661000246366,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 12177,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3644,7 +3706,7 @@
         "absolute24h": 0.1125,
         "relative24h": 0.3,
         "absolute7d": null,
-        "activity": 0.9841741959876543
+        "activity": 0.9840109089506173
       },
       "snapshots": [
         {
@@ -3661,21 +3723,6 @@
         }
       ]
     },
-    "9752041": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 3668
-        }
-      ]
-    },
     "13491895": {
       "growth": {
         "day": {
@@ -3683,7 +3730,7 @@
           "rate": 0.00016810855296172143,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 398552,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3693,7 +3740,7 @@
         "absolute24h": 0.56875,
         "relative24h": 0.2375,
         "absolute7d": null,
-        "activity": 0.9465210324074074
+        "activity": 0.9463577453703703
       },
       "snapshots": [
         {
@@ -3710,21 +3757,6 @@
         }
       ]
     },
-    "18596168": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 1938
-        }
-      ]
-    },
     "24217298": {
       "growth": {
         "day": {
@@ -3732,7 +3764,7 @@
           "rate": 0.0007786140669608098,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 7706,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3742,7 +3774,7 @@
         "absolute24h": 0.1875,
         "relative24h": 0.5125,
         "absolute7d": null,
-        "activity": 0.9937683317901235
+        "activity": 0.9936050447530864
       },
       "snapshots": [
         {
@@ -3766,17 +3798,17 @@
           "rate": 0,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 750,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 0,
+      "hotScore": 12,
       "hotComponents": {
         "absolute24h": 0,
         "relative24h": 0,
         "absolute7d": null,
-        "activity": null
+        "activity": 0.9999958626543209
       },
       "snapshots": [
         {
@@ -3800,7 +3832,7 @@
           "rate": 0.0001488580616491284,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 456811,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3810,7 +3842,7 @@
         "absolute24h": 0.5875,
         "relative24h": 0.2,
         "absolute7d": null,
-        "activity": 0.9993231157407407
+        "activity": 0.9991598287037037
       },
       "snapshots": [
         {
@@ -3834,7 +3866,7 @@
           "rate": 0.0001456664238892935,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6865,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3844,7 +3876,7 @@
         "absolute24h": 0.05625,
         "relative24h": 0.1875,
         "absolute7d": null,
-        "activity": 0.8487818348765432
+        "activity": 0.8486185478395062
       },
       "snapshots": [
         {
@@ -3864,11 +3896,11 @@
     "30907774": {
       "growth": {
         "day": {
-          "delta": -2,
-          "rate": -0.00008627011171979468,
+          "delta": -1,
+          "rate": -0.00004313505585989734,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 23183,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3878,7 +3910,7 @@
         "absolute24h": 0,
         "relative24h": 0,
         "absolute7d": null,
-        "activity": 0.9815889336419753
+        "activity": 0.9814256466049383
       },
       "snapshots": [
         {
@@ -3902,7 +3934,7 @@
           "rate": 0.0001601965077161318,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 18727,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3912,7 +3944,7 @@
         "absolute24h": 0.1125,
         "relative24h": 0.225,
         "absolute7d": null,
-        "activity": 0.8965191033950617
+        "activity": 0.8963558163580247
       },
       "snapshots": [
         {
@@ -3936,7 +3968,7 @@
           "rate": 0,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6842,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -3946,7 +3978,7 @@
         "absolute24h": 0,
         "relative24h": 0,
         "absolute7d": null,
-        "activity": 0.993312699074074
+        "activity": 0.993149412037037
       },
       "snapshots": [
         {
@@ -3963,36 +3995,6 @@
         }
       ]
     },
-    "49876476": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 20804
-        }
-      ]
-    },
-    "54298946": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 4311
-        }
-      ]
-    },
     "62161750": {
       "growth": {
         "day": {
@@ -4000,7 +4002,7 @@
           "rate": 0.0004952129415648729,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6058,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4010,7 +4012,7 @@
         "absolute24h": 0.1125,
         "relative24h": 0.425,
         "absolute7d": null,
-        "activity": 0.8028786712962963
+        "activity": 0.8027153842592593
       },
       "snapshots": [
         {
@@ -4034,7 +4036,7 @@
           "rate": 0.00008879141564593535,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 225247,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4044,7 +4046,7 @@
         "absolute24h": 0.425,
         "relative24h": 0.0875,
         "absolute7d": null,
-        "activity": 0.9797147052469136
+        "activity": 0.9795514182098766
       },
       "snapshots": [
         {
@@ -4068,7 +4070,7 @@
           "rate": 0.00014350118986403262,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 83623,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4078,7 +4080,7 @@
         "absolute24h": 0.3,
         "relative24h": 0.175,
         "absolute7d": null,
-        "activity": 0.9622775910493827
+        "activity": 0.9621143040123457
       },
       "snapshots": [
         {
@@ -4102,7 +4104,7 @@
           "rate": 0.00010790396547073105,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 18535,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4112,7 +4114,7 @@
         "absolute24h": 0.075,
         "relative24h": 0.125,
         "absolute7d": null,
-        "activity": 0.2781992731481482
+        "activity": 0.27803598611111113
       },
       "snapshots": [
         {
@@ -4136,7 +4138,7 @@
           "rate": 0.00010454018001819,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 95657,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4146,7 +4148,7 @@
         "absolute24h": 0.28125,
         "relative24h": 0.1125,
         "absolute7d": null,
-        "activity": 0.9976630077160494
+        "activity": 0.9974997206790124
       },
       "snapshots": [
         {
@@ -4163,21 +4165,6 @@
         }
       ]
     },
-    "95903234": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 2986
-        }
-      ]
-    },
     "101451042": {
       "growth": {
         "day": {
@@ -4185,7 +4172,7 @@
           "rate": 0.0014460154241645244,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6224,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4195,7 +4182,7 @@
         "absolute24h": 0.25,
         "relative24h": 0.65,
         "absolute7d": null,
-        "activity": 0.8752745046296296
+        "activity": 0.8751112175925926
       },
       "snapshots": [
         {
@@ -4219,7 +4206,7 @@
           "rate": 0.00003866318182521149,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 129322,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4229,7 +4216,7 @@
         "absolute24h": 0.16875,
         "relative24h": 0.05,
         "absolute7d": null,
-        "activity": 0.8240507391975309
+        "activity": 0.8238874521604939
       },
       "snapshots": [
         {
@@ -4253,7 +4240,7 @@
           "rate": 0.00021820720956620406,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 45828,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4263,7 +4250,7 @@
         "absolute24h": 0.28125,
         "relative24h": 0.2625,
         "absolute7d": null,
-        "activity": 0.9950638564814814
+        "activity": 0.9949005694444445
       },
       "snapshots": [
         {
@@ -4280,6 +4267,40 @@
         }
       ]
     },
+    "166515022": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 13303
+        },
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 13304
+        }
+      ]
+    },
+    "180954037": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 3808
+        }
+      ]
+    },
     "191820100": {
       "growth": {
         "day": {
@@ -4287,7 +4308,7 @@
           "rate": 0.00024214377959535084,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 37168,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4297,7 +4318,7 @@
         "absolute24h": 0.25,
         "relative24h": 0.2875,
         "absolute7d": null,
-        "activity": 0.9901143966049383
+        "activity": 0.9899511095679012
       },
       "snapshots": [
         {
@@ -4321,7 +4342,7 @@
           "rate": 0.0002816802225273758,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 28401,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4331,7 +4352,7 @@
         "absolute24h": 0.21875,
         "relative24h": 0.325,
         "absolute7d": null,
-        "activity": 0.9976128533950618
+        "activity": 0.9974495663580247
       },
       "snapshots": [
         {
@@ -4355,7 +4376,7 @@
           "rate": 0.00017376625955714428,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 80568,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4365,7 +4386,7 @@
         "absolute24h": 0.35,
         "relative24h": 0.25,
         "absolute7d": null,
-        "activity": 0.9969334552469136
+        "activity": 0.9967701682098765
       },
       "snapshots": [
         {
@@ -4389,7 +4410,7 @@
           "rate": 0.00010892534257020238,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 45903,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4399,7 +4420,7 @@
         "absolute24h": 0.16875,
         "relative24h": 0.1375,
         "absolute7d": null,
-        "activity": 0.999980137345679
+        "activity": 0.999816850308642
       },
       "snapshots": [
         {
@@ -4423,7 +4444,7 @@
           "rate": 0.00013615939726773475,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 22033,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4433,7 +4454,7 @@
         "absolute24h": 0.1125,
         "relative24h": 0.15,
         "absolute7d": null,
-        "activity": 0.968553825617284
+        "activity": 0.9683905385802469
       },
       "snapshots": [
         {
@@ -4450,6 +4471,21 @@
         }
       ]
     },
+    "257485422": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 83234
+        }
+      ]
+    },
     "264818686": {
       "growth": {
         "day": {
@@ -4457,7 +4493,7 @@
           "rate": 0.0000516288915276989,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 58107,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4467,7 +4503,7 @@
         "absolute24h": 0.1125,
         "relative24h": 0.0625,
         "absolute7d": null,
-        "activity": 0.9803196435185185
+        "activity": 0.9801563564814815
       },
       "snapshots": [
         {
@@ -4491,7 +4527,7 @@
           "rate": 0.00006559527714004592,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 15245,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4501,7 +4537,7 @@
         "absolute24h": 0.05625,
         "relative24h": 0.075,
         "absolute7d": null,
-        "activity": 0.016977822530864217
+        "activity": 0.016814535493827165
       },
       "snapshots": [
         {
@@ -4525,7 +4561,7 @@
           "rate": 0.00015665387326701654,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 25534,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4535,7 +4571,7 @@
         "absolute24h": 0.15,
         "relative24h": 0.2125,
         "absolute7d": null,
-        "activity": 0.44594232870370365
+        "activity": 0.4457790416666667
       },
       "snapshots": [
         {
@@ -4559,7 +4595,7 @@
           "rate": 0.00009287829846957204,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 96901,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4569,7 +4605,7 @@
         "absolute24h": 0.25,
         "relative24h": 0.1,
         "absolute7d": null,
-        "activity": 0.8074461867283951
+        "activity": 0.807282899691358
       },
       "snapshots": [
         {
@@ -4593,17 +4629,17 @@
           "rate": 0.00045806051787783257,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 37113,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 43,
+      "hotScore": 42,
       "hotComponents": {
-        "absolute24h": 0.39375,
+        "absolute24h": 0.3875,
         "relative24h": 0.4125,
         "absolute7d": null,
-        "activity": 0.6232845354938272
+        "activity": 0.6231212484567901
       },
       "snapshots": [
         {
@@ -4627,17 +4663,17 @@
           "rate": 0.0002848316206919217,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 91282,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 40,
+      "hotScore": 39,
       "hotComponents": {
-        "absolute24h": 0.45,
+        "absolute24h": 0.44375,
         "relative24h": 0.35,
         "absolute7d": null,
-        "activity": 0.26321200462962957
+        "activity": 0.26304871759259263
       },
       "snapshots": [
         {
@@ -4661,7 +4697,7 @@
           "rate": 0.0006189454896146704,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 69473,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4671,7 +4707,7 @@
         "absolute24h": 0.525,
         "relative24h": 0.4625,
         "absolute7d": null,
-        "activity": 0.31710745216049385
+        "activity": 0.3169441651234568
       },
       "snapshots": [
         {
@@ -4691,21 +4727,21 @@
     "384520418": {
       "growth": {
         "day": {
-          "delta": 16,
-          "rate": 0.0006785986936975147,
+          "delta": 17,
+          "rate": 0.0007210111120536093,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 23578,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 48,
+      "hotScore": 50,
       "hotComponents": {
-        "absolute24h": 0.36875,
-        "relative24h": 0.475,
+        "absolute24h": 0.3875,
+        "relative24h": 0.5,
         "absolute7d": null,
-        "activity": 0.998534149691358
+        "activity": 0.998370862654321
       },
       "snapshots": [
         {
@@ -4722,36 +4758,6 @@
         }
       ]
     },
-    "385037052": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 9924
-        }
-      ]
-    },
-    "465844859": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 8063
-        }
-      ]
-    },
     "476314415": {
       "growth": {
         "day": {
@@ -4759,7 +4765,7 @@
           "rate": 0.0002929483155471856,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 23895,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4769,7 +4775,7 @@
         "absolute24h": 0.2,
         "relative24h": 0.3625,
         "absolute7d": null,
-        "activity": 0.4232089182098766
+        "activity": 0.42304563117283955
       },
       "snapshots": [
         {
@@ -4789,21 +4795,21 @@
     "535360445": {
       "growth": {
         "day": {
-          "delta": 26,
-          "rate": 0.0004178116312330264,
+          "delta": 27,
+          "rate": 0.0004338813093573736,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 62229,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 50,
+      "hotScore": 51,
       "hotComponents": {
-        "absolute24h": 0.45,
+        "absolute24h": 0.4625,
         "relative24h": 0.4,
         "absolute7d": null,
-        "activity": 0.9995885478395061
+        "activity": 0.9999630694444445
       },
       "snapshots": [
         {
@@ -4827,7 +4833,7 @@
           "rate": 0.00038009164431868574,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 47357,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4837,7 +4843,7 @@
         "absolute24h": 0.4125,
         "relative24h": 0.3875,
         "absolute7d": null,
-        "activity": 0.9965137021604938
+        "activity": 0.9963504151234568
       },
       "snapshots": [
         {
@@ -4861,7 +4867,7 @@
           "rate": 0.0002847882396018389,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 147478,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4871,7 +4877,7 @@
         "absolute24h": 0.5125,
         "relative24h": 0.3375,
         "absolute7d": null,
-        "activity": 0.9915839182098766
+        "activity": 0.9914206311728395
       },
       "snapshots": [
         {
@@ -4888,6 +4894,21 @@
         }
       ]
     },
+    "560574903": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 1570
+        }
+      ]
+    },
     "571613891": {
       "growth": {
         "day": {
@@ -4895,7 +4916,7 @@
           "rate": 0.00025424889010580666,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 51131,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4905,7 +4926,7 @@
         "absolute24h": 0.325,
         "relative24h": 0.3125,
         "absolute7d": null,
-        "activity": 0.9997548287037037
+        "activity": 0.9995915416666666
       },
       "snapshots": [
         {
@@ -4922,6 +4943,36 @@
         }
       ]
     },
+    "583528771": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 1110
+        }
+      ]
+    },
+    "585146387": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 125231
+        }
+      ]
+    },
     "599320067": {
       "growth": {
         "day": {
@@ -4929,7 +4980,7 @@
           "rate": 0.0002314844583906686,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 155518,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4939,7 +4990,7 @@
         "absolute24h": 0.5,
         "relative24h": 0.275,
         "absolute7d": null,
-        "activity": 0.9996649367283951
+        "activity": 0.999501649691358
       },
       "snapshots": [
         {
@@ -4963,7 +5014,7 @@
           "rate": 0.0005192962901979658,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 157906,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -4973,7 +5024,7 @@
         "absolute24h": 0.6125,
         "relative24h": 0.4375,
         "absolute7d": null,
-        "activity": 0.9966471898148148
+        "activity": 0.9964839027777778
       },
       "snapshots": [
         {
@@ -4990,6 +5041,36 @@
         }
       ]
     },
+    "651702652": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 5458
+        }
+      ]
+    },
+    "654659638": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 614
+        }
+      ]
+    },
     "663900193": {
       "growth": {
         "day": {
@@ -4997,17 +5078,17 @@
           "rate": 0.0006801923302451038,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 42635,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 54,
+      "hotScore": 53,
       "hotComponents": {
         "absolute24h": 0.475,
-        "relative24h": 0.4875,
+        "relative24h": 0.475,
         "absolute7d": null,
-        "activity": 0.9526321435185185
+        "activity": 0.9524688564814815
       },
       "snapshots": [
         {
@@ -5024,7 +5105,7 @@
         }
       ]
     },
-    "729308541": {
+    "727073288": {
       "growth": {
         "day": null,
         "week": null,
@@ -5034,19 +5115,19 @@
       "hotComponents": null,
       "snapshots": [
         {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 5018
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 2076
         }
       ]
     },
     "771302083": {
       "growth": {
         "day": {
-          "delta": 80,
-          "rate": 0.0008882769647576114,
+          "delta": 81,
+          "rate": 0.0008993804268170815,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 90062,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5056,7 +5137,7 @@
         "absolute24h": 0.6,
         "relative24h": 0.55,
         "absolute7d": null,
-        "activity": 0.9981433317901235
+        "activity": 0.9979800447530864
       },
       "snapshots": [
         {
@@ -5076,11 +5157,11 @@
     "787076358": {
       "growth": {
         "day": {
-          "delta": 339,
-          "rate": 0.0017941729074598429,
+          "delta": 341,
+          "rate": 0.001804757998359311,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 188945,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5090,7 +5171,7 @@
         "absolute24h": 0.8125,
         "relative24h": 0.6875,
         "absolute7d": null,
-        "activity": 0.999167637345679
+        "activity": 0.999004350308642
       },
       "snapshots": [
         {
@@ -5110,11 +5191,11 @@
     "793375104": {
       "growth": {
         "day": {
-          "delta": 97,
-          "rate": 0.0006889253474811611,
+          "delta": 98,
+          "rate": 0.0006960276706510699,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 140799,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5122,9 +5203,9 @@
       "hotScore": 62,
       "hotComponents": {
         "absolute24h": 0.65,
-        "relative24h": 0.5,
+        "relative24h": 0.4875,
         "absolute7d": null,
-        "activity": 0.7840850756172839
+        "activity": 0.783921788580247
       },
       "snapshots": [
         {
@@ -5141,6 +5222,21 @@
         }
       ]
     },
+    "809730532": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 2689
+        }
+      ]
+    },
     "817326197": {
       "growth": {
         "day": {
@@ -5148,17 +5244,17 @@
           "rate": 0.0007789946386839573,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 21823,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
       "hotScore": 51,
       "hotComponents": {
-        "absolute24h": 0.39375,
+        "absolute24h": 0.3875,
         "relative24h": 0.525,
         "absolute7d": null,
-        "activity": 0.9994222669753087
+        "activity": 0.9992589799382716
       },
       "snapshots": [
         {
@@ -5175,6 +5271,21 @@
         }
       ]
     },
+    "909614085": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 718
+        }
+      ]
+    },
     "937253475": {
       "growth": {
         "day": {
@@ -5182,7 +5293,7 @@
           "rate": 0.0009429419789744001,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 149532,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5192,7 +5303,7 @@
         "absolute24h": 0.7,
         "relative24h": 0.575,
         "absolute7d": null,
-        "activity": 0.9892378533950618
+        "activity": 0.9890745663580247
       },
       "snapshots": [
         {
@@ -5209,29 +5320,14 @@
         }
       ]
     },
-    "942206898": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 8238
-        }
-      ]
-    },
     "965415649": {
       "growth": {
         "day": {
-          "delta": 146,
-          "rate": 0.0011409458910318527,
+          "delta": 147,
+          "rate": 0.0011487605889156326,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 127964,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5241,7 +5337,7 @@
         "absolute24h": 0.7125,
         "relative24h": 0.6125,
         "absolute7d": null,
-        "activity": 0.9999681774691358
+        "activity": 0.9998048904320987
       },
       "snapshots": [
         {
@@ -5265,7 +5361,7 @@
           "rate": 0.0009391399554498433,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 211896,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5275,7 +5371,7 @@
         "absolute24h": 0.75,
         "relative24h": 0.5625,
         "absolute7d": null,
-        "activity": 0.9989485015432099
+        "activity": 0.9998835941358025
       },
       "snapshots": [
         {
@@ -5292,7 +5388,7 @@
         }
       ]
     },
-    "990586271": {
+    "995029641": {
       "growth": {
         "day": null,
         "week": null,
@@ -5302,23 +5398,8 @@
       "hotComponents": null,
       "snapshots": [
         {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 3572
-        }
-      ]
-    },
-    "1009306148": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 1350
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 74023
         }
       ]
     },
@@ -5329,7 +5410,7 @@
           "rate": 0.00122482741068304,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 251464,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5339,7 +5420,7 @@
         "absolute24h": 0.8,
         "relative24h": 0.625,
         "absolute7d": null,
-        "activity": 0.9998821435185186
+        "activity": 0.9999638410493827
       },
       "snapshots": [
         {
@@ -5359,11 +5440,11 @@
     "1031912724": {
       "growth": {
         "day": {
-          "delta": 305,
-          "rate": 0.0021740215121210608,
+          "delta": 306,
+          "rate": 0.0021811494515050645,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 140293,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5373,7 +5454,7 @@
         "absolute24h": 0.7875,
         "relative24h": 0.7125,
         "absolute7d": null,
-        "activity": 0.9929110787037037
+        "activity": 0.9927477916666667
       },
       "snapshots": [
         {
@@ -5393,11 +5474,11 @@
     "1061953414": {
       "growth": {
         "day": {
-          "delta": 172,
-          "rate": 0.0009566237854493072,
+          "delta": 174,
+          "rate": 0.0009677473178382527,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 179799,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5407,7 +5488,7 @@
         "absolute24h": 0.7375,
         "relative24h": 0.5875,
         "absolute7d": null,
-        "activity": 0.9413856157407408
+        "activity": 0.9412223287037037
       },
       "snapshots": [
         {
@@ -5431,7 +5512,7 @@
           "rate": 0.001494879530296676,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 295676,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5441,7 +5522,7 @@
         "absolute24h": 0.85,
         "relative24h": 0.675,
         "absolute7d": null,
-        "activity": 0.9888655540123457
+        "activity": 0.9887022669753086
       },
       "snapshots": [
         {
@@ -5461,11 +5542,11 @@
     "1075372545": {
       "growth": {
         "day": {
-          "delta": 696,
-          "rate": 0.004424300598170526,
+          "delta": 701,
+          "rate": 0.0044560843668355445,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 157313,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5473,9 +5554,9 @@
       "hotScore": 87,
       "hotComponents": {
         "absolute24h": 0.9,
-        "relative24h": 0.7625,
+        "relative24h": 0.775,
         "absolute7d": null,
-        "activity": 0.9804419429012345
+        "activity": 0.9802786558641975
       },
       "snapshots": [
         {
@@ -5499,7 +5580,7 @@
           "rate": 0.0008751649098057657,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 76557,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5509,7 +5590,7 @@
         "absolute24h": 0.56875,
         "relative24h": 0.5375,
         "absolute7d": null,
-        "activity": 0.36567805401234565
+        "activity": 0.3655147669753087
       },
       "snapshots": [
         {
@@ -5533,7 +5614,7 @@
           "rate": 0,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6433,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5543,7 +5624,7 @@
         "absolute24h": 0,
         "relative24h": 0,
         "absolute7d": null,
-        "activity": 0.9576213410493827
+        "activity": 0.9574580540123456
       },
       "snapshots": [
         {
@@ -5560,6 +5641,21 @@
         }
       ]
     },
+    "1127650407": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 5927
+        }
+      ]
+    },
     "1134426800": {
       "growth": {
         "day": {
@@ -5567,17 +5663,17 @@
           "rate": 0.0005498921365424474,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 47282,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 52,
+      "hotScore": 51,
       "hotComponents": {
-        "absolute24h": 0.45,
+        "absolute24h": 0.44375,
         "relative24h": 0.45,
         "absolute7d": null,
-        "activity": 0.9769099212962963
+        "activity": 0.9767466342592592
       },
       "snapshots": [
         {
@@ -5597,11 +5693,11 @@
     "1136590548": {
       "growth": {
         "day": {
-          "delta": 756,
-          "rate": 0.0027621887057172924,
+          "delta": 759,
+          "rate": 0.002773149772009821,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 273696,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5611,7 +5707,7 @@
         "absolute24h": 0.9125,
         "relative24h": 0.7375,
         "absolute7d": null,
-        "activity": 0.9290827608024691
+        "activity": 0.928919473765432
       },
       "snapshots": [
         {
@@ -5628,14 +5724,29 @@
         }
       ]
     },
+    "1136616428": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 1805
+        }
+      ]
+    },
     "1139971460": {
       "growth": {
         "day": {
-          "delta": 120,
-          "rate": 0.0014551804423748546,
+          "delta": 122,
+          "rate": 0.0014794334497477688,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 82464,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5645,7 +5756,7 @@
         "absolute24h": 0.6875,
         "relative24h": 0.6625,
         "absolute7d": null,
-        "activity": 0.9990233472222222
+        "activity": 0.9988600601851851
       },
       "snapshots": [
         {
@@ -5665,11 +5776,11 @@
     "1148788086": {
       "growth": {
         "day": {
-          "delta": 1387,
-          "rate": 0.005004672711724357,
+          "delta": 1399,
+          "rate": 0.005047971970946197,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 277141,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5679,7 +5790,7 @@
         "absolute24h": 0.9625,
         "relative24h": 0.7875,
         "absolute7d": null,
-        "activity": 0.9820727299382717
+        "activity": 0.9819094429012346
       },
       "snapshots": [
         {
@@ -5703,7 +5814,7 @@
           "rate": 0.0018760498243930105,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 45841,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5713,7 +5824,7 @@
         "absolute24h": 0.63125,
         "relative24h": 0.7,
         "absolute7d": null,
-        "activity": 0.989687313271605
+        "activity": 0.9895240262345679
       },
       "snapshots": [
         {
@@ -5730,44 +5841,14 @@
         }
       ]
     },
-    "1180804216": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 1848
-        }
-      ]
-    },
-    "1183888342": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 86708
-        }
-      ]
-    },
     "1185590488": {
       "growth": {
         "day": {
-          "delta": 607,
-          "rate": 0.009367573073243,
+          "delta": 608,
+          "rate": 0.009383005648322479,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 64798,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5777,7 +5858,7 @@
         "absolute24h": 0.8625,
         "relative24h": 0.875,
         "absolute7d": null,
-        "activity": 0.9823489645061728
+        "activity": 0.9821856774691358
       },
       "snapshots": [
         {
@@ -5812,11 +5893,11 @@
     "1197515131": {
       "growth": {
         "day": {
-          "delta": 166,
-          "rate": 0.0013868814383464364,
+          "delta": 167,
+          "rate": 0.0013952361458063546,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 119693,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5826,7 +5907,7 @@
         "absolute24h": 0.725,
         "relative24h": 0.6375,
         "absolute7d": null,
-        "activity": 0.9327702608024692
+        "activity": 0.9326069737654321
       },
       "snapshots": [
         {
@@ -5846,11 +5927,11 @@
     "1200597263": {
       "growth": {
         "day": {
-          "delta": 406,
-          "rate": 0.003272267133058764,
+          "delta": 407,
+          "rate": 0.0032803269043224555,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 124073,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5860,7 +5941,7 @@
         "absolute24h": 0.825,
         "relative24h": 0.75,
         "absolute7d": null,
-        "activity": 0.9881583780864197
+        "activity": 0.9879950910493828
       },
       "snapshots": [
         {
@@ -5880,11 +5961,11 @@
     "1211139949": {
       "growth": {
         "day": {
-          "delta": 682,
-          "rate": 0.008725244358016478,
+          "delta": 687,
+          "rate": 0.008789212425157362,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 78164,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5894,7 +5975,7 @@
         "absolute24h": 0.8875,
         "relative24h": 0.85,
         "absolute7d": null,
-        "activity": 0.9994724212962963
+        "activity": 0.9993091342592593
       },
       "snapshots": [
         {
@@ -5914,11 +5995,11 @@
     "1238120057": {
       "growth": {
         "day": {
-          "delta": 629,
-          "rate": 0.011656566779711273,
+          "delta": 630,
+          "rate": 0.01167509868238172,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 53961,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5928,7 +6009,7 @@
         "absolute24h": 0.875,
         "relative24h": 0.8875,
         "absolute7d": null,
-        "activity": 0.9880758163580247
+        "activity": 0.9879125293209876
       },
       "snapshots": [
         {
@@ -5945,29 +6026,14 @@
         }
       ]
     },
-    "1246600517": {
-      "growth": {
-        "day": null,
-        "week": null,
-        "month": null
-      },
-      "hotScore": null,
-      "hotComponents": null,
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 1294
-        }
-      ]
-    },
     "1266797999": {
       "growth": {
         "day": {
-          "delta": 1031,
-          "rate": 0.006607364872659224,
+          "delta": 1035,
+          "rate": 0.006632999653930453,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 156038,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -5977,7 +6043,7 @@
         "absolute24h": 0.9375,
         "relative24h": 0.8375,
         "absolute7d": null,
-        "activity": 0.9511055231481481
+        "activity": 0.9509422361111111
       },
       "snapshots": [
         {
@@ -5994,7 +6060,7 @@
         }
       ]
     },
-    "1303829880": {
+    "1329849289": {
       "growth": {
         "day": null,
         "week": null,
@@ -6004,19 +6070,19 @@
       "hotComponents": null,
       "snapshots": [
         {
-          "capturedAt": "2026-10-07T07:58:53.484Z",
-          "stars": 2789
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 11636
         }
       ]
     },
     "1359648985": {
       "growth": {
         "day": {
-          "delta": 4416,
-          "rate": 0.1011127902184366,
+          "delta": 4445,
+          "rate": 0.10177680084260658,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 43674,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6026,7 +6092,7 @@
         "absolute24h": 1,
         "relative24h": 0.95,
         "absolute7d": null,
-        "activity": 0.9997806774691358
+        "activity": 0.9996173904320987
       },
       "snapshots": [
         {
@@ -6046,11 +6112,11 @@
     "1373614120": {
       "growth": {
         "day": {
-          "delta": 1669,
-          "rate": 0.1994026284348865,
+          "delta": 1678,
+          "rate": 0.2004778972520908,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 8370,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6060,7 +6126,7 @@
         "absolute24h": 0.975,
         "relative24h": 1,
         "absolute7d": null,
-        "activity": 0.7524095354938272
+        "activity": 0.7522462484567901
       },
       "snapshots": [
         {
@@ -6084,7 +6150,7 @@
           "rate": 0.005246257518882004,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 22111,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6094,7 +6160,7 @@
         "absolute24h": 0.675,
         "relative24h": 0.8,
         "absolute7d": null,
-        "activity": 0.7575403225308642
+        "activity": 0.7573770354938272
       },
       "snapshots": [
         {
@@ -6118,7 +6184,7 @@
           "rate": 0.013875443691513391,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6198,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6128,7 +6194,7 @@
         "absolute24h": 0.63125,
         "relative24h": 0.9125,
         "absolute7d": null,
-        "activity": 0.9496545200617283
+        "activity": 0.9494912330246914
       },
       "snapshots": [
         {
@@ -6152,7 +6218,7 @@
           "rate": 0.004445641923750505,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 7423,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6160,9 +6226,9 @@
       "hotScore": 56,
       "hotComponents": {
         "absolute24h": 0.4875,
-        "relative24h": 0.775,
+        "relative24h": 0.7625,
         "absolute7d": null,
-        "activity": 0.362190399691358
+        "activity": 0.36202711265432097
       },
       "snapshots": [
         {
@@ -6182,11 +6248,11 @@
     "1375069862": {
       "growth": {
         "day": {
-          "delta": 106,
-          "rate": 0.01244277497358845,
+          "delta": 107,
+          "rate": 0.012560159643150605,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 8519,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6196,7 +6262,7 @@
         "absolute24h": 0.6625,
         "relative24h": 0.9,
         "absolute7d": null,
-        "activity": 0.9801178688271605
+        "activity": 0.9799545817901234
       },
       "snapshots": [
         {
@@ -6220,7 +6286,7 @@
           "rate": 0.009261649670840325,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 30988,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6230,7 +6296,7 @@
         "absolute24h": 0.775,
         "relative24h": 0.8625,
         "absolute7d": null,
-        "activity": 0.9467081466049383
+        "activity": 0.9465448595679012
       },
       "snapshots": [
         {
@@ -6250,11 +6316,11 @@
     "1375997079": {
       "growth": {
         "day": {
-          "delta": 1036,
-          "rate": 0.13331617552438554,
+          "delta": 1046,
+          "rate": 0.13460301119547033,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 7771,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6264,7 +6330,7 @@
         "absolute24h": 0.95,
         "relative24h": 0.9625,
         "absolute7d": null,
-        "activity": 0.9904241959876543
+        "activity": 0.9902609089506172
       },
       "snapshots": [
         {
@@ -6288,17 +6354,17 @@
           "rate": 0.0023591860808021233,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6782,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
       },
-      "hotScore": 54,
+      "hotScore": 53,
       "hotComponents": {
-        "absolute24h": 0.36875,
+        "absolute24h": 0.3625,
         "relative24h": 0.725,
         "absolute7d": null,
-        "activity": 0.8268300601851852
+        "activity": 0.8266667731481482
       },
       "snapshots": [
         {
@@ -6322,7 +6388,7 @@
           "rate": 0.006181964789678807,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 7441,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6332,7 +6398,7 @@
         "absolute24h": 0.5375,
         "relative24h": 0.8125,
         "absolute7d": null,
-        "activity": 0.7362964953703703
+        "activity": 0.7361332083333334
       },
       "snapshots": [
         {
@@ -6356,7 +6422,7 @@
           "rate": 0.006519081895966318,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 7363,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6366,7 +6432,7 @@
         "absolute24h": 0.55,
         "relative24h": 0.825,
         "absolute7d": null,
-        "activity": 0.9768497361111111
+        "activity": 0.9766864490740741
       },
       "snapshots": [
         {
@@ -6386,11 +6452,11 @@
     "1383809012": {
       "growth": {
         "day": {
-          "delta": 412,
-          "rate": 0.07962891379976807,
+          "delta": 415,
+          "rate": 0.08020873598763047,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 5174,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6400,7 +6466,7 @@
         "absolute24h": 0.8375,
         "relative24h": 0.9375,
         "absolute7d": null,
-        "activity": 0.9996529768518518
+        "activity": 0.9994896898148148
       },
       "snapshots": [
         {
@@ -6420,11 +6486,11 @@
     "1385817306": {
       "growth": {
         "day": {
-          "delta": 849,
-          "rate": 0.17847382804288417,
+          "delta": 850,
+          "rate": 0.17868404456590287,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 4757,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6434,7 +6500,7 @@
         "absolute24h": 0.925,
         "relative24h": 0.9875,
         "absolute7d": null,
-        "activity": 0.998744412037037
+        "activity": 0.998581125
       },
       "snapshots": [
         {
@@ -6454,11 +6520,11 @@
     "1385946301": {
       "growth": {
         "day": {
-          "delta": 2140,
-          "rate": 0.15216154721274175,
+          "delta": 2147,
+          "rate": 0.15265927189988623,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 14064,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6468,7 +6534,7 @@
         "absolute24h": 0.9875,
         "relative24h": 0.975,
         "absolute7d": null,
-        "activity": 0.9693215725308642
+        "activity": 0.9691582854938272
       },
       "snapshots": [
         {
@@ -6488,11 +6554,11 @@
     "1393965829": {
       "growth": {
         "day": {
-          "delta": 255,
-          "rate": 0.04242222591914823,
+          "delta": 259,
+          "rate": 0.043087672600232906,
           "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
           "baselineStars": 6011,
-          "actualWindowHours": 29.251738055555556
+          "actualWindowHours": 29.36930472222222
         },
         "week": null,
         "month": null
@@ -6502,7 +6568,7 @@
         "absolute24h": 0.7625,
         "relative24h": 0.925,
         "absolute7d": null,
-        "activity": 0.9980156311728395
+        "activity": 0.9978523441358025
       },
       "snapshots": [
         {

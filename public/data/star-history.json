@@ -1,8 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T07:58:53.484Z",
+  "updatedAt": "2026-10-07T08:05:56.724Z",
   "retentionDays": 35,
   "repositories": {
+    "206317": {
+      "fullName": "apache/camel",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 6359
+        }
+      ]
+    },
     "689344": {
       "fullName": "libretro/RetroArch",
       "snapshots": [
@@ -569,6 +578,19 @@
         {
           "capturedAt": "2026-10-05T10:27:41.996Z",
           "stars": 13303
+        },
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 13304
+        }
+      ]
+    },
+    "180954037": {
+      "fullName": "itchyny/gojq",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 3808
         }
       ]
     },
@@ -681,6 +703,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 22035
+        }
+      ]
+    },
+    "257485422": {
+      "fullName": "vitejs/vite",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 83234
         }
       ]
     },
@@ -955,6 +986,15 @@
         }
       ]
     },
+    "560574903": {
+      "fullName": "zapplyjobs/New-Grad-Jobs-2027",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 1570
+        }
+      ]
+    },
     "571613891": {
       "fullName": "roboflow/supervision",
       "snapshots": [
@@ -969,6 +1009,24 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 51144
+        }
+      ]
+    },
+    "583528771": {
+      "fullName": "safedep/vet",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 1110
+        }
+      ]
+    },
+    "585146387": {
+      "fullName": "shadcn-ui/ui",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 125231
         }
       ]
     },
@@ -1015,6 +1073,24 @@
         }
       ]
     },
+    "651702652": {
+      "fullName": "unkeyed/unkey",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 5458
+        }
+      ]
+    },
+    "654659638": {
+      "fullName": "duggytuxy/Data-Shield_IPv4_Blocklist",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 614
+        }
+      ]
+    },
     "663900193": {
       "fullName": "sxyazi/yazi",
       "snapshots": [
@@ -1029,6 +1105,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 42664
+        }
+      ]
+    },
+    "727073288": {
+      "fullName": "hujingguang/ChinaIPTV",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 2076
         }
       ]
     },
@@ -1092,6 +1177,15 @@
         }
       ]
     },
+    "809730532": {
+      "fullName": "crbnos/carbon",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 2689
+        }
+      ]
+    },
     "817326197": {
       "fullName": "screenpipe/screenpipe",
       "snapshots": [
@@ -1142,6 +1236,15 @@
         {
           "capturedAt": "2026-10-05T10:27:41.996Z",
           "stars": 1400
+        }
+      ]
+    },
+    "909614085": {
+      "fullName": "NetBSDfr/smolBSD",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 718
         }
       ]
     },
@@ -1229,6 +1332,15 @@
         {
           "capturedAt": "2026-10-07T07:58:53.484Z",
           "stars": 3572
+        }
+      ]
+    },
+    "995029641": {
+      "fullName": "ruvnet/ruflo",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 74023
         }
       ]
     },
@@ -1391,6 +1503,15 @@
         }
       ]
     },
+    "1127650407": {
+      "fullName": "asciimoo/hister",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 5927
+        }
+      ]
+    },
     "1134426800": {
       "fullName": "sickn33/agentic-awesome-skills",
       "snapshots": [
@@ -1422,6 +1543,15 @@
         {
           "capturedAt": "2026-10-07T07:36:09.996Z",
           "stars": 274442
+        }
+      ]
+    },
+    "1136616428": {
+      "fullName": "ginlix-ai/LangAlpha",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 1805
         }
       ]
     },
@@ -1692,6 +1822,15 @@
         {
           "capturedAt": "2026-10-05T10:27:41.996Z",
           "stars": 797
+        }
+      ]
+    },
+    "1329849289": {
+      "fullName": "lexmount/moli",
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T08:05:56.724Z",
+          "stars": 11636
         }
       ]
     },
