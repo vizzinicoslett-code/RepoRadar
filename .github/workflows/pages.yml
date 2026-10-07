@@ -1,0 +1,82 @@
+name: Deploy RepoRadar to GitHub Pages
+
+# No push trigger: data commits cannot recursively dispatch this workflow.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Always load the last committed history on the default branch.
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Fetch, snapshot, derive and validate
+        run: npm run data:refresh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - run: npm run data:validate
+      - name: Persist observed data before building
+        shell: bash
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          # Refuse to commit or deploy a refresh that changes anything else.
+          while IFS= read -r -d '' path; do
+            case "$path" in
+              public/data/repos.json|public/data/star-history.json) ;;
+              *) echo "::error::Data refresh changed a file outside the two allowed data JSON files; deployment stopped."; exit 1 ;;
+            esac
+          done < <({ git diff --name-only -z HEAD; git ls-files --others --exclude-standard -z; })
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- public/data/repos.json public/data/star-history.json
+          if git diff --cached --quiet -- public/data/repos.json public/data/star-history.json; then
+            echo "No data changes; skipping commit."
+            exit 0
+          fi
+          git commit -m "chore(data): update repository snapshots [skip ci]"
+          if ! git push origin "HEAD:$DEFAULT_BRANCH"; then
+            echo "::error::Star history was NOT persisted remotely. Check GITHUB_TOKEN write permissions, repository Actions settings and branch protection; deployment stopped."
+            exit 1
+          fi
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+      - run: npm run security:check
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

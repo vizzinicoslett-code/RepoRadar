@@ -1,0 +1,6577 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-07T07:36:09.996Z",
+  "source": "github",
+  "repoCount": 100,
+  "queries": [
+    {
+      "name": "recent-created",
+      "q": "created:>=2026-09-07 stars:>=50 is:public archived:false fork:false",
+      "sort": "stars",
+      "perPage": 20,
+      "returned": 20
+    },
+    {
+      "name": "recent-active",
+      "q": "pushed:>=2026-09-30 stars:>=500 is:public archived:false fork:false",
+      "sort": "updated",
+      "perPage": 20,
+      "returned": 20
+    },
+    {
+      "name": "ai-agents",
+      "q": "agent in:name,description stars:>=100 pushed:>=2026-09-07 is:public archived:false fork:false",
+      "sort": "stars",
+      "perPage": 20,
+      "returned": 20
+    },
+    {
+      "name": "developer-tools",
+      "q": "topic:developer-tools stars:>=100 pushed:>=2026-09-07 is:public archived:false fork:false",
+      "sort": "stars",
+      "perPage": 20,
+      "returned": 20
+    },
+    {
+      "name": "computer-vision",
+      "q": "topic:computer-vision stars:>=100 pushed:>=2026-09-07 is:public archived:false fork:false",
+      "sort": "stars",
+      "perPage": 20,
+      "returned": 20
+    },
+    {
+      "name": "learning",
+      "q": "topic:education stars:>=100 pushed:>=2026-09-07 is:public archived:false fork:false",
+      "sort": "stars",
+      "perPage": 20,
+      "returned": 20
+    }
+  ],
+  "repositories": [
+    {
+      "githubId": 1359648985,
+      "owner": "eternity4719",
+      "name": "HowToLiveBetter",
+      "fullName": "eternity4719/HowToLiveBetter",
+      "description": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "htmlUrl": "https://github.com/eternity4719/HowToLiveBetter",
+      "homepage": "https://eternity4719.github.io/HowToLiveBetter/",
+      "language": "HTML",
+      "stars": 47977,
+      "forks": 3836,
+      "openIssues": 16,
+      "topics": [],
+      "license": {
+        "key": "cc-by-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2026-09-07T01:53:36Z",
+      "updatedAt": "2026-10-07T07:36:01Z",
+      "pushedAt": "2026-10-07T02:51:39Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1103012935,
+      "owner": "openclaw",
+      "name": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+      "htmlUrl": "https://github.com/openclaw/openclaw",
+      "homepage": "https://openclaw.ai",
+      "language": "TypeScript",
+      "stars": 391530,
+      "forks": 82289,
+      "openIssues": 9408,
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-11-24T10:16:47Z",
+      "updatedAt": "2026-10-07T07:36:05Z",
+      "pushedAt": "2026-10-07T07:36:00Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1073224795,
+      "owner": "obra",
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "htmlUrl": "https://github.com/obra/superpowers",
+      "homepage": "",
+      "language": "Shell",
+      "stars": 296114,
+      "forks": 26435,
+      "openIssues": 322,
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-10-09T19:45:18Z",
+      "updatedAt": "2026-10-07T07:29:00Z",
+      "pushedAt": "2026-10-06T23:57:53Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1136590548,
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "htmlUrl": "https://github.com/affaan-m/ECC",
+      "homepage": "https://ecc.tools",
+      "language": "JavaScript",
+      "stars": 274442,
+      "forks": 40952,
+      "openIssues": 363,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-01-18T00:51:51Z",
+      "updatedAt": "2026-10-07T07:35:35Z",
+      "pushedAt": "2026-10-05T04:55:16Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 5108051,
+      "owner": "opencv",
+      "name": "opencv",
+      "fullName": "opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "htmlUrl": "https://github.com/opencv/opencv",
+      "homepage": "https://opencv.org",
+      "language": "C++",
+      "stars": 91090,
+      "forks": 57036,
+      "openIssues": 2772,
+      "topics": [
+        "c-plus-plus",
+        "computer-vision",
+        "deep-learning",
+        "image-processing",
+        "opencv"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2012-07-19T09:40:17Z",
+      "updatedAt": "2026-10-07T07:30:05Z",
+      "pushedAt": "2026-10-07T07:28:59Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 28457823,
+      "owner": "freeCodeCamp",
+      "name": "freeCodeCamp",
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "htmlUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "homepage": "https://contribute.freecodecamp.org",
+      "language": "TypeScript",
+      "stars": 456878,
+      "forks": 48428,
+      "openIssues": 205,
+      "topics": [
+        "careers",
+        "certification",
+        "community",
+        "curriculum",
+        "d3",
+        "education",
+        "freecodecamp",
+        "javascript",
+        "learn-to-code",
+        "math",
+        "nodejs",
+        "nonprofits",
+        "programming",
+        "react",
+        "teachers"
+      ],
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2014-12-24T17:49:19Z",
+      "updatedAt": "2026-10-07T07:32:49Z",
+      "pushedAt": "2026-10-07T07:29:39Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1375382253,
+      "owner": "NandhaKishorM",
+      "name": "laya",
+      "fullName": "NandhaKishorM/laya",
+      "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+      "htmlUrl": "https://github.com/NandhaKishorM/laya",
+      "homepage": "https://huggingface.co/convaiinnovations/laya",
+      "language": "Python",
+      "stars": 31271,
+      "forks": 2761,
+      "openIssues": 128,
+      "topics": [
+        "calibration",
+        "classification",
+        "decision-model",
+        "huggingface",
+        "jev",
+        "modernbert",
+        "multilingual",
+        "nlp",
+        "python",
+        "pytorch",
+        "routing",
+        "typed-decisions",
+        "zero-shot"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-09-18T04:46:33Z",
+      "updatedAt": "2026-10-07T07:25:22Z",
+      "pushedAt": "2026-10-05T17:36:41Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1091890109,
+      "owner": "forcedotcom",
+      "name": "sf-skills",
+      "fullName": "forcedotcom/sf-skills",
+      "description": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools.",
+      "htmlUrl": "https://github.com/forcedotcom/sf-skills",
+      "homepage": "",
+      "language": "Python",
+      "stars": 1058,
+      "forks": 356,
+      "openIssues": 37,
+      "topics": [],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-11-07T17:10:54Z",
+      "updatedAt": "2026-10-07T07:36:03Z",
+      "pushedAt": "2026-10-07T07:35:55Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1148788086,
+      "owner": "mattpocock",
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "htmlUrl": "https://github.com/mattpocock/skills",
+      "homepage": "https://aihero.dev/skills",
+      "language": "Shell",
+      "stars": 278508,
+      "forks": 23327,
+      "openIssues": 327,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-02-03T11:15:53Z",
+      "updatedAt": "2026-10-07T07:32:06Z",
+      "pushedAt": "2026-10-06T19:04:26Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1266797999,
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "htmlUrl": "https://github.com/DietrichGebert/ponytail",
+      "homepage": "https://ponytail.dev",
+      "language": "JavaScript",
+      "stars": 157052,
+      "forks": 8438,
+      "openIssues": 12,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-06-12T00:52:37Z",
+      "updatedAt": "2026-10-07T07:35:10Z",
+      "pushedAt": "2026-10-05T20:46:39Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 71583602,
+      "owner": "Developer-Y",
+      "name": "cs-video-courses",
+      "fullName": "Developer-Y/cs-video-courses",
+      "description": "List of Computer Science courses with video lectures.",
+      "htmlUrl": "https://github.com/Developer-Y/cs-video-courses",
+      "homepage": "",
+      "language": null,
+      "stars": 83633,
+      "forks": 11490,
+      "openIssues": 4,
+      "topics": [
+        "algorithms",
+        "bioinformatics",
+        "computational-biology",
+        "computational-physics",
+        "computer-architecture",
+        "computer-science",
+        "computer-vision",
+        "database-systems",
+        "databases",
+        "deep-learning",
+        "embedded-systems",
+        "machine-learning",
+        "quantum-computing",
+        "reinforcement-learning",
+        "robotics",
+        "security",
+        "systems",
+        "web-development"
+      ],
+      "license": null,
+      "createdAt": "2016-10-21T17:02:11Z",
+      "updatedAt": "2026-10-07T07:23:51Z",
+      "pushedAt": "2026-10-06T04:49:17Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 13491895,
+      "owner": "EbookFoundation",
+      "name": "free-programming-books",
+      "fullName": "EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "htmlUrl": "https://github.com/EbookFoundation/free-programming-books",
+      "homepage": "https://ebookfoundation.github.io/free-programming-books/",
+      "language": "Python",
+      "stars": 398617,
+      "forks": 66887,
+      "openIssues": 81,
+      "topics": [
+        "books",
+        "education",
+        "hacktoberfest",
+        "list",
+        "resource"
+      ],
+      "license": {
+        "key": "cc-by-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2013-10-11T06:50:37Z",
+      "updatedAt": "2026-10-07T07:31:26Z",
+      "pushedAt": "2026-10-05T17:28:36Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1373655162,
+      "owner": "browser-use",
+      "name": "jev-ultrafast",
+      "fullName": "browser-use/jev-ultrafast",
+      "description": "Fastest and cheapest web agent",
+      "htmlUrl": "https://github.com/browser-use/jev-ultrafast",
+      "homepage": "https://browser-use.com",
+      "language": "Python",
+      "stars": 22226,
+      "forks": 1608,
+      "openIssues": 187,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-16T21:30:12Z",
+      "updatedAt": "2026-10-07T07:33:52Z",
+      "pushedAt": "2026-09-30T01:24:38Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 634043200,
+      "owner": "modular",
+      "name": "modular",
+      "fullName": "modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "htmlUrl": "https://github.com/modular/modular",
+      "homepage": "https://docs.modular.com/",
+      "language": "Mojo",
+      "stars": 29929,
+      "forks": 3200,
+      "openIssues": 1139,
+      "topics": [
+        "ai",
+        "language",
+        "machine-learning",
+        "max",
+        "modular",
+        "mojo",
+        "programming-language"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-04-28T22:17:24Z",
+      "updatedAt": "2026-10-07T07:35:58Z",
+      "pushedAt": "2026-10-07T07:36:04Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1200597263,
+      "owner": "Graphify-Labs",
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "htmlUrl": "https://github.com/Graphify-Labs/graphify",
+      "homepage": "https://www.graphify.com",
+      "language": "Python",
+      "stars": 124473,
+      "forks": 12004,
+      "openIssues": 1518,
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphify",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "llm",
+        "mcp",
+        "openclaw",
+        "rag",
+        "skills",
+        "tree-sitter"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-04-03T15:49:07Z",
+      "updatedAt": "2026-10-07T07:31:58Z",
+      "pushedAt": "2026-10-06T23:27:20Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 344190478,
+      "owner": "microsoft",
+      "name": "AI-For-Beginners",
+      "fullName": "microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "htmlUrl": "https://github.com/microsoft/AI-For-Beginners",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "stars": 69515,
+      "forks": 13471,
+      "openIssues": 15,
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "cnn",
+        "computer-vision",
+        "deep-learning",
+        "gan",
+        "machine-learning",
+        "microsoft-for-beginners",
+        "nlp",
+        "rnn"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-03-03T16:27:36Z",
+      "updatedAt": "2026-10-07T07:23:49Z",
+      "pushedAt": "2026-09-16T20:17:56Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 63476337,
+      "owner": "TheAlgorithms",
+      "name": "Python",
+      "fullName": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "htmlUrl": "https://github.com/TheAlgorithms/Python",
+      "homepage": "https://thealgorithms.github.io/Python/",
+      "language": "Python",
+      "stars": 225267,
+      "forks": 51159,
+      "openIssues": 13,
+      "topics": [
+        "algorithm",
+        "algorithm-competitions",
+        "algorithms-implemented",
+        "algos",
+        "community-driven",
+        "education",
+        "hacktoberfest",
+        "interview",
+        "learn",
+        "practice",
+        "python",
+        "searches",
+        "sorting-algorithms",
+        "sorts"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-07-16T09:44:01Z",
+      "updatedAt": "2026-10-07T07:01:19Z",
+      "pushedAt": "2026-10-06T17:22:34Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1385946301,
+      "owner": "Niko1221",
+      "name": "Strata",
+      "fullName": "Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "htmlUrl": "https://github.com/Niko1221/Strata",
+      "homepage": "",
+      "language": "C++",
+      "stars": 16175,
+      "forks": 1393,
+      "openIssues": 369,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-24T16:40:20Z",
+      "updatedAt": "2026-10-07T07:33:10Z",
+      "pushedAt": "2026-10-06T09:53:35Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 282944472,
+      "owner": "se2p",
+      "name": "pynguin",
+      "fullName": "se2p/pynguin",
+      "description": "The PYthoN General UnIt Test geNerator is a test-generation tool for Python",
+      "htmlUrl": "https://github.com/se2p/pynguin",
+      "homepage": "https://www.pynguin.eu",
+      "language": "Python",
+      "stars": 1391,
+      "forks": 101,
+      "openIssues": 2,
+      "topics": [
+        "python",
+        "search-based-software-testing",
+        "test-generation",
+        "test-generator",
+        "testing-tools"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-07-27T15:50:19Z",
+      "updatedAt": "2026-10-07T07:35:57Z",
+      "pushedAt": "2026-10-07T07:35:52Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1024554267,
+      "owner": "NousResearch",
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "htmlUrl": "https://github.com/NousResearch/hermes-agent",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "language": "Python",
+      "stars": 251769,
+      "forks": 54150,
+      "openIssues": 47717,
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-07-22T22:22:28Z",
+      "updatedAt": "2026-10-07T07:32:41Z",
+      "pushedAt": "2026-10-07T07:34:38Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 90796663,
+      "owner": "puppeteer",
+      "name": "puppeteer",
+      "fullName": "puppeteer/puppeteer",
+      "description": "JavaScript API for Chrome and Firefox",
+      "htmlUrl": "https://github.com/puppeteer/puppeteer",
+      "homepage": "https://pptr.dev",
+      "language": "TypeScript",
+      "stars": 95666,
+      "forks": 9588,
+      "openIssues": 278,
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing",
+        "web"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-05-09T22:16:13Z",
+      "updatedAt": "2026-10-07T07:18:18Z",
+      "pushedAt": "2026-10-07T06:17:56Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1185590488,
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "htmlUrl": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "homepage": "https://aiengineeringfromscratch.com",
+      "language": "Python",
+      "stars": 65401,
+      "forks": 11278,
+      "openIssues": 72,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-18T18:38:02Z",
+      "updatedAt": "2026-10-07T07:31:38Z",
+      "pushedAt": "2026-10-06T19:16:22Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 112507086,
+      "owner": "Chalarangelo",
+      "name": "30-seconds-of-code",
+      "fullName": "Chalarangelo/30-seconds-of-code",
+      "description": "Coding articles to level up your development skills",
+      "htmlUrl": "https://github.com/Chalarangelo/30-seconds-of-code",
+      "homepage": "https://30secondsofcode.org/",
+      "language": "JavaScript",
+      "stars": 129327,
+      "forks": 12490,
+      "openIssues": 0,
+      "topics": [
+        "astro",
+        "awesome-list",
+        "css",
+        "education",
+        "es6-javascript",
+        "git",
+        "html",
+        "javascript",
+        "learn-to-code",
+        "learning-resources",
+        "nodejs",
+        "programming",
+        "snippets"
+      ],
+      "license": {
+        "key": "cc-by-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2017-11-29T17:35:03Z",
+      "updatedAt": "2026-10-07T06:28:20Z",
+      "pushedAt": "2026-10-02T01:17:53Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1398080271,
+      "owner": "storytold",
+      "name": "photocraft",
+      "fullName": "storytold/photocraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+      "htmlUrl": "https://github.com/storytold/photocraft",
+      "homepage": "https://getartcraft.com/apps/photocraft",
+      "language": "Rust",
+      "stars": 10271,
+      "forks": 1349,
+      "openIssues": 142,
+      "topics": [
+        "adobe",
+        "adobe-photoshop-2026",
+        "adobe-photoshop-2026-ai",
+        "art",
+        "image-editing",
+        "image-editing-software",
+        "image-editor",
+        "images",
+        "photo-editing",
+        "photoshop",
+        "psd",
+        "rust"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-09-30T13:37:48Z",
+      "updatedAt": "2026-10-07T07:36:01Z",
+      "pushedAt": "2026-10-07T07:05:06Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 491539517,
+      "owner": "GamehunterKaan",
+      "name": "AutoPWN-Suite",
+      "fullName": "GamehunterKaan/AutoPWN-Suite",
+      "description": "AutoPWN Suite is a project for scanning vulnerabilities and exploiting systems automatically.",
+      "htmlUrl": "https://github.com/GamehunterKaan/AutoPWN-Suite",
+      "homepage": "https://autopwn.kaangultekin.net",
+      "language": "Python",
+      "stars": 1134,
+      "forks": 147,
+      "openIssues": 0,
+      "topics": [
+        "cyber-security",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "exploitation",
+        "hacking",
+        "hacking-tools",
+        "infosec",
+        "nmap",
+        "penetration-testing",
+        "pentesting",
+        "python",
+        "python3",
+        "scanner",
+        "scanners",
+        "scanning",
+        "security",
+        "security-tools",
+        "vulnerability-scanners"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-05-12T14:06:06Z",
+      "updatedAt": "2026-10-07T07:35:56Z",
+      "pushedAt": "2026-10-07T07:35:52Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 975734319,
+      "owner": "anomalyco",
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "htmlUrl": "https://github.com/anomalyco/opencode",
+      "homepage": "https://opencode.ai",
+      "language": "TypeScript",
+      "stars": 212093,
+      "forks": 28242,
+      "openIssues": 6226,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-04-30T20:08:00Z",
+      "updatedAt": "2026-10-07T07:35:08Z",
+      "pushedAt": "2026-10-07T07:13:28Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 771302083,
+      "owner": "OpenHands",
+      "name": "OpenHands",
+      "fullName": "OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "htmlUrl": "https://github.com/OpenHands/OpenHands",
+      "homepage": "https://openhands.dev",
+      "language": "TypeScript",
+      "stars": 90141,
+      "forks": 11926,
+      "openIssues": 917,
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-03-13T03:33:31Z",
+      "updatedAt": "2026-10-07T07:35:46Z",
+      "pushedAt": "2026-10-07T06:38:41Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 535360445,
+      "owner": "ultralytics",
+      "name": "ultralytics",
+      "fullName": "ultralytics/ultralytics",
+      "description": "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+      "htmlUrl": "https://github.com/ultralytics/ultralytics",
+      "homepage": "https://platform.ultralytics.com",
+      "language": "Python",
+      "stars": 62255,
+      "forks": 11829,
+      "openIssues": 82,
+      "topics": [
+        "computer-vision",
+        "deep-learning",
+        "image-classification",
+        "instance-segmentation",
+        "machine-learning",
+        "object-detection",
+        "object-tracking",
+        "pose-estimation",
+        "python",
+        "pytorch",
+        "rotated-object-detection",
+        "segment-anything",
+        "semantic-segmentation",
+        "tracking",
+        "ultralytics",
+        "yolo",
+        "yolo11",
+        "yolo26",
+        "yolo27",
+        "yolov8"
+      ],
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2022-09-11T16:39:45Z",
+      "updatedAt": "2026-10-07T07:32:53Z",
+      "pushedAt": "2026-10-07T05:58:21Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 311525798,
+      "owner": "microsoft",
+      "name": "Web-Dev-For-Beginners",
+      "fullName": "microsoft/Web-Dev-For-Beginners",
+      "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "htmlUrl": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 96910,
+      "forks": 16004,
+      "openIssues": 135,
+      "topics": [
+        "css",
+        "curriculum",
+        "education",
+        "html",
+        "javascript",
+        "learning",
+        "microsoft-for-beginners",
+        "tutorials"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-11-10T02:44:00Z",
+      "updatedAt": "2026-10-07T07:12:23Z",
+      "pushedAt": "2026-10-01T13:20:34Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1373614120,
+      "owner": "robbietilton",
+      "name": "Compositor",
+      "fullName": "robbietilton/Compositor",
+      "description": "The Photoshop alternative for Mac",
+      "htmlUrl": "https://github.com/robbietilton/Compositor",
+      "homepage": null,
+      "language": "Swift",
+      "stars": 10006,
+      "forks": 949,
+      "openIssues": 70,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-16T20:35:54Z",
+      "updatedAt": "2026-10-07T07:35:53Z",
+      "pushedAt": "2026-09-29T21:42:59Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1302093382,
+      "owner": "gakonst",
+      "name": "nanocodex",
+      "fullName": "gakonst/nanocodex",
+      "description": "Building blocks for frontier OpenAI agents in Rust. Nanocodex empowers you with Codex-level performance anywhere.",
+      "htmlUrl": "https://github.com/gakonst/nanocodex",
+      "homepage": "http://docs.rs/nanocodex",
+      "language": "Rust",
+      "stars": 553,
+      "forks": 76,
+      "openIssues": 10,
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "openai"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-07-15T22:46:14Z",
+      "updatedAt": "2026-10-07T07:35:55Z",
+      "pushedAt": "2026-10-07T07:35:51Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 787076358,
+      "owner": "firecrawl",
+      "name": "firecrawl",
+      "fullName": "firecrawl/firecrawl",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "htmlUrl": "https://github.com/firecrawl/firecrawl",
+      "homepage": "https://firecrawl.dev",
+      "language": "TypeScript",
+      "stars": 189279,
+      "forks": 10042,
+      "openIssues": 533,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "web-data",
+        "web-data-extraction",
+        "web-scraper",
+        "web-scraping",
+        "web-search",
+        "webscraping"
+      ],
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-04-15T21:02:29Z",
+      "updatedAt": "2026-10-07T07:34:51Z",
+      "pushedAt": "2026-10-07T07:22:56Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1139971460,
+      "owner": "rtk-ai",
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "htmlUrl": "https://github.com/rtk-ai/rtk",
+      "homepage": "https://www.rtk-ai.app",
+      "language": "Rust",
+      "stars": 82580,
+      "forks": 5251,
+      "openIssues": 1511,
+      "topics": [
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "command-line-tool",
+        "cost-reduction",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "productivity",
+        "rust",
+        "token-optimization"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-01-22T16:54:16Z",
+      "updatedAt": "2026-10-07T07:35:42Z",
+      "pushedAt": "2026-10-07T07:16:42Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 264818686,
+      "owner": "ultralytics",
+      "name": "yolov5",
+      "fullName": "ultralytics/yolov5",
+      "description": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
+      "htmlUrl": "https://github.com/ultralytics/yolov5",
+      "homepage": "https://docs.ultralytics.com/yolov5/",
+      "language": "Python",
+      "stars": 58110,
+      "forks": 17460,
+      "openIssues": 24,
+      "topics": [
+        "computer-vision",
+        "coreml",
+        "deep-learning",
+        "image-classification",
+        "inference",
+        "instance-segmentation",
+        "model-export",
+        "model-training",
+        "object-detection",
+        "onnx",
+        "pytorch",
+        "tensorrt",
+        "tflite",
+        "ultralytics",
+        "yolo",
+        "yolov5"
+      ],
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2020-05-18T03:45:11Z",
+      "updatedAt": "2026-10-07T07:02:10Z",
+      "pushedAt": "2026-10-06T17:48:42Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 343965132,
+      "owner": "microsoft",
+      "name": "ML-For-Beginners",
+      "fullName": "microsoft/ML-For-Beginners",
+      "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+      "htmlUrl": "https://github.com/microsoft/ML-For-Beginners",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "stars": 91308,
+      "forks": 22563,
+      "openIssues": 12,
+      "topics": [
+        "data-science",
+        "education",
+        "machine-learning",
+        "machine-learning-algorithms",
+        "machinelearning",
+        "machinelearning-python",
+        "microsoft-for-beginners",
+        "ml",
+        "python",
+        "r",
+        "scikit-learn",
+        "scikit-learn-python"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-03-03T01:34:05Z",
+      "updatedAt": "2026-10-07T05:37:37Z",
+      "pushedAt": "2026-09-15T05:29:39Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1375997079,
+      "owner": "cdyforever",
+      "name": "how-to-live-better",
+      "fullName": "cdyforever/how-to-live-better",
+      "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+      "htmlUrl": "https://github.com/cdyforever/how-to-live-better",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 8776,
+      "forks": 594,
+      "openIssues": 8,
+      "topics": [],
+      "license": null,
+      "createdAt": "2026-09-18T14:35:08Z",
+      "updatedAt": "2026-10-07T07:36:03Z",
+      "pushedAt": "2026-10-07T01:05:13Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 26193547,
+      "owner": "rust-lang",
+      "name": "crates.io-index",
+      "fullName": "rust-lang/crates.io-index",
+      "description": "Registry index for crates.io",
+      "htmlUrl": "https://github.com/rust-lang/crates.io-index",
+      "homepage": null,
+      "language": "Tcl",
+      "stars": 750,
+      "forks": 271,
+      "openIssues": 2,
+      "topics": [],
+      "license": null,
+      "createdAt": "2014-11-04T23:26:38Z",
+      "updatedAt": "2026-10-07T07:35:51Z",
+      "pushedAt": "2026-10-07T07:35:50Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1061953414,
+      "owner": "anthropics",
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "htmlUrl": "https://github.com/anthropics/skills",
+      "homepage": "",
+      "language": "Python",
+      "stars": 179970,
+      "forks": 21283,
+      "openIssues": 1393,
+      "topics": [
+        "agent-skills"
+      ],
+      "license": null,
+      "createdAt": "2025-09-22T15:53:31Z",
+      "updatedAt": "2026-10-07T07:34:16Z",
+      "pushedAt": "2026-10-05T13:46:45Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 203587744,
+      "owner": "hoppscotch",
+      "name": "hoppscotch",
+      "fullName": "hoppscotch/hoppscotch",
+      "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+      "htmlUrl": "https://github.com/hoppscotch/hoppscotch",
+      "homepage": "https://hoppscotch.io",
+      "language": "TypeScript",
+      "stars": 80582,
+      "forks": 6147,
+      "openIssues": 848,
+      "topics": [
+        "api",
+        "api-client",
+        "api-rest",
+        "api-testing",
+        "developer-tools",
+        "graphql",
+        "http",
+        "http-client",
+        "pwa",
+        "rest",
+        "rest-api",
+        "spa",
+        "testing",
+        "testing-tools",
+        "tools",
+        "vue",
+        "vuejs",
+        "websocket"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-08-21T13:15:24Z",
+      "updatedAt": "2026-10-07T06:19:46Z",
+      "pushedAt": "2026-10-07T05:46:25Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 571613891,
+      "owner": "roboflow",
+      "name": "supervision",
+      "fullName": "roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "htmlUrl": "https://github.com/roboflow/supervision",
+      "homepage": "https://supervision.roboflow.com",
+      "language": "Python",
+      "stars": 51144,
+      "forks": 4863,
+      "openIssues": 73,
+      "topics": [
+        "classification",
+        "coco",
+        "computer-vision",
+        "deep-learning",
+        "hacktoberfest",
+        "image-processing",
+        "instance-segmentation",
+        "low-code",
+        "machine-learning",
+        "metrics",
+        "object-detection",
+        "oriented-bounding-box",
+        "pascal-voc",
+        "python",
+        "pytorch",
+        "tensorflow",
+        "tracking",
+        "video-processing",
+        "yolo"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-11-28T14:08:44Z",
+      "updatedAt": "2026-10-07T07:05:15Z",
+      "pushedAt": "2026-10-07T07:09:24Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 8424040,
+      "owner": "processing",
+      "name": "p5.js",
+      "fullName": "processing/p5.js",
+      "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
+      "htmlUrl": "https://github.com/processing/p5.js",
+      "homepage": "http://p5js.org/",
+      "language": "JavaScript",
+      "stars": 24093,
+      "forks": 3848,
+      "openIssues": 535,
+      "topics": [
+        "art",
+        "creative-coding",
+        "design",
+        "education",
+        "graphics",
+        "html",
+        "javascript",
+        "learning",
+        "p5js",
+        "processing",
+        "sound"
+      ],
+      "license": {
+        "key": "lgpl-2.1",
+        "name": "GNU Lesser General Public License v2.1",
+        "spdxId": "LGPL-2.1"
+      },
+      "createdAt": "2013-02-26T03:14:47Z",
+      "updatedAt": "2026-10-07T06:20:06Z",
+      "pushedAt": "2026-10-06T14:22:51Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1375069862,
+      "owner": "jaredpalmer",
+      "name": "kev",
+      "fullName": "jaredpalmer/kev",
+      "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
+      "htmlUrl": "https://github.com/jaredpalmer/kev",
+      "homepage": "",
+      "language": "Python",
+      "stars": 8625,
+      "forks": 567,
+      "openIssues": 36,
+      "topics": [
+        "decision-model",
+        "jev",
+        "qwen3"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-09-17T20:49:39Z",
+      "updatedAt": "2026-10-07T07:24:55Z",
+      "pushedAt": "2026-10-06T17:39:59Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 9852918,
+      "owner": "TryGhost",
+      "name": "Ghost",
+      "fullName": "TryGhost/Ghost",
+      "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+      "htmlUrl": "https://github.com/TryGhost/Ghost",
+      "homepage": "https://ghost.org",
+      "language": "TypeScript",
+      "stars": 55494,
+      "forks": 11985,
+      "openIssues": 199,
+      "topics": [
+        "blogging",
+        "cms",
+        "ghost",
+        "javascript",
+        "journalism",
+        "nodejs",
+        "publishing",
+        "web-application"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-05-04T11:09:13Z",
+      "updatedAt": "2026-10-07T07:35:50Z",
+      "pushedAt": "2026-10-07T07:35:46Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1075372545,
+      "owner": "msitarzewski",
+      "name": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "htmlUrl": "https://github.com/msitarzewski/agency-agents",
+      "homepage": "",
+      "language": "Shell",
+      "stars": 158003,
+      "forks": 25463,
+      "openIssues": 166,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-10-13T12:12:29Z",
+      "updatedAt": "2026-10-07T07:34:51Z",
+      "pushedAt": "2026-10-06T17:53:59Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1211139949,
+      "owner": "tt-a1i",
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "htmlUrl": "https://github.com/tt-a1i/archify",
+      "homepage": "https://tt-a1i.github.io/archify/",
+      "language": "JavaScript",
+      "stars": 78832,
+      "forks": 5296,
+      "openIssues": 203,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "coding-agents",
+        "deepseek-harness",
+        "developer-tools",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "flowchart",
+        "llm",
+        "mermaid",
+        "opencode",
+        "sequence-diagram",
+        "software-architecture",
+        "system-design",
+        "visualization"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-04-15T05:27:37Z",
+      "updatedAt": "2026-10-07T07:35:08Z",
+      "pushedAt": "2026-10-07T07:36:06Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 191820100,
+      "owner": "google-ai-edge",
+      "name": "mediapipe",
+      "fullName": "google-ai-edge/mediapipe",
+      "description": "Cross-platform, customizable ML solutions for live and streaming media.",
+      "htmlUrl": "https://github.com/google-ai-edge/mediapipe",
+      "homepage": "https://ai.google.dev/edge/mediapipe",
+      "language": "C++",
+      "stars": 37177,
+      "forks": 6183,
+      "openIssues": 413,
+      "topics": [
+        "android",
+        "audio-processing",
+        "c-plus-plus",
+        "calculator",
+        "computer-vision",
+        "deep-learning",
+        "framework",
+        "graph-based",
+        "graph-framework",
+        "inference",
+        "machine-learning",
+        "mediapipe",
+        "mobile-development",
+        "perception",
+        "pipeline-framework",
+        "stream-processing",
+        "video-processing"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-06-13T19:16:41Z",
+      "updatedAt": "2026-10-07T07:09:36Z",
+      "pushedAt": "2026-10-07T00:51:50Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 31168578,
+      "owner": "hemanth",
+      "name": "functional-programming-jargon",
+      "fullName": "hemanth/functional-programming-jargon",
+      "description": "Jargon from the functional programming world in simple terms!",
+      "htmlUrl": "https://github.com/hemanth/functional-programming-jargon",
+      "homepage": "http://hemanth.github.io/functional-programming-jargon/",
+      "language": "JavaScript",
+      "stars": 18730,
+      "forks": 1002,
+      "openIssues": 28,
+      "topics": [
+        "awesome-list",
+        "education",
+        "fp",
+        "functional-programming",
+        "glossary",
+        "javascript"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-02-22T16:04:42Z",
+      "updatedAt": "2026-10-07T03:40:11Z",
+      "pushedAt": "2026-10-04T05:28:31Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1378288598,
+      "owner": "zai-org",
+      "name": "ZCode",
+      "fullName": "zai-org/ZCode",
+      "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "htmlUrl": "https://github.com/zai-org/ZCode",
+      "homepage": "https://zcode.z.ai/",
+      "language": "TypeScript",
+      "stars": 7486,
+      "forks": 2281,
+      "openIssues": 11,
+      "topics": [],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-09-20T12:01:16Z",
+      "updatedAt": "2026-10-07T05:26:07Z",
+      "pushedAt": "2026-09-29T10:06:54Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 65600975,
+      "owner": "pytorch",
+      "name": "pytorch",
+      "fullName": "pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "htmlUrl": "https://github.com/pytorch/pytorch",
+      "homepage": "https://pytorch.org",
+      "language": "Python",
+      "stars": 103818,
+      "forks": 31598,
+      "openIssues": 17630,
+      "topics": [
+        "autograd",
+        "deep-learning",
+        "gpu",
+        "machine-learning",
+        "neural-network",
+        "numpy",
+        "python",
+        "tensor"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-08-13T05:26:41Z",
+      "updatedAt": "2026-10-07T07:35:46Z",
+      "pushedAt": "2026-10-07T07:35:46Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 626805178,
+      "owner": "langgenius",
+      "name": "dify",
+      "fullName": "langgenius/dify",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "htmlUrl": "https://github.com/langgenius/dify",
+      "homepage": "https://dify.ai",
+      "language": "TypeScript",
+      "stars": 157986,
+      "forks": 24931,
+      "openIssues": 1068,
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "claude",
+        "deepseek",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "python",
+        "skills",
+        "workflow"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-04-12T07:40:24Z",
+      "updatedAt": "2026-10-07T07:27:54Z",
+      "pushedAt": "2026-10-07T05:34:03Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1078079172,
+      "owner": "ComposioHQ",
+      "name": "awesome-claude-skills",
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "htmlUrl": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "homepage": "",
+      "language": "Python",
+      "stars": 76624,
+      "forks": 8975,
+      "openIssues": 1652,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "composio",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "mcp",
+        "openai-codex",
+        "rube",
+        "saas",
+        "skill",
+        "workflow-automation"
+      ],
+      "license": null,
+      "createdAt": "2025-10-17T07:15:01Z",
+      "updatedAt": "2026-10-07T07:15:35Z",
+      "pushedAt": "2026-09-18T07:16:11Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 326174741,
+      "owner": "ashishpatel26",
+      "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "fullName": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+      "htmlUrl": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "homepage": "",
+      "language": null,
+      "stars": 37130,
+      "forks": 7494,
+      "openIssues": 69,
+      "topics": [
+        "artificial-intelligence",
+        "artificial-intelligence-projects",
+        "awesome",
+        "computer-vision",
+        "computer-vision-project",
+        "data-science",
+        "deep-learning",
+        "deep-learning-project",
+        "machine-learning",
+        "machine-learning-projects",
+        "nlp",
+        "nlp-projects",
+        "python"
+      ],
+      "license": null,
+      "createdAt": "2021-01-02T12:08:37Z",
+      "updatedAt": "2026-10-07T06:22:34Z",
+      "pushedAt": "2026-09-26T00:44:47Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 279310322,
+      "owner": "iggredible",
+      "name": "Learn-Vim",
+      "fullName": "iggredible/Learn-Vim",
+      "description": "Learning Vim and Vimscript doesn't have to be hard. This is the guide that you're looking for 📖",
+      "htmlUrl": "https://github.com/iggredible/Learn-Vim",
+      "homepage": "",
+      "language": "Dockerfile",
+      "stars": 15246,
+      "forks": 1137,
+      "openIssues": 18,
+      "topics": [
+        "advanced",
+        "beginner",
+        "book",
+        "book-series",
+        "code-editor",
+        "editor",
+        "education",
+        "intermediate",
+        "learning",
+        "learning-to-code",
+        "linux",
+        "programming",
+        "training-materials",
+        "training-providers",
+        "tutorial",
+        "unix",
+        "vim"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-07-13T13:27:44Z",
+      "updatedAt": "2026-10-06T21:39:56Z",
+      "pushedAt": "2026-09-07T20:12:20Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1374005005,
+      "owner": "tamaratran",
+      "name": "fast-jev-compaction",
+      "fullName": "tamaratran/fast-jev-compaction",
+      "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+      "htmlUrl": "https://github.com/tamaratran/fast-jev-compaction",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 7455,
+      "forks": 511,
+      "openIssues": 104,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-17T05:57:20Z",
+      "updatedAt": "2026-10-07T07:30:00Z",
+      "pushedAt": "2026-09-18T04:45:31Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1157171418,
+      "owner": "jundot",
+      "name": "omlx",
+      "fullName": "jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "htmlUrl": "https://github.com/jundot/omlx",
+      "homepage": "https://omlx.ai",
+      "language": "Python",
+      "stars": 22594,
+      "forks": 1977,
+      "openIssues": 623,
+      "topics": [
+        "apple-silicon",
+        "inference-server",
+        "llm",
+        "macos",
+        "mlx",
+        "openai-api"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-02-13T14:13:27Z",
+      "updatedAt": "2026-10-07T07:36:02Z",
+      "pushedAt": "2026-10-07T07:35:45Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1238120057,
+      "owner": "ayghri",
+      "name": "i-have-adhd",
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "htmlUrl": "https://github.com/ayghri/i-have-adhd",
+      "homepage": "",
+      "language": "Python",
+      "stars": 54579,
+      "forks": 3134,
+      "openIssues": 72,
+      "topics": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools",
+        "productivity"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-05-13T20:42:06Z",
+      "updatedAt": "2026-10-07T07:35:38Z",
+      "pushedAt": "2026-10-06T23:23:46Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 192640529,
+      "owner": "HumanSignal",
+      "name": "label-studio",
+      "fullName": "HumanSignal/label-studio",
+      "description": "Label Studio is a multi-type data labeling and annotation tool with standardized output format",
+      "htmlUrl": "https://github.com/HumanSignal/label-studio",
+      "homepage": "https://labelstud.io",
+      "language": "TypeScript",
+      "stars": 28409,
+      "forks": 3734,
+      "openIssues": 950,
+      "topics": [
+        "annotation",
+        "annotation-tool",
+        "annotations",
+        "boundingbox",
+        "computer-vision",
+        "data-labeling",
+        "dataset",
+        "datasets",
+        "deep-learning",
+        "image-annotation",
+        "image-classification",
+        "image-labeling",
+        "image-labelling-tool",
+        "label-studio",
+        "labeling",
+        "labeling-tool",
+        "mlops",
+        "semantic-segmentation",
+        "text-annotation",
+        "yolo"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-06-19T02:00:44Z",
+      "updatedAt": "2026-10-07T06:50:01Z",
+      "pushedAt": "2026-10-07T06:15:46Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 9746477,
+      "owner": "sonic-pi-net",
+      "name": "sonic-pi",
+      "fullName": "sonic-pi-net/sonic-pi",
+      "description": "Code. Music. Live.",
+      "htmlUrl": "https://github.com/sonic-pi-net/sonic-pi",
+      "homepage": "https://sonic-pi.net",
+      "language": "C++",
+      "stars": 12180,
+      "forks": 997,
+      "openIssues": 34,
+      "topics": [
+        "art",
+        "audio",
+        "education",
+        "instrument",
+        "live-coding",
+        "livecoding",
+        "music",
+        "schools",
+        "sonic-pi",
+        "synthesis",
+        "synthesizer"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-04-29T11:17:54Z",
+      "updatedAt": "2026-10-07T06:38:00Z",
+      "pushedAt": "2026-10-06T20:35:13Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1379574728,
+      "owner": "jev-chat",
+      "name": "jev-chat-jarvis",
+      "fullName": "jev-chat/jev-chat-jarvis",
+      "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+      "htmlUrl": "https://github.com/jev-chat/jev-chat-jarvis",
+      "homepage": "https://chatjevs.com",
+      "language": "Kotlin",
+      "stars": 7411,
+      "forks": 1225,
+      "openIssues": 25,
+      "topics": [
+        "accessibility-service",
+        "ai-assistant",
+        "android",
+        "chat-assistant",
+        "chat-copilot",
+        "llm",
+        "ocr",
+        "qq",
+        "whatsapp"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-21T11:12:53Z",
+      "updatedAt": "2026-10-07T06:59:14Z",
+      "pushedAt": "2026-10-06T15:18:48Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1864194,
+      "owner": "frappe",
+      "name": "frappe",
+      "fullName": "frappe/frappe",
+      "description": "Low code web framework for real world applications, in Python and Javascript",
+      "htmlUrl": "https://github.com/frappe/frappe",
+      "homepage": "https://frappe.io/framework",
+      "language": "Python",
+      "stars": 10889,
+      "forks": 5395,
+      "openIssues": 2187,
+      "topics": [
+        "cms",
+        "email",
+        "erpnext",
+        "frappe",
+        "full-stack",
+        "javascript",
+        "low-code",
+        "mariadb",
+        "multitenant",
+        "postgres",
+        "python",
+        "rest-api",
+        "security",
+        "socket-io",
+        "web-framework",
+        "webhooks"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-06-08T08:14:16Z",
+      "updatedAt": "2026-10-07T07:35:49Z",
+      "pushedAt": "2026-10-07T07:35:41Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 599320067,
+      "owner": "langflow-ai",
+      "name": "langflow",
+      "fullName": "langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "htmlUrl": "https://github.com/langflow-ai/langflow",
+      "homepage": "http://www.langflow.org",
+      "language": "Python",
+      "stars": 155554,
+      "forks": 10189,
+      "openIssues": 1145,
+      "topics": [
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent",
+        "react-flow"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-08T22:28:03Z",
+      "updatedAt": "2026-10-07T06:29:33Z",
+      "pushedAt": "2026-10-07T07:09:48Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 542284380,
+      "owner": "usebruno",
+      "name": "bruno",
+      "fullName": "usebruno/bruno",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "htmlUrl": "https://github.com/usebruno/bruno",
+      "homepage": "https://www.usebruno.com/",
+      "language": "JavaScript",
+      "stars": 47375,
+      "forks": 2954,
+      "openIssues": 1858,
+      "topics": [
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git",
+        "graphql-client",
+        "http-client",
+        "javascript",
+        "openapi",
+        "openapi3",
+        "opensource",
+        "rest-api",
+        "testing",
+        "testing-tools"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-09-27T20:51:45Z",
+      "updatedAt": "2026-10-07T07:35:47Z",
+      "pushedAt": "2026-10-07T05:28:17Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 300996055,
+      "owner": "lucidrains",
+      "name": "vit-pytorch",
+      "fullName": "lucidrains/vit-pytorch",
+      "description": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+      "htmlUrl": "https://github.com/lucidrains/vit-pytorch",
+      "homepage": "",
+      "language": "Python",
+      "stars": 25538,
+      "forks": 3498,
+      "openIssues": 144,
+      "topics": [
+        "artificial-intelligence",
+        "attention-mechanism",
+        "computer-vision",
+        "image-classification",
+        "transformers"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-03T22:47:24Z",
+      "updatedAt": "2026-10-07T04:05:01Z",
+      "pushedAt": "2026-09-20T17:03:36Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 7716883,
+      "owner": "ankidroid",
+      "name": "Anki-Android",
+      "fullName": "ankidroid/Anki-Android",
+      "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
+      "htmlUrl": "https://github.com/ankidroid/Anki-Android",
+      "homepage": "",
+      "language": "Kotlin",
+      "stars": 11953,
+      "forks": 2950,
+      "openIssues": 335,
+      "topics": [
+        "android",
+        "anki",
+        "ankidroid",
+        "education",
+        "flashcards",
+        "kotlin",
+        "learning",
+        "srs"
+      ],
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2013-01-20T13:55:53Z",
+      "updatedAt": "2026-10-07T06:58:08Z",
+      "pushedAt": "2026-10-07T07:11:35Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1377211520,
+      "owner": "mizorewww",
+      "name": "laya-mlx",
+      "fullName": "mizorewww/laya-mlx",
+      "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "htmlUrl": "https://github.com/mizorewww/laya-mlx",
+      "homepage": "https://pypi.org/project/laya-mlx/",
+      "language": "Python",
+      "stars": 6798,
+      "forks": 546,
+      "openIssues": 0,
+      "topics": [
+        "apple-silicon",
+        "decision-model",
+        "inference",
+        "laya",
+        "local-ai",
+        "machine-learning",
+        "mlx",
+        "modernbert",
+        "system-one",
+        "typed-decisions"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-09-19T13:50:26Z",
+      "updatedAt": "2026-10-07T06:51:44Z",
+      "pushedAt": "2026-10-02T03:17:57Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1205013299,
+      "owner": "chattocorp",
+      "name": "chatto",
+      "fullName": "chattocorp/chatto",
+      "description": "A fully-featured team and group chat application that you can easily selfhost.",
+      "htmlUrl": "https://github.com/chattocorp/chatto",
+      "homepage": "https://chatto.run",
+      "language": "TypeScript",
+      "stars": 2826,
+      "forks": 134,
+      "openIssues": 221,
+      "topics": [
+        "chat",
+        "communication",
+        "gdpr-compliant",
+        "privacy-first",
+        "screensharing",
+        "video-calls",
+        "voice-calls"
+      ],
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2026-04-08T14:50:12Z",
+      "updatedAt": "2026-10-07T07:35:45Z",
+      "pushedAt": "2026-10-07T07:35:47Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 937253475,
+      "owner": "anthropics",
+      "name": "claude-code",
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "htmlUrl": "https://github.com/anthropics/claude-code",
+      "homepage": "https://code.claude.com/docs/en/overview",
+      "language": "TypeScript",
+      "stars": 149669,
+      "forks": 25712,
+      "openIssues": 14470,
+      "topics": [],
+      "license": null,
+      "createdAt": "2025-02-22T17:41:21Z",
+      "updatedAt": "2026-10-07T07:35:13Z",
+      "pushedAt": "2026-10-07T00:13:58Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1134426800,
+      "owner": "sickn33",
+      "name": "agentic-awesome-skills",
+      "fullName": "sickn33/agentic-awesome-skills",
+      "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+      "htmlUrl": "https://github.com/sickn33/agentic-awesome-skills",
+      "homepage": "https://aaskills.tech/",
+      "language": "Python",
+      "stars": 47308,
+      "forks": 6889,
+      "openIssues": 5,
+      "topics": [
+        "agent-skills",
+        "agentic-skills",
+        "ai-agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "ai-workflows",
+        "antigravity",
+        "antigravity-skills",
+        "claude-code",
+        "claude-code-skills",
+        "codex-cli",
+        "codex-skills",
+        "cursor",
+        "cursor-skills",
+        "developer-tools",
+        "gemini-cli",
+        "gemini-skills",
+        "kiro",
+        "mcp",
+        "skill-library"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-01-14T17:48:09Z",
+      "updatedAt": "2026-10-07T07:30:51Z",
+      "pushedAt": "2026-10-06T15:21:24Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 476314415,
+      "owner": "AccumulateMore",
+      "name": "CV",
+      "fullName": "AccumulateMore/CV",
+      "description": "✅（已完结）超级全面的 深度学习 笔记【土堆 Pytorch】【李沐 动手学深度学习】【吴恩达 深度学习】【大飞 大模型Agent】",
+      "htmlUrl": "https://github.com/AccumulateMore/CV",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "stars": 23902,
+      "forks": 2658,
+      "openIssues": 26,
+      "topics": [
+        "agent",
+        "agents",
+        "book",
+        "chinese",
+        "computer-vision",
+        "cv",
+        "deep-learning",
+        "jupyter-notebook",
+        "llm",
+        "llms",
+        "machine-learning",
+        "natural-language-processing",
+        "nlp",
+        "notebook",
+        "python",
+        "rag"
+      ],
+      "license": null,
+      "createdAt": "2022-03-31T13:19:32Z",
+      "updatedAt": "2026-10-07T07:29:16Z",
+      "pushedAt": "2026-09-20T00:41:31Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 24217298,
+      "owner": "logisim-evolution",
+      "name": "logisim-evolution",
+      "fullName": "logisim-evolution/logisim-evolution",
+      "description": "Digital logic design tool and simulator",
+      "htmlUrl": "https://github.com/logisim-evolution/logisim-evolution",
+      "homepage": "",
+      "language": "Java",
+      "stars": 7712,
+      "forks": 1024,
+      "openIssues": 120,
+      "topics": [
+        "circuit",
+        "circuits",
+        "digital-circuit",
+        "digital-circuits",
+        "digital-logic",
+        "digital-logic-design",
+        "education",
+        "fpga",
+        "logic",
+        "logisim",
+        "logisim-evolution",
+        "simulator",
+        "timing-diagram",
+        "verilog",
+        "vhdl"
+      ],
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2014-09-19T05:23:24Z",
+      "updatedAt": "2026-10-07T04:50:36Z",
+      "pushedAt": "2026-10-07T03:29:41Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1373687654,
+      "owner": "Mak5er",
+      "name": "AirCard",
+      "fullName": "Mak5er/AirCard",
+      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+      "htmlUrl": "https://github.com/Mak5er/AirCard",
+      "homepage": null,
+      "language": "Swift",
+      "stars": 6283,
+      "forks": 403,
+      "openIssues": 55,
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-16T22:20:15Z",
+      "updatedAt": "2026-10-07T07:29:17Z",
+      "pushedAt": "2026-10-05T19:43:58Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 437944910,
+      "owner": "opensearch-project",
+      "name": "opensearch-k8s-operator",
+      "fullName": "opensearch-project/opensearch-k8s-operator",
+      "description": "OpenSearch Kubernetes Operator",
+      "htmlUrl": "https://github.com/opensearch-project/opensearch-k8s-operator",
+      "homepage": "",
+      "language": "Go",
+      "stars": 584,
+      "forks": 342,
+      "openIssues": 117,
+      "topics": [
+        "autoscaler",
+        "k8s",
+        "kubernetes",
+        "kubernetes-operator",
+        "monitoring",
+        "opensearch",
+        "operator",
+        "upgrades"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-12-13T16:27:39Z",
+      "updatedAt": "2026-10-07T07:35:37Z",
+      "pushedAt": "2026-10-07T07:35:30Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 552661142,
+      "owner": "langchain-ai",
+      "name": "langchain",
+      "fullName": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "htmlUrl": "https://github.com/langchain-ai/langchain",
+      "homepage": "https://docs.langchain.com/langchain/",
+      "language": "Python",
+      "stars": 147519,
+      "forks": 24720,
+      "openIssues": 625,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag",
+        "typescript"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-10-17T02:58:36Z",
+      "updatedAt": "2026-10-07T07:25:28Z",
+      "pushedAt": "2026-10-07T01:55:19Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1166102148,
+      "owner": "DeusData",
+      "name": "codebase-memory-mcp",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "htmlUrl": "https://github.com/DeusData/codebase-memory-mcp",
+      "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
+      "language": "C",
+      "stars": 45927,
+      "forks": 3776,
+      "openIssues": 639,
+      "topics": [
+        "aider",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-intelligence",
+        "codex",
+        "cursor",
+        "cypher",
+        "developer-tools",
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode",
+        "knowledge-graph",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "sqlite",
+        "tree-sitter",
+        "windsurf"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-02-24T22:01:00Z",
+      "updatedAt": "2026-10-07T07:27:34Z",
+      "pushedAt": "2026-10-07T00:33:23Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 384520418,
+      "owner": "MaaAssistantArknights",
+      "name": "MaaAssistantArknights",
+      "fullName": "MaaAssistantArknights/MaaAssistantArknights",
+      "description": "《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.",
+      "htmlUrl": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
+      "homepage": "https://maa.plus",
+      "language": "C++",
+      "stars": 23594,
+      "forks": 2868,
+      "openIssues": 611,
+      "topics": [
+        "arknights",
+        "computer-vision",
+        "maa"
+      ],
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2021-07-09T18:26:38Z",
+      "updatedAt": "2026-10-07T07:16:53Z",
+      "pushedAt": "2026-10-07T06:55:34Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 28681142,
+      "owner": "CTFd",
+      "name": "CTFd",
+      "fullName": "CTFd/CTFd",
+      "description": "CTFs as you need them",
+      "htmlUrl": "https://github.com/CTFd/CTFd",
+      "homepage": "https://ctfd.io",
+      "language": "Python",
+      "stars": 6866,
+      "forks": 2758,
+      "openIssues": 428,
+      "topics": [
+        "ctf",
+        "ctfd",
+        "education",
+        "flask",
+        "security"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-01-01T05:36:55Z",
+      "updatedAt": "2026-10-06T05:59:02Z",
+      "pushedAt": "2026-10-02T19:06:16Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1393965829,
+      "owner": "KKKKhazix",
+      "name": "AIHOT",
+      "fullName": "KKKKhazix/AIHOT",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "htmlUrl": "https://github.com/KKKKhazix/AIHOT",
+      "homepage": "https://aihot.news",
+      "language": "TypeScript",
+      "stars": 6260,
+      "forks": 1559,
+      "openIssues": 3,
+      "topics": [
+        "ai",
+        "chinese",
+        "content-curation",
+        "daily-digest",
+        "docker-compose",
+        "llm",
+        "mcp",
+        "news-aggregator",
+        "postgresql",
+        "rss",
+        "self-hosted",
+        "typescript"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-28T23:40:05Z",
+      "updatedAt": "2026-10-07T07:33:01Z",
+      "pushedAt": "2026-10-07T06:33:10Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 876545970,
+      "owner": "NVIDIA-AI-Blueprints",
+      "name": "video-search-and-summarization",
+      "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
+      "htmlUrl": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "homepage": "https://build.nvidia.com/nvidia/video-search-and-summarization",
+      "language": "Python",
+      "stars": 1911,
+      "forks": 403,
+      "openIssues": 214,
+      "topics": [
+        "computer-vision",
+        "generative-ai",
+        "long-video-understanding",
+        "model-context-protocol",
+        "multimodal-ai",
+        "natural-language-search",
+        "nvidia-nim",
+        "rag",
+        "real-time-video-analytics",
+        "retrieval-augmented-generation",
+        "skills",
+        "video-agent",
+        "video-analytics",
+        "video-rag",
+        "video-search",
+        "video-summarization",
+        "video-understanding",
+        "vision-agent",
+        "vision-language-model",
+        "vlm"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2024-10-22T06:43:05Z",
+      "updatedAt": "2026-10-07T07:35:32Z",
+      "pushedAt": "2026-10-07T07:35:30Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 793375104,
+      "owner": "Shubhamsaboo",
+      "name": "awesome-llm-apps",
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "htmlUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "homepage": "https://www.theunwindai.com",
+      "language": "Python",
+      "stars": 140895,
+      "forks": 20709,
+      "openIssues": 27,
+      "topics": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2024-04-29T05:30:25Z",
+      "updatedAt": "2026-10-07T07:22:58Z",
+      "pushedAt": "2026-09-30T20:31:22Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 204086862,
+      "owner": "streamlit",
+      "name": "streamlit",
+      "fullName": "streamlit/streamlit",
+      "description": "Streamlit — A faster way to build and share data apps.",
+      "htmlUrl": "https://github.com/streamlit/streamlit",
+      "homepage": "https://streamlit.io",
+      "language": "Python",
+      "stars": 45908,
+      "forks": 4407,
+      "openIssues": 1190,
+      "topics": [
+        "data-analysis",
+        "data-science",
+        "data-visualization",
+        "deep-learning",
+        "developer-tools",
+        "machine-learning",
+        "python",
+        "streamlit"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-08-24T00:14:52Z",
+      "updatedAt": "2026-10-07T05:14:21Z",
+      "pushedAt": "2026-10-07T06:57:38Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 30907774,
+      "owner": "spmallick",
+      "name": "learnopencv",
+      "fullName": "spmallick/learnopencv",
+      "description": "Learn OpenCV  : C++ and Python Examples",
+      "htmlUrl": "https://github.com/spmallick/learnopencv",
+      "homepage": "https://www.learnopencv.com/",
+      "language": "Jupyter Notebook",
+      "stars": 23181,
+      "forks": 11659,
+      "openIssues": 220,
+      "topics": [
+        "ai",
+        "computer-vision",
+        "computervision",
+        "deep-learning",
+        "deep-neural-networks",
+        "deeplearning",
+        "machine-learning",
+        "opencv",
+        "opencv-cpp",
+        "opencv-library",
+        "opencv-python",
+        "opencv-tutorial",
+        "opencv3"
+      ],
+      "license": null,
+      "createdAt": "2015-02-17T08:00:51Z",
+      "updatedAt": "2026-10-07T06:11:47Z",
+      "pushedAt": "2026-10-06T18:43:32Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 40687563,
+      "owner": "oppia",
+      "name": "oppia",
+      "fullName": "oppia/oppia",
+      "description": "A free, online learning platform to make quality education accessible for all.",
+      "htmlUrl": "https://github.com/oppia/oppia",
+      "homepage": "https://www.oppia.org",
+      "language": "Python",
+      "stars": 6843,
+      "forks": 5789,
+      "openIssues": 1813,
+      "topics": [
+        "angular",
+        "appengine",
+        "appengine-python",
+        "education",
+        "hacktoberfest",
+        "interactive",
+        "javascript",
+        "learning",
+        "nonprofit",
+        "python",
+        "sdg",
+        "sdg-4",
+        "sdg4",
+        "sdgs",
+        "teaching",
+        "tutor",
+        "tutorials",
+        "typescript",
+        "web"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-08-14T00:16:14Z",
+      "updatedAt": "2026-10-06T23:35:20Z",
+      "pushedAt": "2026-10-07T03:10:00Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1385817306,
+      "owner": "shihabal3amri",
+      "name": "DiPlay",
+      "fullName": "shihabal3amri/DiPlay",
+      "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+      "htmlUrl": "https://github.com/shihabal3amri/DiPlay",
+      "homepage": "https://shihabal3amri.github.io/DiPlay/",
+      "language": "Kotlin",
+      "stars": 5589,
+      "forks": 722,
+      "openIssues": 195,
+      "topics": [],
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2026-09-24T15:36:38Z",
+      "updatedAt": "2026-10-07T07:34:20Z",
+      "pushedAt": "2026-10-07T07:04:39Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 60243197,
+      "owner": "nextcloud",
+      "name": "server",
+      "fullName": "nextcloud/server",
+      "description": "☁️ Nextcloud server, a safe home for all your data",
+      "htmlUrl": "https://github.com/nextcloud/server",
+      "homepage": "https://nextcloud.com",
+      "language": "PHP",
+      "stars": 37017,
+      "forks": 5259,
+      "openIssues": 3726,
+      "topics": [
+        "cloud",
+        "collaboration",
+        "decentralized",
+        "design",
+        "distributed",
+        "enterprise",
+        "federation",
+        "file-sharing",
+        "free-software",
+        "hacktoberfest",
+        "javascript",
+        "nextcloud",
+        "open-source",
+        "opensource",
+        "owncloud",
+        "php",
+        "self-hosting",
+        "sharing",
+        "usability",
+        "ux"
+      ],
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2016-06-02T07:44:14Z",
+      "updatedAt": "2026-10-07T07:35:33Z",
+      "pushedAt": "2026-10-07T07:35:29Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1031912724,
+      "owner": "farion1231",
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "htmlUrl": "https://github.com/farion1231/cc-switch",
+      "homepage": "https://ccswitch.io",
+      "language": "Rust",
+      "stars": 140594,
+      "forks": 9437,
+      "openIssues": 2920,
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "grok",
+        "grokbuild",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "pi",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "wsl-support"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-08-04T14:16:16Z",
+      "updatedAt": "2026-10-07T07:35:55Z",
+      "pushedAt": "2026-10-07T02:52:39Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 164140756,
+      "owner": "files-community",
+      "name": "Files",
+      "fullName": "files-community/Files",
+      "description": "A modern file manager that helps users organize their files and folders.",
+      "htmlUrl": "https://github.com/files-community/Files",
+      "homepage": "https://files.community",
+      "language": "C#",
+      "stars": 45838,
+      "forks": 2952,
+      "openIssues": 462,
+      "topics": [
+        "alternatives",
+        "csharp",
+        "customization",
+        "developer-tools",
+        "dotnet",
+        "file-manager",
+        "files",
+        "fluent",
+        "fluent-design",
+        "git",
+        "good-first-issue",
+        "power-user",
+        "productivity",
+        "utilities",
+        "winappsdk",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "winui",
+        "xaml"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-01-04T18:19:14Z",
+      "updatedAt": "2026-10-07T06:53:13Z",
+      "pushedAt": "2026-10-07T04:25:39Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 250213286,
+      "owner": "huggingface",
+      "name": "datasets",
+      "fullName": "huggingface/datasets",
+      "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+      "htmlUrl": "https://github.com/huggingface/datasets",
+      "homepage": "https://huggingface.co/docs/datasets",
+      "language": "Python",
+      "stars": 22035,
+      "forks": 3502,
+      "openIssues": 1456,
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "computer-vision",
+        "dataset-hub",
+        "datasets",
+        "deep-learning",
+        "huggingface",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "nlp",
+        "numpy",
+        "pandas",
+        "pytorch",
+        "speech",
+        "tensorflow"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-03-26T09:23:22Z",
+      "updatedAt": "2026-10-07T04:52:25Z",
+      "pushedAt": "2026-10-06T09:20:25Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1100973251,
+      "owner": "pshenok",
+      "name": "server-survival",
+      "fullName": "pshenok/server-survival",
+      "description": "Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.",
+      "htmlUrl": "https://github.com/pshenok/server-survival",
+      "homepage": "https://pshenok.github.io/server-survival/",
+      "language": "JavaScript",
+      "stars": 6433,
+      "forks": 710,
+      "openIssues": 21,
+      "topics": [
+        "aws",
+        "cloud",
+        "devops",
+        "education",
+        "game",
+        "javascript",
+        "learning",
+        "open-source",
+        "simulation",
+        "threejs",
+        "tower-defense"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-11-21T02:36:29Z",
+      "updatedAt": "2026-10-06T20:17:12Z",
+      "pushedAt": "2026-10-06T01:28:08Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1383809012,
+      "owner": "yetone",
+      "name": "magpie",
+      "fullName": "yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "htmlUrl": "https://github.com/yetone/magpie",
+      "homepage": "https://usemagpie.ai",
+      "language": "Go",
+      "stars": 5577,
+      "forks": 402,
+      "openIssues": 214,
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-23T16:22:35Z",
+      "updatedAt": "2026-10-07T07:36:01Z",
+      "pushedAt": "2026-10-07T06:51:01Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 981411467,
+      "owner": "Fanju6",
+      "name": "NetProxy-Magisk",
+      "fullName": "Fanju6/NetProxy-Magisk",
+      "description": "Based on the sing-box core, this Android proxy module supports one-click start/stop of transparent proxy and is designed for Android devices.",
+      "htmlUrl": "https://github.com/Fanju6/NetProxy-Magisk",
+      "homepage": "https://t.me/NetProxy_Magisk",
+      "language": "Go",
+      "stars": 1221,
+      "forks": 80,
+      "openIssues": 22,
+      "topics": [
+        "kernelsu-module",
+        "magisk-module",
+        "tproxy"
+      ],
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2025-05-11T03:32:49Z",
+      "updatedAt": "2026-10-07T07:35:29Z",
+      "pushedAt": "2026-10-07T07:35:29Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 965415649,
+      "owner": "openai",
+      "name": "codex",
+      "fullName": "openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "htmlUrl": "https://github.com/openai/codex",
+      "homepage": "",
+      "language": "Rust",
+      "stars": 128104,
+      "forks": 20070,
+      "openIssues": 21050,
+      "topics": [],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-04-13T05:37:54Z",
+      "updatedAt": "2026-10-07T07:33:23Z",
+      "pushedAt": "2026-10-07T06:34:38Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1193909050,
+      "owner": "herdrdev",
+      "name": "herdr",
+      "fullName": "herdrdev/herdr",
+      "description": "the runtime your coding agents live on",
+      "htmlUrl": "https://github.com/herdrdev/herdr",
+      "homepage": "https://herdr.dev",
+      "language": "Rust",
+      "stars": 42708,
+      "forks": 3336,
+      "openIssues": 323,
+      "topics": [
+        "agent",
+        "agent-orchestration",
+        "ai",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "devtools",
+        "multiplexer",
+        "rust",
+        "terminal",
+        "terminal-multiplexer",
+        "terminal-ui",
+        "tmux",
+        "tui",
+        "workspace-manager"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-03-27T17:54:33Z",
+      "updatedAt": "2026-10-07T07:35:18Z",
+      "pushedAt": "2026-10-07T01:53:30Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 817326197,
+      "owner": "screenpipe",
+      "name": "screenpipe",
+      "fullName": "screenpipe/screenpipe",
+      "description": "YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context",
+      "htmlUrl": "https://github.com/screenpipe/screenpipe",
+      "homepage": "https://screenpipe.com",
+      "language": "Rust",
+      "stars": 21840,
+      "forks": 2236,
+      "openIssues": 38,
+      "topics": [
+        "agents",
+        "agi",
+        "ai",
+        "ai-memory",
+        "audio-recording",
+        "computer-vision",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "local-ai",
+        "local-first",
+        "machine-learning",
+        "mcp",
+        "multimodal",
+        "openclaw",
+        "privacy",
+        "rewind",
+        "screen-recording",
+        "speech-to-text",
+        "ycombinator"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2024-06-19T13:23:56Z",
+      "updatedAt": "2026-10-07T07:34:00Z",
+      "pushedAt": "2026-10-07T07:33:56Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 101451042,
+      "owner": "gsantner",
+      "name": "markor",
+      "fullName": "gsantner/markor",
+      "description": "Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..",
+      "htmlUrl": "https://github.com/gsantner/markor",
+      "homepage": "https://github.com/gsantner/markor/discussions/2269",
+      "language": "Java",
+      "stars": 6233,
+      "forks": 539,
+      "openIssues": 202,
+      "topics": [
+        "android-app",
+        "asciidoc",
+        "class",
+        "clipboard",
+        "editor",
+        "education",
+        "hacktoberfest",
+        "markdown",
+        "markdown-editor",
+        "org-mode",
+        "orgmode",
+        "plaintext",
+        "school",
+        "syncthing",
+        "task-list",
+        "todo",
+        "todolist",
+        "todotxt",
+        "university",
+        "zim-wiki"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-08-26T00:08:35Z",
+      "updatedAt": "2026-10-07T07:29:30Z",
+      "pushedAt": "2026-10-03T14:10:45Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1407950271,
+      "owner": "openai",
+      "name": "math",
+      "fullName": "openai/math",
+      "description": null,
+      "htmlUrl": "https://github.com/openai/math",
+      "homepage": null,
+      "language": "Lean",
+      "stars": 5316,
+      "forks": 482,
+      "openIssues": 0,
+      "topics": [],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-10-06T21:47:02Z",
+      "updatedAt": "2026-10-07T07:36:02Z",
+      "pushedAt": "2026-10-06T22:01:11Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1332781509,
+      "owner": "elie222",
+      "name": "rakazo",
+      "fullName": "elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "htmlUrl": "https://github.com/elie222/rakazo",
+      "homepage": "https://rakazo.com",
+      "language": "TypeScript",
+      "stars": 3385,
+      "forks": 597,
+      "openIssues": 41,
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-08-13T06:28:56Z",
+      "updatedAt": "2026-10-07T07:35:32Z",
+      "pushedAt": "2026-10-07T07:35:27Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 1197515131,
+      "owner": "VoltAgent",
+      "name": "awesome-design-md",
+      "fullName": "VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "htmlUrl": "https://github.com/VoltAgent/awesome-design-md",
+      "homepage": "https://getdesign.md/",
+      "language": null,
+      "stars": 119856,
+      "forks": 13358,
+      "openIssues": 313,
+      "topics": [
+        "awesome-list",
+        "design-md",
+        "design-system",
+        "design-tokens",
+        "figma",
+        "google-stitch",
+        "landing-page",
+        "vibe-coding",
+        "vibe-design",
+        "vibecoding"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-31T16:37:01Z",
+      "updatedAt": "2026-10-07T07:32:28Z",
+      "pushedAt": "2026-10-05T07:34:34Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 663900193,
+      "owner": "sxyazi",
+      "name": "yazi",
+      "fullName": "sxyazi/yazi",
+      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "htmlUrl": "https://github.com/sxyazi/yazi",
+      "homepage": "https://yazi-rs.github.io",
+      "language": "Rust",
+      "stars": 42664,
+      "forks": 1040,
+      "openIssues": 66,
+      "topics": [
+        "android",
+        "asyncio",
+        "cli",
+        "command-line",
+        "concurrency",
+        "cross-platform",
+        "developer-tools",
+        "file-explorer",
+        "file-manager",
+        "filesystem",
+        "linux",
+        "macos",
+        "neovim",
+        "productivity",
+        "rust",
+        "terminal",
+        "tui",
+        "vim",
+        "windows"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-07-08T11:45:55Z",
+      "updatedAt": "2026-10-07T07:30:56Z",
+      "pushedAt": "2026-10-05T21:52:36Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 81887991,
+      "owner": "microsoft",
+      "name": "AirSim",
+      "fullName": "microsoft/AirSim",
+      "description": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research",
+      "htmlUrl": "https://github.com/microsoft/AirSim",
+      "homepage": "https://microsoft.github.io/AirSim/",
+      "language": "C++",
+      "stars": 18537,
+      "forks": 4929,
+      "openIssues": 781,
+      "topics": [
+        "ai",
+        "airsim",
+        "artificial-intelligence",
+        "autonomous-quadcoptor",
+        "autonomous-vehicles",
+        "computer-vision",
+        "control-systems",
+        "cross-platform",
+        "deep-reinforcement-learning",
+        "deeplearning",
+        "drones",
+        "pixhawk",
+        "platform-independent",
+        "research",
+        "self-driving-car",
+        "simulator",
+        "unreal-engine"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-02-14T00:52:29Z",
+      "updatedAt": "2026-10-07T06:12:21Z",
+      "pushedAt": "2026-09-15T16:17:06Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "githubId": 62161750,
+      "owner": "hneemann",
+      "name": "Digital",
+      "fullName": "hneemann/Digital",
+      "description": "A digital logic designer and circuit simulator.",
+      "htmlUrl": "https://github.com/hneemann/Digital",
+      "homepage": "",
+      "language": "Java",
+      "stars": 6061,
+      "forks": 606,
+      "openIssues": 200,
+      "topics": [
+        "circuit",
+        "digital-circuits",
+        "education",
+        "logic",
+        "logic-gates",
+        "logisim",
+        "simulator"
+      ],
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-06-28T17:40:16Z",
+      "updatedAt": "2026-10-07T06:57:31Z",
+      "pushedAt": "2026-10-01T10:03:15Z",
+      "archived": false,
+      "fork": false
+    }
+  ],
+  "metrics": {
+    "1864194": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 10889
+        }
+      ]
+    },
+    "5108051": {
+      "growth": {
+        "day": {
+          "delta": 12,
+          "rate": 0.00013175519884055424,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 91078,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 35,
+      "hotComponents": {
+        "absolute24h": 0.3125,
+        "relative24h": 0.1625,
+        "absolute7d": null,
+        "activity": 0.9998337206790123
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 91073
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 91078
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 91090
+        }
+      ]
+    },
+    "7716883": {
+      "growth": {
+        "day": {
+          "delta": 13,
+          "rate": 0.0010887772194304857,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 11940,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 50,
+      "hotComponents": {
+        "absolute24h": 0.33125,
+        "relative24h": 0.6,
+        "absolute7d": null,
+        "activity": 0.9994309429012346
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 11939
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 11940
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 11953
+        }
+      ]
+    },
+    "8424040": {
+      "growth": {
+        "day": {
+          "delta": 8,
+          "rate": 0.00033215694415611376,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 24085,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 36,
+      "hotComponents": {
+        "absolute24h": 0.21875,
+        "relative24h": 0.375,
+        "absolute7d": null,
+        "activity": 0.9760806342592593
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 24081
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 24085
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 24093
+        }
+      ]
+    },
+    "9746477": {
+      "growth": {
+        "day": {
+          "delta": 3,
+          "rate": 0.0002463661000246366,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 12177,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 28,
+      "hotComponents": {
+        "absolute24h": 0.11875,
+        "relative24h": 0.3,
+        "absolute7d": null,
+        "activity": 0.9847002330246913
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 12176
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 12177
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 12180
+        }
+      ]
+    },
+    "9852918": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 55494
+        }
+      ]
+    },
+    "13491895": {
+      "growth": {
+        "day": {
+          "delta": 65,
+          "rate": 0.00016309038720167004,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 398552,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 51,
+      "hotComponents": {
+        "absolute24h": 0.5625,
+        "relative24h": 0.2375,
+        "absolute7d": null,
+        "activity": 0.9470470694444444
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 398503
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 398552
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 398617
+        }
+      ]
+    },
+    "24217298": {
+      "growth": {
+        "day": {
+          "delta": 6,
+          "rate": 0.0007786140669608098,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 7706,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 39,
+      "hotComponents": {
+        "absolute24h": 0.1875,
+        "relative24h": 0.5125,
+        "absolute7d": null,
+        "activity": 0.9942943688271605
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 7705
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 7706
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 7712
+        }
+      ]
+    },
+    "26193547": {
+      "growth": {
+        "day": {
+          "delta": 0,
+          "rate": 0,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 750,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 12,
+      "hotComponents": {
+        "absolute24h": 0,
+        "relative24h": 0,
+        "absolute7d": null,
+        "activity": 0.9999922854938271
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 749
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 750
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 750
+        }
+      ]
+    },
+    "28457823": {
+      "growth": {
+        "day": {
+          "delta": 67,
+          "rate": 0.00014666897250722948,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 456811,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 51,
+      "hotComponents": {
+        "absolute24h": 0.58125,
+        "relative24h": 0.2,
+        "absolute7d": null,
+        "activity": 0.9998491527777777
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 456770
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 456811
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 456878
+        }
+      ]
+    },
+    "28681142": {
+      "growth": {
+        "day": {
+          "delta": 1,
+          "rate": 0.0001456664238892935,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6865,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 19,
+      "hotComponents": {
+        "absolute24h": 0.05,
+        "relative24h": 0.175,
+        "absolute7d": null,
+        "activity": 0.8493078719135803
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 6863
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6865
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6866
+        }
+      ]
+    },
+    "30907774": {
+      "growth": {
+        "day": {
+          "delta": -2,
+          "rate": -0.00008627011171979468,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 23183,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 12,
+      "hotComponents": {
+        "absolute24h": 0,
+        "relative24h": 0,
+        "absolute7d": null,
+        "activity": 0.9821149706790123
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 23181
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 23183
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 23181
+        }
+      ]
+    },
+    "31168578": {
+      "growth": {
+        "day": {
+          "delta": 3,
+          "rate": 0.0001601965077161318,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 18727,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 25,
+      "hotComponents": {
+        "absolute24h": 0.11875,
+        "relative24h": 0.225,
+        "absolute7d": null,
+        "activity": 0.8970451404320987
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 18726
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 18727
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 18730
+        }
+      ]
+    },
+    "40687563": {
+      "growth": {
+        "day": {
+          "delta": 1,
+          "rate": 0.00014615609470914936,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6842,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 21,
+      "hotComponents": {
+        "absolute24h": 0.05,
+        "relative24h": 0.1875,
+        "absolute7d": null,
+        "activity": 0.9938387361111111
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 6843
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6842
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6843
+        }
+      ]
+    },
+    "60243197": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 37017
+        }
+      ]
+    },
+    "62161750": {
+      "growth": {
+        "day": {
+          "delta": 3,
+          "rate": 0.0004952129415648729,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6058,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 30,
+      "hotComponents": {
+        "absolute24h": 0.11875,
+        "relative24h": 0.425,
+        "absolute7d": null,
+        "activity": 0.8034047083333333
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 6056
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6058
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6061
+        }
+      ]
+    },
+    "63476337": {
+      "growth": {
+        "day": {
+          "delta": 20,
+          "rate": 0.00008879141564593535,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 225247,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 39,
+      "hotComponents": {
+        "absolute24h": 0.425,
+        "relative24h": 0.075,
+        "absolute7d": null,
+        "activity": 0.9802407422839506
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 225243
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 225247
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 225267
+        }
+      ]
+    },
+    "65600975": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 103818
+        }
+      ]
+    },
+    "71583602": {
+      "growth": {
+        "day": {
+          "delta": 10,
+          "rate": 0.00011958432488669385,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 83623,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 33,
+      "hotComponents": {
+        "absolute24h": 0.29375,
+        "relative24h": 0.15,
+        "absolute7d": null,
+        "activity": 0.9628036280864197
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 83614
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 83623
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 83633
+        }
+      ]
+    },
+    "81887991": {
+      "growth": {
+        "day": {
+          "delta": 2,
+          "rate": 0.00010790396547073105,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 18535,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 12,
+      "hotComponents": {
+        "absolute24h": 0.08125,
+        "relative24h": 0.125,
+        "absolute7d": null,
+        "activity": 0.2787253101851852
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 18534
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 18535
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 18537
+        }
+      ]
+    },
+    "90796663": {
+      "growth": {
+        "day": {
+          "delta": 9,
+          "rate": 0.00009408616201637099,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 95657,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 30,
+      "hotComponents": {
+        "absolute24h": 0.25625,
+        "relative24h": 0.1125,
+        "absolute7d": null,
+        "activity": 0.9981890447530865
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 95655
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 95657
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 95666
+        }
+      ]
+    },
+    "101451042": {
+      "growth": {
+        "day": {
+          "delta": 9,
+          "rate": 0.0014460154241645244,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6224,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 46,
+      "hotComponents": {
+        "absolute24h": 0.25625,
+        "relative24h": 0.6625,
+        "absolute7d": null,
+        "activity": 0.8758005416666667
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 6220
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6224
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6233
+        }
+      ]
+    },
+    "112507086": {
+      "growth": {
+        "day": {
+          "delta": 5,
+          "rate": 0.00003866318182521149,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 129322,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 21,
+      "hotComponents": {
+        "absolute24h": 0.16875,
+        "relative24h": 0.0375,
+        "absolute7d": null,
+        "activity": 0.8245767762345679
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 129316
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 129322
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 129327
+        }
+      ]
+    },
+    "164140756": {
+      "growth": {
+        "day": {
+          "delta": 10,
+          "rate": 0.00021820720956620406,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 45828,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 37,
+      "hotComponents": {
+        "absolute24h": 0.29375,
+        "relative24h": 0.2625,
+        "absolute7d": null,
+        "activity": 0.9955898935185186
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 45823
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 45828
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 45838
+        }
+      ]
+    },
+    "191820100": {
+      "growth": {
+        "day": {
+          "delta": 9,
+          "rate": 0.00024214377959535084,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 37168,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 36,
+      "hotComponents": {
+        "absolute24h": 0.25625,
+        "relative24h": 0.2875,
+        "absolute7d": null,
+        "activity": 0.9906404336419753
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 37166
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 37168
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 37177
+        }
+      ]
+    },
+    "192640529": {
+      "growth": {
+        "day": {
+          "delta": 8,
+          "rate": 0.0002816802225273758,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 28401,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 35,
+      "hotComponents": {
+        "absolute24h": 0.21875,
+        "relative24h": 0.3375,
+        "absolute7d": null,
+        "activity": 0.9981388904320988
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 28399
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 28401
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 28409
+        }
+      ]
+    },
+    "203587744": {
+      "growth": {
+        "day": {
+          "delta": 14,
+          "rate": 0.00017376625955714428,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 80568,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 40,
+      "hotComponents": {
+        "absolute24h": 0.35,
+        "relative24h": 0.25,
+        "absolute7d": null,
+        "activity": 0.9974594922839506
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 80564
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 80568
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 80582
+        }
+      ]
+    },
+    "204086862": {
+      "growth": {
+        "day": {
+          "delta": 5,
+          "rate": 0.00010892534257020238,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 45903,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 26,
+      "hotComponents": {
+        "absolute24h": 0.16875,
+        "relative24h": 0.1375,
+        "absolute7d": null,
+        "activity": 0.9991080262345678
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 45896
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 45903
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 45908
+        }
+      ]
+    },
+    "250213286": {
+      "growth": {
+        "day": {
+          "delta": 2,
+          "rate": 0.00009077293151182318,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 22033,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 19,
+      "hotComponents": {
+        "absolute24h": 0.08125,
+        "relative24h": 0.0875,
+        "absolute7d": null,
+        "activity": 0.969079862654321
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 22029
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 22033
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 22035
+        }
+      ]
+    },
+    "264818686": {
+      "growth": {
+        "day": {
+          "delta": 3,
+          "rate": 0.0000516288915276989,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 58107,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 21,
+      "hotComponents": {
+        "absolute24h": 0.11875,
+        "relative24h": 0.05,
+        "absolute7d": null,
+        "activity": 0.9808456805555555
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 58106
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 58107
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 58110
+        }
+      ]
+    },
+    "279310322": {
+      "growth": {
+        "day": {
+          "delta": 1,
+          "rate": 0.00006559527714004592,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 15245,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 5,
+      "hotComponents": {
+        "absolute24h": 0.05,
+        "relative24h": 0.0625,
+        "absolute7d": null,
+        "activity": 0.017503859567901237
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 15243
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 15245
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 15246
+        }
+      ]
+    },
+    "282944472": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 1391
+        }
+      ]
+    },
+    "300996055": {
+      "growth": {
+        "day": {
+          "delta": 4,
+          "rate": 0.00015665387326701654,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 25534,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 21,
+      "hotComponents": {
+        "absolute24h": 0.15,
+        "relative24h": 0.2125,
+        "absolute7d": null,
+        "activity": 0.44646836574074067
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 25532
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 25534
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 25538
+        }
+      ]
+    },
+    "311525798": {
+      "growth": {
+        "day": {
+          "delta": 9,
+          "rate": 0.00009287829846957204,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 96901,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 28,
+      "hotComponents": {
+        "absolute24h": 0.25625,
+        "relative24h": 0.1,
+        "absolute7d": null,
+        "activity": 0.8079722237654321
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 96894
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 96901
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 96910
+        }
+      ]
+    },
+    "326174741": {
+      "growth": {
+        "day": {
+          "delta": 17,
+          "rate": 0.00045806051787783257,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 37113,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 43,
+      "hotComponents": {
+        "absolute24h": 0.39375,
+        "relative24h": 0.4125,
+        "absolute7d": null,
+        "activity": 0.6238105725308642
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 37106
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 37113
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 37130
+        }
+      ]
+    },
+    "343965132": {
+      "growth": {
+        "day": {
+          "delta": 26,
+          "rate": 0.0002848316206919217,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 91282,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 40,
+      "hotComponents": {
+        "absolute24h": 0.45,
+        "relative24h": 0.35,
+        "absolute7d": null,
+        "activity": 0.2637380416666667
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 91272
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 91282
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 91308
+        }
+      ]
+    },
+    "344190478": {
+      "growth": {
+        "day": {
+          "delta": 42,
+          "rate": 0.0006045514084608409,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 69473,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 48,
+      "hotComponents": {
+        "absolute24h": 0.525,
+        "relative24h": 0.4625,
+        "absolute7d": null,
+        "activity": 0.31763348919753087
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 69457
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 69473
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 69515
+        }
+      ]
+    },
+    "384520418": {
+      "growth": {
+        "day": {
+          "delta": 16,
+          "rate": 0.0006785986936975147,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 23578,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 48,
+      "hotComponents": {
+        "absolute24h": 0.36875,
+        "relative24h": 0.475,
+        "absolute7d": null,
+        "activity": 0.999060186728395
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 23575
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 23578
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 23594
+        }
+      ]
+    },
+    "437944910": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 584
+        }
+      ]
+    },
+    "476314415": {
+      "growth": {
+        "day": {
+          "delta": 7,
+          "rate": 0.0002929483155471856,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 23895,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 28,
+      "hotComponents": {
+        "absolute24h": 0.2,
+        "relative24h": 0.3625,
+        "absolute7d": null,
+        "activity": 0.4237349552469136
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 23888
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 23895
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 23902
+        }
+      ]
+    },
+    "491539517": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 1134
+        }
+      ]
+    },
+    "535360445": {
+      "growth": {
+        "day": {
+          "delta": 26,
+          "rate": 0.0004178116312330264,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 62229,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 50,
+      "hotComponents": {
+        "absolute24h": 0.45,
+        "relative24h": 0.4,
+        "absolute7d": null,
+        "activity": 0.9977357268518519
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 62213
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 62229
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 62255
+        }
+      ]
+    },
+    "542284380": {
+      "growth": {
+        "day": {
+          "delta": 18,
+          "rate": 0.00038009164431868574,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 47357,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 48,
+      "hotComponents": {
+        "absolute24h": 0.4125,
+        "relative24h": 0.3875,
+        "absolute7d": null,
+        "activity": 0.9970397391975309
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 47344
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 47357
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 47375
+        }
+      ]
+    },
+    "552661142": {
+      "growth": {
+        "day": {
+          "delta": 41,
+          "rate": 0.00027800756723036656,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 147478,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 51,
+      "hotComponents": {
+        "absolute24h": 0.5125,
+        "relative24h": 0.325,
+        "absolute7d": null,
+        "activity": 0.9921099552469136
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 147460
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 147478
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 147519
+        }
+      ]
+    },
+    "571613891": {
+      "growth": {
+        "day": {
+          "delta": 13,
+          "rate": 0.00025424889010580666,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 51131,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 41,
+      "hotComponents": {
+        "absolute24h": 0.33125,
+        "relative24h": 0.3125,
+        "absolute7d": null,
+        "activity": 0.9993804027777777
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 51126
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 51131
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 51144
+        }
+      ]
+    },
+    "599320067": {
+      "growth": {
+        "day": {
+          "delta": 36,
+          "rate": 0.0002314844583906686,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 155518,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 49,
+      "hotComponents": {
+        "absolute24h": 0.5,
+        "relative24h": 0.275,
+        "absolute7d": null,
+        "activity": 0.999389662037037
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 155502
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 155518
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 155554
+        }
+      ]
+    },
+    "626805178": {
+      "growth": {
+        "day": {
+          "delta": 80,
+          "rate": 0.0005066305270224057,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 157906,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 61,
+      "hotComponents": {
+        "absolute24h": 0.6125,
+        "relative24h": 0.4375,
+        "absolute7d": null,
+        "activity": 0.9971732268518518
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 157866
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 157906
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 157986
+        }
+      ]
+    },
+    "634043200": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 29929
+        }
+      ]
+    },
+    "663900193": {
+      "growth": {
+        "day": {
+          "delta": 29,
+          "rate": 0.0006801923302451038,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 42635,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 54,
+      "hotComponents": {
+        "absolute24h": 0.475,
+        "relative24h": 0.4875,
+        "absolute7d": null,
+        "activity": 0.9531581805555556
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 42622
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 42635
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 42664
+        }
+      ]
+    },
+    "771302083": {
+      "growth": {
+        "day": {
+          "delta": 79,
+          "rate": 0.0008771735026981413,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 90062,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 63,
+      "hotComponents": {
+        "absolute24h": 0.6,
+        "relative24h": 0.55,
+        "absolute7d": null,
+        "activity": 0.9986693688271605
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 90015
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 90062
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 90141
+        }
+      ]
+    },
+    "787076358": {
+      "growth": {
+        "day": {
+          "delta": 334,
+          "rate": 0.0017677101802111726,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 188945,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 80,
+      "hotComponents": {
+        "absolute24h": 0.8125,
+        "relative24h": 0.6875,
+        "absolute7d": null,
+        "activity": 0.9996936743827161
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 188739
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 188945
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 189279
+        }
+      ]
+    },
+    "793375104": {
+      "growth": {
+        "day": {
+          "delta": 96,
+          "rate": 0.0006818230243112523,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 140799,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 62,
+      "hotComponents": {
+        "absolute24h": 0.65,
+        "relative24h": 0.5,
+        "absolute7d": null,
+        "activity": 0.7846111126543209
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 140743
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 140799
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 140895
+        }
+      ]
+    },
+    "817326197": {
+      "growth": {
+        "day": {
+          "delta": 17,
+          "rate": 0.0007789946386839573,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 21823,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 51,
+      "hotComponents": {
+        "absolute24h": 0.39375,
+        "relative24h": 0.525,
+        "absolute7d": null,
+        "activity": 0.9999483040123457
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 21815
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 21823
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 21840
+        }
+      ]
+    },
+    "876545970": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 1911
+        }
+      ]
+    },
+    "937253475": {
+      "growth": {
+        "day": {
+          "delta": 137,
+          "rate": 0.0009161918519112966,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 149532,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 69,
+      "hotComponents": {
+        "absolute24h": 0.7,
+        "relative24h": 0.5625,
+        "absolute7d": null,
+        "activity": 0.9897638904320988
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 149456
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 149532
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 149669
+        }
+      ]
+    },
+    "965415649": {
+      "growth": {
+        "day": {
+          "delta": 140,
+          "rate": 0.0010940577037291737,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 127964,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 72,
+      "hotComponents": {
+        "absolute24h": 0.7125,
+        "relative24h": 0.6125,
+        "absolute7d": null,
+        "activity": 0.9985756188271605
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 127896
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 127964
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 128104
+        }
+      ]
+    },
+    "975734319": {
+      "growth": {
+        "day": {
+          "delta": 197,
+          "rate": 0.0009297013629327595,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 211896,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 73,
+      "hotComponents": {
+        "absolute24h": 0.75,
+        "relative24h": 0.575,
+        "absolute7d": null,
+        "activity": 0.9994745385802469
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 211807
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 211896
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 212093
+        }
+      ]
+    },
+    "981411467": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 1221
+        }
+      ]
+    },
+    "1024554267": {
+      "growth": {
+        "day": {
+          "delta": 305,
+          "rate": 0.0012128972735659974,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 251464,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 77,
+      "hotComponents": {
+        "absolute24h": 0.8,
+        "relative24h": 0.625,
+        "absolute7d": null,
+        "activity": 0.9999645077160494
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 251298
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 251464
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 251769
+        }
+      ]
+    },
+    "1031912724": {
+      "growth": {
+        "day": {
+          "delta": 301,
+          "rate": 0.002145509754585047,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 140293,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 79,
+      "hotComponents": {
+        "absolute24h": 0.7875,
+        "relative24h": 0.7125,
+        "absolute7d": null,
+        "activity": 0.9934371157407408
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 140155
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 140293
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 140594
+        }
+      ]
+    },
+    "1061953414": {
+      "growth": {
+        "day": {
+          "delta": 171,
+          "rate": 0.0009510620192548345,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 179799,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 72,
+      "hotComponents": {
+        "absolute24h": 0.7375,
+        "relative24h": 0.5875,
+        "absolute7d": null,
+        "activity": 0.9419116527777778
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 179709
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 179799
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 179970
+        }
+      ]
+    },
+    "1073224795": {
+      "growth": {
+        "day": {
+          "delta": 438,
+          "rate": 0.0014813512087555297,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 295676,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 81,
+      "hotComponents": {
+        "absolute24h": 0.85,
+        "relative24h": 0.675,
+        "absolute7d": null,
+        "activity": 0.9893915910493827
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 295431
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 295676
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 296114
+        }
+      ]
+    },
+    "1075372545": {
+      "growth": {
+        "day": {
+          "delta": 690,
+          "rate": 0.004386160075772505,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 157313,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 87,
+      "hotComponents": {
+        "absolute24h": 0.9,
+        "relative24h": 0.775,
+        "absolute7d": null,
+        "activity": 0.9809679799382716
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 156908
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 157313
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 158003
+        }
+      ]
+    },
+    "1078079172": {
+      "growth": {
+        "day": {
+          "delta": 67,
+          "rate": 0.0008751649098057657,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 76557,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 54,
+      "hotComponents": {
+        "absolute24h": 0.58125,
+        "relative24h": 0.5375,
+        "absolute7d": null,
+        "activity": 0.3662040910493827
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 76522
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 76557
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 76624
+        }
+      ]
+    },
+    "1091890109": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 1058
+        }
+      ]
+    },
+    "1100973251": {
+      "growth": {
+        "day": {
+          "delta": 0,
+          "rate": 0,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6433,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 12,
+      "hotComponents": {
+        "absolute24h": 0,
+        "relative24h": 0,
+        "absolute7d": null,
+        "activity": 0.9581473780864197
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 6432
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6433
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6433
+        }
+      ]
+    },
+    "1103012935": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 391414
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 391530
+        }
+      ]
+    },
+    "1134426800": {
+      "growth": {
+        "day": {
+          "delta": 26,
+          "rate": 0.0005498921365424474,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 47282,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 52,
+      "hotComponents": {
+        "absolute24h": 0.45,
+        "relative24h": 0.45,
+        "absolute7d": null,
+        "activity": 0.9774359583333333
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 47261
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 47282
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 47308
+        }
+      ]
+    },
+    "1136590548": {
+      "growth": {
+        "day": {
+          "delta": 746,
+          "rate": 0.002725651818075529,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 273696,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 86,
+      "hotComponents": {
+        "absolute24h": 0.9125,
+        "relative24h": 0.7375,
+        "absolute7d": null,
+        "activity": 0.9296087978395062
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 273242
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 273696
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 274442
+        }
+      ]
+    },
+    "1139971460": {
+      "growth": {
+        "day": {
+          "delta": 116,
+          "rate": 0.001406674427629026,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 82464,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 71,
+      "hotComponents": {
+        "absolute24h": 0.6875,
+        "relative24h": 0.65,
+        "absolute7d": null,
+        "activity": 0.9995493842592592
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 82404
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 82464
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 82580
+        }
+      ]
+    },
+    "1148788086": {
+      "growth": {
+        "day": {
+          "delta": 1367,
+          "rate": 0.004932507279687957,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 277141,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 91,
+      "hotComponents": {
+        "absolute24h": 0.9625,
+        "relative24h": 0.7875,
+        "absolute7d": null,
+        "activity": 0.9825987669753087
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 276537
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 277141
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 278508
+        }
+      ]
+    },
+    "1157171418": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 22594
+        }
+      ]
+    },
+    "1166102148": {
+      "growth": {
+        "day": {
+          "delta": 86,
+          "rate": 0.0018760498243930105,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 45841,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 70,
+      "hotComponents": {
+        "absolute24h": 0.6375,
+        "relative24h": 0.7,
+        "absolute7d": null,
+        "activity": 0.990213350308642
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 45804
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 45841
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 45927
+        }
+      ]
+    },
+    "1185590488": {
+      "growth": {
+        "day": {
+          "delta": 603,
+          "rate": 0.00930584277292509,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 64798,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 88,
+      "hotComponents": {
+        "absolute24h": 0.8625,
+        "relative24h": 0.875,
+        "absolute7d": null,
+        "activity": 0.9828750015432098
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 64208
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 64798
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 65401
+        }
+      ]
+    },
+    "1193909050": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 42708
+        }
+      ]
+    },
+    "1197515131": {
+      "growth": {
+        "day": {
+          "delta": 163,
+          "rate": 0.0013618173159666814,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 119693,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 72,
+      "hotComponents": {
+        "absolute24h": 0.725,
+        "relative24h": 0.6375,
+        "absolute7d": null,
+        "activity": 0.9332962978395062
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 119606
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 119693
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 119856
+        }
+      ]
+    },
+    "1200597263": {
+      "growth": {
+        "day": {
+          "delta": 400,
+          "rate": 0.0032239085054766147,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 124073,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 82,
+      "hotComponents": {
+        "absolute24h": 0.825,
+        "relative24h": 0.75,
+        "absolute7d": null,
+        "activity": 0.9886844151234568
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 123906
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 124073
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 124473
+        }
+      ]
+    },
+    "1205013299": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 2826
+        }
+      ]
+    },
+    "1211139949": {
+      "growth": {
+        "day": {
+          "delta": 668,
+          "rate": 0.008546133770022005,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 78164,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 89,
+      "hotComponents": {
+        "absolute24h": 0.8875,
+        "relative24h": 0.85,
+        "absolute7d": null,
+        "activity": 0.9999984583333333
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 77771
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 78164
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 78832
+        }
+      ]
+    },
+    "1238120057": {
+      "growth": {
+        "day": {
+          "delta": 618,
+          "rate": 0.011452715850336354,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 53961,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 89,
+      "hotComponents": {
+        "absolute24h": 0.875,
+        "relative24h": 0.8875,
+        "absolute7d": null,
+        "activity": 0.9886018533950617
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 53768
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 53961
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 54579
+        }
+      ]
+    },
+    "1266797999": {
+      "growth": {
+        "day": {
+          "delta": 1014,
+          "rate": 0.0064984170522565015,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 156038,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 91,
+      "hotComponents": {
+        "absolute24h": 0.95,
+        "relative24h": 0.825,
+        "absolute7d": null,
+        "activity": 0.9516315601851851
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 155445
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 156038
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 157052
+        }
+      ]
+    },
+    "1302093382": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 553
+        }
+      ]
+    },
+    "1332781509": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 3385
+        }
+      ]
+    },
+    "1359648985": {
+      "growth": {
+        "day": {
+          "delta": 4303,
+          "rate": 0.09852543847598114,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 43674,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 98,
+      "hotComponents": {
+        "absolute24h": 1,
+        "relative24h": 0.95,
+        "absolute7d": null,
+        "activity": 0.9934139675925926
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 42139
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 43674
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 47977
+        }
+      ]
+    },
+    "1373614120": {
+      "growth": {
+        "day": {
+          "delta": 1636,
+          "rate": 0.1954599761051374,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 8370,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 96,
+      "hotComponents": {
+        "absolute24h": 0.975,
+        "relative24h": 1,
+        "absolute7d": null,
+        "activity": 0.7529355725308642
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 7870
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 8370
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 10006
+        }
+      ]
+    },
+    "1373655162": {
+      "growth": {
+        "day": {
+          "delta": 115,
+          "rate": 0.005201031160960608,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 22111,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 72,
+      "hotComponents": {
+        "absolute24h": 0.675,
+        "relative24h": 0.8,
+        "absolute7d": null,
+        "activity": 0.7580663595679012
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 22034
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 22111
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 22226
+        }
+      ]
+    },
+    "1373687654": {
+      "growth": {
+        "day": {
+          "delta": 85,
+          "rate": 0.013714101323007422,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6198,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 76,
+      "hotComponents": {
+        "absolute24h": 0.625,
+        "relative24h": 0.9125,
+        "absolute7d": null,
+        "activity": 0.9501805570987655
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 6109
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6198
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6283
+        }
+      ]
+    },
+    "1374005005": {
+      "growth": {
+        "day": {
+          "delta": 32,
+          "rate": 0.004310925501818672,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 7423,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 56,
+      "hotComponents": {
+        "absolute24h": 0.4875,
+        "relative24h": 0.7625,
+        "absolute7d": null,
+        "activity": 0.36271643672839504
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 7400
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 7423
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 7455
+        }
+      ]
+    },
+    "1375069862": {
+      "growth": {
+        "day": {
+          "delta": 106,
+          "rate": 0.01244277497358845,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 8519,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 78,
+      "hotComponents": {
+        "absolute24h": 0.6625,
+        "relative24h": 0.9,
+        "absolute7d": null,
+        "activity": 0.9806439058641976
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 8464
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 8519
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 8625
+        }
+      ]
+    },
+    "1375382253": {
+      "growth": {
+        "day": {
+          "delta": 283,
+          "rate": 0.00913256744546276,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 30988,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 82,
+      "hotComponents": {
+        "absolute24h": 0.775,
+        "relative24h": 0.8625,
+        "absolute7d": null,
+        "activity": 0.9472341836419753
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 30808
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 30988
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 31271
+        }
+      ]
+    },
+    "1375997079": {
+      "growth": {
+        "day": {
+          "delta": 1005,
+          "rate": 0.12932698494402264,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 7771,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 95,
+      "hotComponents": {
+        "absolute24h": 0.9375,
+        "relative24h": 0.9625,
+        "absolute7d": null,
+        "activity": 0.9909502330246913
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 7566
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 7771
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 8776
+        }
+      ]
+    },
+    "1377211520": {
+      "growth": {
+        "day": {
+          "delta": 16,
+          "rate": 0.0023591860808021233,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6782,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 54,
+      "hotComponents": {
+        "absolute24h": 0.36875,
+        "relative24h": 0.725,
+        "absolute7d": null,
+        "activity": 0.8273560972222223
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 6768
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6782
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6798
+        }
+      ]
+    },
+    "1378288598": {
+      "growth": {
+        "day": {
+          "delta": 45,
+          "rate": 0.0060475742507727455,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 7441,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 65,
+      "hotComponents": {
+        "absolute24h": 0.5375,
+        "relative24h": 0.8125,
+        "absolute7d": null,
+        "activity": 0.7368225324074074
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 7418
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 7441
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 7486
+        }
+      ]
+    },
+    "1379574728": {
+      "growth": {
+        "day": {
+          "delta": 48,
+          "rate": 0.006519081895966318,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 7363,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 69,
+      "hotComponents": {
+        "absolute24h": 0.55,
+        "relative24h": 0.8375,
+        "absolute7d": null,
+        "activity": 0.9773757731481482
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 7350
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 7363
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 7411
+        }
+      ]
+    },
+    "1383809012": {
+      "growth": {
+        "day": {
+          "delta": 403,
+          "rate": 0.07788944723618091,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 5174,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 89,
+      "hotComponents": {
+        "absolute24h": 0.8375,
+        "relative24h": 0.9375,
+        "absolute7d": null,
+        "activity": 0.998954862654321
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 5006
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 5174
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 5577
+        }
+      ]
+    },
+    "1385817306": {
+      "growth": {
+        "day": {
+          "delta": 832,
+          "rate": 0.17490014715156613,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 4757,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 95,
+      "hotComponents": {
+        "absolute24h": 0.925,
+        "relative24h": 0.9875,
+        "absolute7d": null,
+        "activity": 0.999270449074074
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 4320
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 4757
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 5589
+        }
+      ]
+    },
+    "1385946301": {
+      "growth": {
+        "day": {
+          "delta": 2111,
+          "rate": 0.15009954493742889,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 14064,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 98,
+      "hotComponents": {
+        "absolute24h": 0.9875,
+        "relative24h": 0.975,
+        "absolute7d": null,
+        "activity": 0.9698476095679013
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 12320
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 14064
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 16175
+        }
+      ]
+    },
+    "1393965829": {
+      "growth": {
+        "day": {
+          "delta": 249,
+          "rate": 0.04142405589752121,
+          "baselineCapturedAt": "2026-10-06T02:43:47.227Z",
+          "baselineStars": 6011,
+          "actualWindowHours": 28.872991388888888
+        },
+        "week": null,
+        "month": null
+      },
+      "hotScore": 84,
+      "hotComponents": {
+        "absolute24h": 0.7625,
+        "relative24h": 0.925,
+        "absolute7d": null,
+        "activity": 0.9985416682098766
+      },
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-05T10:27:41.996Z",
+          "stars": 5891
+        },
+        {
+          "capturedAt": "2026-10-06T02:43:47.227Z",
+          "stars": 6011
+        },
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 6260
+        }
+      ]
+    },
+    "1398080271": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 10271
+        }
+      ]
+    },
+    "1407950271": {
+      "growth": {
+        "day": null,
+        "week": null,
+        "month": null
+      },
+      "hotScore": null,
+      "hotComponents": null,
+      "snapshots": [
+        {
+          "capturedAt": "2026-10-07T07:36:09.996Z",
+          "stars": 5316
+        }
+      ]
+    }
+  }
+}
