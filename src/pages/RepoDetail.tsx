@@ -9,6 +9,9 @@ import { TranslationControl } from '../components/TranslationControl'
 import { EmptyState } from '../components/EmptyState'
 import { DataSourceStatus } from '../components/DataSourceStatus'
 import { RepoCardSkeleton } from '../components/RepoCardSkeleton'
+import { EvaluationPanel } from '../components/EvaluationPanel'
+import { evaluateRepo } from '../services/evaluation/evaluateRepo'
+import { getIdeaTemplate } from '../services/evaluation/ideaTemplates'
 import type { Rating, Repo } from '../types/repo'
 
 function RatingRow({ label, value }: { label: string; value: Rating }) {
@@ -40,12 +43,14 @@ function ProjectOverview({ repo }: { repo: Repo }) {
 export function RepoDetail() {
   const { id } = useParams()
   const location = useLocation()
-  const { repos, loading, error, source, status, fallbackReason } = useRepos()
+  const { repos, loading, error, source, status, fallbackReason, generatedAt } = useRepos()
   const repo = repos.find((item) => item.id === id)
   const from: unknown = location.state?.from
   const backTo = typeof from === 'string' && (from === '/' || from.startsWith('/?')) ? from : '/'
   const analysis = repo?.radar.analysis
   const github = repo?.github
+  const evaluation = repo ? repo.radar.evaluation ?? evaluateRepo(repo, generatedAt ?? new Date().toISOString()) : null
+  const template = getIdeaTemplate(evaluation?.kind ?? 'unknown')
 
   return <main id="main-content" tabIndex={-1} className="container detail-page">
     <Link className="back-link" to={backTo}><Icon name="back" size={17} />返回发现</Link>
@@ -66,19 +71,20 @@ export function RepoDetail() {
             <div className="detail-growth"><span><Icon name="growth" size={16} />24h 增长</span><strong>{repo.radar.growth.day === null ? '—' : signedGrowth(repo.radar.growth.day)}</strong><small>{repo.radar.growth.day === null ? '增长数据积累中' : '7d ' + signedGrowth(repo.radar.growth.week) + ' · 30d ' + signedGrowth(repo.radar.growth.month)}</small></div>
             <div><span><Icon name="flame" size={16} />Hot Score</span><strong>{repo.radar.hotScore === null ? '—' : <>{repo.radar.hotScore}<em>/ 100</em></>}</strong><small>{repo.source === 'mock' ? '预设演示分数' : hotGrade(repo.radar.hotScore)}</small></div>
           </div>
-          <div className="detail-data-note"><Icon name="info" size={14} />{repo.source === 'mock' ? '全部指标、日期、License 与以下判断为本地演示内容。' : '仓库字段来自 GitHub REST API；增长来自实测快照，Hot 为透明规则分数。历史不足保留缺失，项目分析暂未提供。'}</div>
+          <div className="detail-data-note"><Icon name="info" size={14} />{repo.source === 'mock' ? '热度、增长、日期与 License 为演示内容；开发评分由透明规则计算。' : '仓库字段来自 GitHub REST API；增长来自实测快照，Hot 为透明规则分数。开发判断仅依据元数据，不是 AI 或 README 分析。'}</div>
           <div className="detail-source"><DataSourceStatus /></div>
         </section>
         <div className="detail-layout"><div className="detail-main">
           <ProjectOverview repo={repo} />
           {repo.source === 'github' && <GrowthTrend repo={repo} />}
+          {evaluation && <EvaluationPanel evaluation={evaluation} repoId={repo.id} />}
           <section className="detail-panel build-panel"><div className="section-label">03 / YOUR NEXT BUILD</div><h2>如果你来做</h2>
             {analysis ? <><p>{analysis.buildIdea}</p><div className="build-plan"><span className="build-plan-title"><Icon name="code" size={17} />V1 · 从最小可用版本开始</span><ol>{analysis.buildSteps.map((step, index) => <li key={step}><span>{String(index + 1).padStart(2, '0')}</span>{step}</li>)}</ol></div><h3>适合扩展方向</h3><div className="repo-tags">{analysis.extensionIdeas.map((idea) => <span className="tag tag-accent" key={idea}>{idea}</span>)}</div></>
-              : <p className="analysis-pending"><Icon name="code" size={19} />开发方案将在后续项目分析阶段提供。当前可以通过 GitHub 页面了解原始项目文档。</p>}
+              : <><p>{template.name}：{template.problem}</p><div className="build-plan"><span className="build-plan-title">推荐 V1 · 类别模板建议</span><ol>{template.features.map((step, index) => <li key={step}><span>{String(index + 1).padStart(2, '0')}</span>{step}</li>)}</ol></div><Link className="text-link" to={'/idea/' + repo.id}>编辑我的个人版本 →</Link></>}
           </section>
-        </div><aside className="detail-aside"><section className="detail-panel judgment-panel"><div className="section-label">02 / RADAR INSIGHTS</div><h2>RepoRadar 判断</h2>
+        </div><aside className="detail-aside"><section className="detail-panel judgment-panel"><div className="section-label">BEFORE YOU BUILD</div><h2>{analysis ? '演示编辑示例' : '先了解，再动手'}</h2>
           {analysis ? <><span className="judgment-note">本地编辑示例 · 非 AI 分析</span><div className="ratings"><RatingRow label="开发难度" value={analysis.difficulty} /><RatingRow label="个人开发者适合度" value={analysis.soloDeveloperScore} /><RatingRow label="Codex 复刻适合度" value={analysis.codexScore} /></div><h3>为什么正在变热？</h3><p>{analysis.whyTrending}</p><h3>为什么值得关注？</h3><p>{analysis.whyInteresting}</p><div className="judgment-tip"><Icon name="code" size={18} /><p>从一个具体问题开始，做小一点，把核心体验做完整。</p></div></>
-            : <><span className="judgment-note">尚无项目评级</span><p className="analysis-pending"><Icon name="info" size={19} />RepoRadar 分析将在后续阶段生成。</p><p>开发难度、个人开发者适合度和 Codex 复刻适合度均未评估。</p></>}
+            : <><span className="judgment-note">透明规则 · 非 AI</span><p>Hot 回答现在有多火，Build 回答多适合个人 + Codex 开发。完整原项目与建议 V1 的范围不同。</p><p>先检查原项目文档与 License，确认输入、输出和可测试的验收标准，再保存自己的灵感。</p><Link className="text-link" to="/ideas">我的灵感 →</Link></>}
         </section></aside></div>
       </>}
   </main>

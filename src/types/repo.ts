@@ -1,5 +1,8 @@
+import type { ProjectEvaluation } from '../services/evaluation/evaluationTypes.ts'
+
 export const categories = ['全部', 'AI / Agent', '效率工具', '学习工具', 'Computer Vision', '开发工具', 'App', '有趣项目', '值得复刻', '一个人能做'] as const
-export type Category = (typeof categories)[number]
+export const discoveryCategories = [...categories, '适合 Codex'] as const
+export type Category = (typeof discoveryCategories)[number]
 export type TimeRange = 'today' | 'week' | 'month'
 export type Rating = 1 | 2 | 3 | 4 | 5
 
@@ -69,6 +72,7 @@ export interface RepoAnalysis {
 }
 
 export interface RepoRadarData {
+  evaluation?: ProjectEvaluation
   tags: string[]
   growth: { day: number | null; week: number | null; month: number | null }
   hotScore: number | null

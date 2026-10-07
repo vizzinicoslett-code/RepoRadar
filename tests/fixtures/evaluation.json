@@ -1,0 +1,7 @@
+[
+  {"id":1,"name":"kernel","description":"Linux kernel operating system","language":"C","topics":["kernel"],"hot":99,"day":9000,"week":22000},
+  {"id":2,"name":"web-tool","description":"A small React web tool for organizing notes","language":"TypeScript","topics":["web-app"],"hot":74,"day":400,"week":1200},
+  {"id":3,"name":"awesome-course","description":"An awesome-list and tutorial course for developers","language":"Markdown","topics":["tutorial"],"hot":96,"day":1600,"week":null},
+  {"id":4,"name":"image-tool","description":"An offline AI computer vision tool for image processing with OpenCV","language":"Python","topics":["computer-vision"],"hot":80,"day":300,"week":1000},
+  {"id":5,"name":"agent-platform","description":"A large multi-agent framework and automation platform","language":"Python","topics":["agents","multi-agent"],"hot":95,"day":2000,"week":null}
+]

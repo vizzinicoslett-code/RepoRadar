@@ -87,7 +87,7 @@ export function validateGitHubDataset(value) {
 }
 
 const rules = [
-  ['AI / Agent', /\b(ai|llm|llms|agent|agents|agentic|chatbot|gpt|machine-learning|deep-learning|artificial-intelligence)\b|人工智能|大模型|智能体/i],
+  ['AI / Agent', /\b(agent|agents|agentic|tool-use|browser-agent|coding-agent)\b|智能体|工具调用/i],
   ['Computer Vision', /\b(computer-vision|object-detection|image-segmentation|opencv|yolo|image-recognition|vision-model)\b|computer vision|计算机视觉|目标检测/i],
   ['开发工具', /\b(developer-tools|devtools|sdk|cli|compiler|debugger|framework|linter|code-editor|api-client|ide)\b|developer tool|开发工具|调试/i],
   ['学习工具', /\b(education|educational|learning-resource|tutorial|tutorials|course|courses|study|flashcards|learn-to-code)\b|learning tool|学习工具|教程|课程/i],

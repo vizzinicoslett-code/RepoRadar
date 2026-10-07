@@ -4,6 +4,7 @@ import { formatCount, formatDate, getGrowth, signedGrowth, languageColors, timeR
 import { Icon } from './Icon'
 import { RepoDescription } from './RepoDescription'
 import { MetricBadge } from './MetricBadge'
+import { evaluationConfig } from '../services/evaluation/evaluationRules'
 
 export function RepoCard({ repo, rank, range }: { repo: Repo; rank: number; range: TimeRange }) {
   const location = useLocation()
@@ -12,7 +13,7 @@ export function RepoCard({ repo, rank, range }: { repo: Repo; rank: number; rang
   const analysis = repo.radar.analysis
   const state = { from: location.pathname + location.search }
   return <article className="repo-card">
-    <div className="card-topline"><span className={'rank' + (rank <= 3 ? ' rank-leading' : '')}>#{String(rank).padStart(2, '0')}</span><MetricBadge kind="hot" value={repo.radar.hotScore} /></div>
+    <div className="card-topline"><span className={'rank' + (rank <= 3 ? ' rank-leading' : '')}>#{String(rank).padStart(2, '0')}</span><div className="card-score-badges">{repo.radar.evaluation && repo.radar.evaluation.buildScore >= evaluationConfig.thresholds.build && <span className="build-chip" title="个人 + Codex 开发适合度；不是 Hot 热度">Build {repo.radar.evaluation.buildScore}</span>}<MetricBadge kind="hot" value={repo.radar.hotScore} /></div></div>
     <h3><Link to={'/repo/' + repo.id} state={state}><span className="repo-owner">{github.owner} / </span><span className="repo-name">{github.name}</span></Link></h3>
     <RepoDescription className="repo-description" text={github.description} />
     <div className="repo-stats">

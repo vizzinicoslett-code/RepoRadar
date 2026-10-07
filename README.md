@@ -2,7 +2,7 @@
 
 Discover what is rising on GitHub.
 
-当前完成 **Phase 3：Star 历史快照、真实增长、Hot Score 与中文简介**。沿用 Phase 2 的 React + TypeScript + Vite、HashRouter、浅色卡片布局、响应式样式、GitHub 数据抓取、12 条 Mock fallback 与全部原有测试。
+当前完成 **Phase 4：Project Evaluation、Idea Workspace 与 Codex Prompt Generator**。沿用现有 React + TypeScript + Vite、HashRouter、真实增长、Hot Score、中文翻译、12 条 Mock fallback 和已验证的 GitHub Actions / Pages 部署。
 
 前端没有新增运行依赖、服务器、数据库或账号。浏览器只读取本站静态 JSON；GitHub API 请求在 Node 脚本或 Actions 中运行。候选池不是 GitHub Trending，也不代表全部 GitHub 仓库。
 
@@ -155,11 +155,11 @@ P(v) = (小于 v 的样本数 + (等于 v 的样本数 − 1)/2) / (样本数 �
 
 今日：已知增长的仓库按 Hot 降序、24h 增量降序；本周/本月按对应增量降序、Hot 降序。最终以 ID 稳定排序。已知增长组优先，包含负增长且不要求最近 push；未知增长组沿用 Phase 2：按 1/7/30d 活跃窗口过滤，Stars 降序、活跃日期降序、ID。活跃时间优先 pushedAt，然后 updatedAt/createdAt，窗口相对于 JSON generatedAt。
 
-搜索与分类继续叠加，匹配名称、owner、简介、语言、Topics 与规则标签。Hot 的候选池为完整文件，不因前端筛选改变。分类由 deriveRepoTags 的透明关键词规则产生；真实数据不提供“值得复刻”“一个人能做”的主观筛选。
+搜索与分类继续叠加，匹配名称、owner、简介、语言、Topics 与规则标签。Hot 的候选池为完整文件，不因前端筛选改变。分类由 deriveRepoTags 的透明关键词规则产生；开发筛选改用独立 Evaluation 的透明阈值；不把规则评分当 AI 结论。
 
 卡片保留 Stars、Forks、实际增长和 Hot；负增长使用下降箭头，缺失显示“24h/7d/30d 数据积累中”与“Hot —”。详情增加三个周期、增长率、基准 Stars、基准日期、实际窗口；有至少两个点时用原生 SVG 画时间轴快照折线，无图表依赖。
 
-仓库信息、Topics、License、Issues（含 PR）、安全 Homepage、GitHub 外链与缺失值说明保留。真实项目的分析、复刻方案依然显示待后续阶段提供；Mock 的原有编辑示例不变。
+仓库信息、Topics、License、Issues（含 PR）、安全 Homepage、GitHub 外链与缺失值说明保留。真实项目增加规则判断和类别模板的个人 V1；AI 文档理解仍未实现，Mock 原有编辑示例保留。
 
 ## Translation
 
@@ -179,6 +179,64 @@ P(v) = (小于 v 的样本数 + (等于 v 的样本数 − 1)/2) / (样本数 �
 不支持 API 或 en→zh 时强制 original，显示“当前浏览器暂不支持站内翻译”和“复制英文简介”；剪贴板拒绝或不可用会提示手动复制。不偷接外部翻译 API。实际支持范围由浏览器检测决定；Chrome 官方说明当前桌面支持，手机不支持。[官方 Translator API 文档](https://developer.chrome.com/docs/ai/translator-api)。
 
 服务抽象在 src/services/translation/：chromeTranslator.ts（最小本地 API 类型与适配）、translationCache.ts、translator.ts。没有增加运行时依赖。
+
+## Project Evaluation
+
+这些是透明规则评分，不是 AI 结论。仅使用已有 GitHub 元数据、实测增长与静态类别模板；没有读取 README、源代码或依赖图，也没有额外请求 GitHub API。评分在浏览器读入 JSON 后计算，保存在内存中的 radar.evaluation，原 data JSON 格式不变。所有分数取整数并限制在 0–100。
+
+| 判断 | 计算方式 |
+| --- | --- |
+| Research | Hot 35% + 24h 增长信号 25% + 7d 增长信号 15% + Activity 15% + Metadata 10%；缺失项去掉后重新归一化 |
+| Use | 项目类型基准；无 License −5，已归档 −20。指软件直接使用适合度，资料的阅读价值由 Research 表达 |
+| Remake | 类型基准；框架/平台/多任务范围 −18，已归档 −8。评价简化版，不奖励总 Stars |
+| Solo | 类型基准；范围大 −22，C/C++/Assembly −2 |
+| Codex | 类型基准；范围大 −12，TS/JS/Python +3，C/C++/Assembly −2。评价个人负责需求和验收的开发方式 |
+| Complexity | 类型基准；范围大 +24，TS/JS/Python −2，C/C++/Assembly +3。**越高越难** |
+| Build | round(Remake × 40% + Solo × 25% + Codex × 25% + Research × 10%) |
+
+Research 的 Hot 分项是既有 Hot/100；增长信号为 min(1, log1p(max(delta,0))/log1p(cap))，24h cap=5000、7d cap=25000。负增长保留在原 Growth，Research 信号记 0；没有历史记为缺失，而不是 0。Activity=max(0,1−push距观测时间天数/30)，归档记 0；缺失或未来 pushedAt 不参与。Metadata 是简介、非空 Topics、语言、License、非空 Homepage 五项的完整率。真实数据以 JSON generatedAt 为时间基准。
+
+类型按明确关键词依次匹配，底层/硬件/内容优先于通用工具；语言不决定类型，也不会仅因 C++ 就判定不适合个人。基准与修正全部在 src/services/evaluation/evaluationRules.ts：
+
+| 类型 | Use | Remake | Solo | Codex | Complexity |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 内核 | 55 | 18 | 12 | 28 | 96 |
+| 数据库引擎 | 66 | 22 | 18 | 35 | 94 |
+| 大型训练 | 62 | 20 | 16 | 35 | 95 |
+| 分布式设施 | 62 | 28 | 25 | 42 | 89 |
+| 编译器设施 | 60 | 32 | 28 | 42 | 86 |
+| 硬件工具 | 64 | 38 | 32 | 44 | 84 |
+| 推理引擎 | 74 | 42 | 38 | 50 | 82 |
+| 技能模板 | 65 | 65 | 81 | 88 | 30 |
+| 教程/资料 | 28 | 61 | 81 | 80 | 22 |
+| CV 工具 | 80 | 84 | 78 | 86 | 56 |
+| CLI | 86 | 94 | 92 | 93 | 30 |
+| 桌面工具 | 85 | 87 | 83 | 88 | 48 |
+| Agent | 78 | 86 | 84 | 90 | 48 |
+| Web 工具 | 85 | 93 | 94 | 95 | 28 |
+| 学习工具 | 80 | 90 | 91 | 90 | 32 |
+| 效率工具 | 86 | 91 | 90 | 92 | 36 |
+| Library | 72 | 70 | 68 | 82 | 55 |
+| App | 86 | 89 | 87 | 92 | 38 |
+| 信息不足 | 45 | 52 | 55 | 58 | 55 |
+
+每项都提供计算依据、命中规则、有利信号、注意事项和推荐行动。Hot 回答“现在有多火”，Build 回答“多适合作为个人 + Codex 项目”，不会重新调 Hot。未知规模不按 Stars 猜测；内容、技能库和硬件项目明确说明评分含义与限制。
+
+首页的「适合开发」在完整候选池按 Build 降序、Remake 降序、ID 稳定排序，搜索与分类继续叠加；今日/本周/本月保留原排序和活跃窗口。值得复刻：Remake≥75；一个人能做：Solo≥75；适合 Codex：Codex≥80；卡片仅在 Build≥75 时增加一个小标识。阈值集中在同一配置。
+
+## Idea Workflow
+
+Discover → Evaluate → Build Similar → Edit Idea → Generate Codex Prompt。
+
+详情页「我想做类似项目」进入 HashRouter 的 /idea/:repoId。模板针对 Web、CLI、CV、学习、桌面、Agent、资料、技能库和底层项目提供不同的缩小方案、推荐 V1 与个人技术栈；这不是原项目功能的事实总结。底层项目只建议外围小工具，不建议完整复刻。AI 类模板 V1 用规则/fixture 验证流程，没有模型 API。
+
+可编辑项目名称、目标用户、问题、V1 功能、排除项、技术栈、备注与状态。状态只有「灵感 / 准备做 / 正在做」；保存后使用独立 idea ID，/ideas 列出项目、来源、状态、最后修改、继续编辑和需确认的删除。来源离开候选池时仍保留设定与 Prompt，不再请求原仓库。
+
+Idea 数据只保存在浏览器 localStorage 的 repoRadar.ideas.v1，版本化存档最多 200 条，记录 id、sourceRepoId、sourceFullName、title、targetUser、problem、features、excludedFeatures、techStack、notes、status、createdAt、updatedAt。不上传服务器；清除浏览器数据会删除灵感，不会跨浏览器同步。损坏条目会提示并保留可读取记录；存储禁用或写入失败时明确提示只存在当前页面内存，刷新会丢失。
+
+「生成 Codex 开发方案」先保存当前编辑，再打开 /idea/:ideaId/prompt，完整展示背景、目标、问题、V1、排除项、技术栈、保存方式、UI、响应式、测试、安全、备注与汇报要求。文本由纯函数模板确定生成，没有调用 AI；页面标注「根据你的项目设定自动整理」。复制使用真实 Clipboard API；失败时选中全文并提示手动复制。资料与用户文本只作为文本显示，不执行脚本或命令。
+
+规则、UI、模板、存储与 Prompt 分离在 src/services/evaluation/、src/services/ideas/ 和三个新页面。新增 fixture 覆盖五类项目、Stars 不影响开发分数、C++ 弱信号、缺失历史归一化、Build 排序、存储恢复与完整 Prompt snapshot；原有测试继续保留。未接模型 API、登录、云同步、数据库服务或社区功能。
 
 ## GitHub Token 与安全
 
@@ -248,8 +306,14 @@ Chrome 154 原生 API 实测 en→zh：首次 downloadable，约 15 秒完成准
 
 另有 mock API 的确定性浏览器检查：模型进度、逐条失败、复制拒绝、缓存命中、文本变更、单队列、可见内容按需翻译（首屏仅 2/100），以及没有 API 的 320–1440px × 首页/详情/收藏/关于，共 24 组无横向溢出。坏数据/404/离线回退保留 Mock 分析，子路径 HashRouter 刷新通过。浏览器运行异常为 0，无外部页面请求。Chrome 的语言包下载由浏览器自身处理，未被计为网页请求。截图、原生记录和浏览器报告在忽略提交的 artifacts/。
 
+## Phase 4 验证
+
+本地 `data:validate`、`build`、`lint`、`test`、`security:check` 均通过；100 项测试包含原有 82 项与新增 18 项 Evaluation / Idea / Prompt 测试。测试使用本地数据与 fixture，不真实调用 GitHub。
+
+Chrome 已验证：今日/本周/本月排序保持一致、Build 排名与三项开发筛选、五个真实项目评分，以及发现项目 → 判断 → 编辑灵感 → 保存 → 刷新恢复 → 生成与实际复制 Prompt → 我的灵感 → 继续编辑。另验证多个灵感、删除确认、来源离开候选池、损坏或禁用存储、复制失败的手动选择降级。详情、工作区、Prompt、灵感列表在 320 / 375 / 768 / 1440px 均无横向溢出；这些流程只读取本站静态资源，没有额外 GitHub API 或其他外部请求。
+
 ## 范围与后续
 
-Phase 1、2、3 已完成。尚未实现 AI 项目总结、AI 复刻建议、个性化推荐、真实收藏、登录、后端或数据库。Phase 4 可以在积累真实历史后完善趋势观察与统计窗口筛选。部署只发布现有 Phase 3，不自动进入 Phase 4。
+Phase 1–4 与现有部署已完成。AI README 理解、AI 自动总结、AI 个性化改造、GitHub 登录与云同步尚未实现。当前判断与方案来自规则和模板，本阶段没有模型 API。完成后停止，不自动进入 Phase 5。
 
 参考：[GitHub Search API](https://docs.github.com/en/rest/search/search#search-repositories)、[REST 限流](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api)、[Actions schedule](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule)、[Translator API](https://developer.chrome.com/docs/ai/translator-api)、[Vite 静态部署](https://vite.dev/guide/static-deploy.html)。

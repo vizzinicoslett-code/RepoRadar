@@ -7,6 +7,7 @@ export function Navbar() {
       <Link to="/" className="brand" aria-label="RepoRadar 首页"><span className="brand-mark"><Icon name="radar" size={24} /></span><span>RepoRadar<span className="brand-dot">.</span></span></Link>
       <nav className="main-nav" aria-label="主导航">
         <NavLink to="/" end>发现</NavLink>
+        <NavLink to="/ideas">灵感</NavLink>
         <NavLink to="/favorites">收藏</NavLink>
         <NavLink to="/about">关于</NavLink>
       </nav>
