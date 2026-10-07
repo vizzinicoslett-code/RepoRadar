@@ -8,13 +8,13 @@ Discover what is rising on GitHub.
 
 ## Live Site
 
-尚未发布。完成首次 Pages 部署并验证后，在这里填写 GitHub 返回的实际站点链接。
+[打开 RepoRadar](https://vizzinicoslett-code.github.io/RepoRadar/) · [GitHub Repository](https://github.com/vizzinicoslett-code/RepoRadar)
 
 ## Automatic Updates
 
 GitHub Actions 按 `17 */6 * * *`（UTC）计划约每 6 小时运行一次：获取 GitHub 仓库 → 保存 Stars 快照 → 计算 Growth 与 Hot Score → 校验数据 → commit 两份数据 JSON → 构建并部署 GitHub Pages。Scheduled Actions 可能延迟，不保证准点运行；增长指标使用实际观测时间与既有容差。
 
-部署成功后，正常使用无需人工刷新，也无需启动本地开发服务器。本地 `data:refresh` 只用于开发和测试。首次部署尚未完成时，此自动更新服务尚未启用。
+正常使用无需人工刷新，也无需启动本地开发服务器。关闭本机后，GitHub Actions 仍按计划更新数据与站点。本地 `data:refresh` 只用于开发和测试。
 
 ## Local Development
 
@@ -206,7 +206,7 @@ checkout 默认分支最新提交 → npm ci
 
 工作流顶层 contents:read；build 仅 contents:write 与 pages:read（读取 Pages 配置），deploy 仅 pages:write 和 id-token:write。并发组 pages 且 cancel-in-progress:false，避免工作流相互覆盖历史。
 
-已实际检查触发器中没有 push，因此 bot 数据提交不会递归启动此工作流；[skip ci] 是附加标记。以后若添加 push 触发器，应同时设计 paths-ignore 或 actor 条件，并重新审查循环。当前只编写配置，没有执行远程 workflow、推送或部署；仓库仍须上传并在 Pages 选择 GitHub Actions，默认分支允许 bot 写入。
+触发器中没有 push，因此 bot 数据提交不会递归启动此工作流；[skip ci] 是附加标记。默认分支为 main，Pages 的 Source 已设置为 GitHub Actions。首次远程运行已完成真实抓取、bot 数据提交、构建与部署；每次构建使用刚刚提交的数据工作区。刷新若改动两份数据 JSON 之外的文件会停止，失败时不会提交空数据或部署损坏文件。数据提交后即使构建或部署失败，已观测的历史仍保留在 main，下一轮从该提交继续。
 
 Vite base:'./'、BASE_URL 相对静态文件地址和 HashRouter 保留；支持根路径与 /RepoRadar/，详情刷新无需服务器路由。
 
@@ -250,6 +250,6 @@ Chrome 154 原生 API 实测 en→zh：首次 downloadable，约 15 秒完成准
 
 ## 范围与后续
 
-Phase 1、2、3 已完成。尚未实现 AI 项目总结、AI 复刻建议、个性化推荐、真实收藏、登录、后端或数据库。Phase 4 可以在积累真实历史后完善趋势观察与统计窗口筛选。本次到 Phase 3 停止。
+Phase 1、2、3 已完成。尚未实现 AI 项目总结、AI 复刻建议、个性化推荐、真实收藏、登录、后端或数据库。Phase 4 可以在积累真实历史后完善趋势观察与统计窗口筛选。部署只发布现有 Phase 3，不自动进入 Phase 4。
 
 参考：[GitHub Search API](https://docs.github.com/en/rest/search/search#search-repositories)、[REST 限流](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api)、[Actions schedule](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule)、[Translator API](https://developer.chrome.com/docs/ai/translator-api)、[Vite 静态部署](https://vite.dev/guide/static-deploy.html)。
