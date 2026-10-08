@@ -12,6 +12,7 @@ import { RepoCardSkeleton } from '../components/RepoCardSkeleton'
 import { EvaluationPanel } from '../components/EvaluationPanel'
 import { evaluateRepo } from '../services/evaluation/evaluateRepo'
 import { getIdeaTemplate } from '../services/evaluation/ideaTemplates'
+import { ChatGptShare } from '../components/ChatGptShare'
 import type { Rating, Repo } from '../types/repo'
 
 function RatingRow({ label, value }: { label: string; value: Rating }) {
@@ -60,7 +61,7 @@ export function RepoDetail() {
       : <>
         <TranslationControl />
         <section className="detail-header">
-          <div className="detail-title-row"><div><div className="eyebrow">REPOSITORY SPOTLIGHT <span className="mock-label">{repo.source === 'mock' ? 'MOCK' : 'GITHUB'}</span></div><h1><span>{github.owner} / </span>{github.name}</h1><RepoDescription text={github.description} /></div><a className="button button-primary" href={githubUrl(repo)} target="_blank" rel="noopener noreferrer">GitHub 页面<Icon name="external" size={16} /></a></div>
+          <div className="detail-title-row"><div><div className="eyebrow">REPOSITORY SPOTLIGHT <span className="mock-label">{repo.source === 'mock' ? 'MOCK' : 'GITHUB'}</span></div><h1><span>{github.owner} / </span>{github.name}</h1><RepoDescription text={github.description} /></div><div className="detail-actions"><a className="button button-primary" href={githubUrl(repo)} target="_blank" rel="noopener noreferrer">GitHub 页面<Icon name="external" size={16} /></a><ChatGptShare key={repo.id} repo={repo} evaluation={evaluation} /></div></div>
           <div className="repo-tags">{repo.radar.tags.map((tag) => {
             const category = categories.find((item) => item === tag) ?? (tag === 'AI Agent' || tag === 'Automation' ? 'AI / Agent' : '全部')
             return <Link key={tag} className="tag" to={'/?category=' + encodeURIComponent(category)}>{tag}</Link>

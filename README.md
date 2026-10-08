@@ -238,6 +238,18 @@ Idea 数据只保存在浏览器 localStorage 的 repoRadar.ideas.v1，版本化
 
 规则、UI、模板、存储与 Prompt 分离在 src/services/evaluation/、src/services/ideas/ 和三个新页面。新增 fixture 覆盖五类项目、Stars 不影响开发分数、C++ 弱信号、缺失历史归一化、Build 排序、存储恢复与完整 Prompt snapshot；原有测试继续保留。未接模型 API、登录、云同步、数据库服务或社区功能。
 
+## 复制给 ChatGPT
+
+项目详情页的 GitHub 按钮附近新增「复制给 ChatGPT」。点击直接复制中文研究 Prompt，「查看内容」可打开轻量弹窗核对完整文本；成功提示约 1.8 秒后恢复。剪贴板不可用或被拒绝时，自动打开弹窗并选中完整内容，支持 Ctrl+A / 手动复制及「再次复制」。
+
+Prompt 使用当前仓库的原始简介、GitHub URL、语言、Topics、License、Stars、Forks、增长、Hot、既有 Evaluation 与 Build。有利信号和注意事项各最多五条。缺失增长显示「数据积累中」，缺失评分显示「未评估」；24h 写作「约24h」，已有实际统计窗口时附上小时数。Mock 项目会明确标注演示数据。
+
+这是让用户自行交给 ChatGPT 研究真实项目的 Prompt，与决定开发后生成的 Codex 开发任务不同。此功能只在本地整理和复制文本，不读取 README、不调用 Translator、不调用任何模型 API、不新增 API Key、不自动打开 ChatGPT，也不会向 ChatGPT 发送数据。
+
+生成逻辑独立于页面，位于 `src/services/share/chatGptPrompt.ts`；复制与 UI 分别位于 `src/services/share/clipboard.ts` 和 `src/components/ChatGptShare.tsx`。自动测试覆盖缺失字段、正负增长、实际窗口、评分、信号数量及复制成功/失败，使用本地 fixture。
+
+此功能的本地验证：五项必需检查通过，保留原有 100 项测试并新增 13 项，共 113 项通过。Chrome 实测完整复制并以 Ctrl+V 粘贴到浏览器记事本文本框；缺失/拒绝 Clipboard API 时手动全选、复制、粘贴与再次复制均成功。详情操作区和弹窗在 320 / 375 / 768 / 1440px 无横向溢出，无页面异常或额外外部请求。
+
 ## GitHub Token 与安全
 
 Token 可选，只从 Node 的 GITHUB_TOKEN 环境变量读取。不要写入 React、public、dist、VITE_ 变量或文档。Actions 的 github.token 只注入 data:refresh，不注入构建。security:check 延用 Phase 2，扫描 src/public/dist/README 与实际凭证值，失败日志不打印凭证。

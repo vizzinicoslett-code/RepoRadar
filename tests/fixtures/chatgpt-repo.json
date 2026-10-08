@@ -1,0 +1,26 @@
+{
+  "repo": {
+    "id": "github-123", "source": "github",
+    "github": {
+      "githubId": 123, "owner": "example", "name": "tiny-tool", "fullName": "example/tiny-tool",
+      "description": "A small offline diagram tool.", "htmlUrl": "https://github.com/example/tiny-tool", "homepage": null,
+      "language": "TypeScript", "stars": 12345, "forks": 321, "openIssues": 4, "topics": ["diagrams", "developer-tools"],
+      "license": { "key": "mit", "name": "MIT License", "spdxId": "MIT" },
+      "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-10-08T00:00:00Z", "pushedAt": "2026-10-08T00:00:00Z", "archived": false, "fork": false
+    },
+    "radar": {
+      "tags": ["开发工具"], "growth": { "day": 4303, "week": 7100, "month": 9000 }, "hotScore": 92, "analysis": null,
+      "metrics": {
+        "growth": {
+          "day": { "delta": 4303, "rate": 0.5, "baselineCapturedAt": "2026-10-06T19:06:00Z", "baselineStars": 8042, "actualWindowHours": 28.9 },
+          "week": null, "month": null
+        },
+        "hotScore": 92, "hotComponents": null, "snapshots": []
+      }
+    }
+  },
+  "evaluation": {
+    "researchScore": 91, "useScore": 85, "remakeScore": 93, "soloScore": 94, "codexScore": 98, "complexityScore": 26, "buildScore": 94,
+    "signals": ["输入与输出明确", "适合拆成独立 V1"], "warnings": ["先核对文档与 License"]
+  }
+}

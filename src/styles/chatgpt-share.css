@@ -1,0 +1,25 @@
+.detail-actions { display:flex; flex-direction:column; align-items:stretch; flex-shrink:0; gap:9px; width:165px; margin-top:25px; }
+.detail-title-row .detail-actions .button { margin-top:0; }
+.chatgpt-share { display:flex; flex-direction:column; align-items:stretch; gap:7px; }
+.chatgpt-copy-button { border:1px solid #d7cff0; background:var(--accent-soft); color:var(--accent); }
+.chatgpt-copy-button:hover { background:#e6dff8; }
+.chatgpt-copy-button:disabled, .chatgpt-dialog-footer button:disabled { opacity:.65; cursor:wait; }
+.chatgpt-preview-button { align-self:center; padding:3px 7px; background:transparent; color:var(--muted); font-size:11px; }
+.chatgpt-preview-button:hover { color:var(--accent); }
+.chatgpt-copy-status { font-size:11px; color:var(--accent); line-height:1.7; overflow-wrap:anywhere; }
+.chatgpt-copy-status:empty { display:none; }
+.chatgpt-prompt-dialog { width:min(760px, calc(100% - 32px)); max-height:calc(100dvh - 32px); padding:24px; margin:auto; border:1px solid var(--line); border-radius:10px; color:#252834; background:#fff; box-shadow:0 20px 70px #22203930; overflow:auto; }
+.chatgpt-prompt-dialog::backdrop { background:#20203066; }
+.chatgpt-dialog-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.chatgpt-dialog-heading h2 { font-size:20px; }
+.chatgpt-close-button { padding:8px 12px; border-radius:6px; background:#f4f4f8; color:var(--muted); font-size:12px; }
+.chatgpt-prompt-dialog p { margin:12px 0 16px; color:var(--muted); font-size:12px; line-height:1.8; }
+.chatgpt-prompt-dialog textarea { display:block; width:100%; height: min(52dvh, 480px); min-height:160px; padding:14px; border:1px solid var(--line); border-radius:6px; background:#fafafd; color:#252834; font:12px/1.9 ui-monospace, monospace; resize:vertical; white-space:pre-wrap; overflow-wrap:anywhere; }
+.chatgpt-dialog-footer { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-top:16px; }
+.chatgpt-dialog-footer span { color:var(--muted); font-size:12px; line-height:1.8; flex:1 1 220px; }
+@media (max-width:600px) {
+  .detail-actions { margin-top:0; width:100%; }
+  .chatgpt-prompt-dialog { padding:18px; }
+  .chatgpt-dialog-heading h2 { font-size:18px; }
+  .chatgpt-prompt-dialog textarea { height:48dvh; }
+}
