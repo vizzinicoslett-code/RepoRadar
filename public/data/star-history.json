@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T07:14:49.668Z",
+  "updatedAt": "2026-11-12T19:57:02.221Z",
   "retentionDays": 35,
   "repositories": {
     "8514": {
@@ -300,6 +300,10 @@
         {
           "capturedAt": "2026-10-27T12:15:25.298Z",
           "stars": 1221
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 1230
         }
       ]
     },
@@ -581,10 +585,6 @@
     "5108051": {
       "fullName": "opencv/opencv",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 91115
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 91117
@@ -1016,6 +1016,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 91541
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 91547
         }
       ]
     },
@@ -1166,10 +1170,6 @@
     "7716883": {
       "fullName": "ankidroid/Anki-Android",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 11960
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 11968
@@ -1601,6 +1601,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 12226
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 12233
         }
       ]
     },
@@ -1643,10 +1647,6 @@
     "8424040": {
       "fullName": "processing/p5.js",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 24101
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 24101
@@ -2078,6 +2078,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 24335
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 24339
         }
       ]
     },
@@ -2138,10 +2142,6 @@
     "9746477": {
       "fullName": "sonic-pi-net/sonic-pi",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 12184
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 12185
@@ -2573,16 +2573,16 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 12259
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 12259
         }
       ]
     },
     "9852918": {
       "fullName": "TryGhost/Ghost",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 55498
-        },
         {
           "capturedAt": "2026-11-02T06:09:43.890Z",
           "stars": 55655
@@ -2730,10 +2730,6 @@
     "13491895": {
       "fullName": "EbookFoundation/free-programming-books",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 398698
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 398496
@@ -3165,6 +3161,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 401451
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 401487
         }
       ]
     },
@@ -3174,15 +3174,6 @@
         {
           "capturedAt": "2026-10-31T12:36:12.332Z",
           "stars": 1496
-        }
-      ]
-    },
-    "13836499": {
-      "fullName": "raysan5/raylib",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 35045
         }
       ]
     },
@@ -3318,6 +3309,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 184843
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 184851
         }
       ]
     },
@@ -3681,10 +3676,6 @@
     "24217298": {
       "fullName": "logisim-evolution/logisim-evolution",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 7728
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 7729
@@ -4116,6 +4107,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 7926
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 7934
         }
       ]
     },
@@ -4167,10 +4162,6 @@
     "26193547": {
       "fullName": "rust-lang/crates.io-index",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 751
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 751
@@ -4630,10 +4621,6 @@
       "fullName": "freeCodeCamp/freeCodeCamp",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 456938
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 456723
         },
@@ -5064,6 +5051,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 459014
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 459045
         }
       ]
     },
@@ -5079,10 +5070,6 @@
     "28681142": {
       "fullName": "CTFd/CTFd",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6867
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6869
@@ -5526,10 +5513,6 @@
       "fullName": "spmallick/learnopencv",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 23185
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 23182
         },
@@ -5960,16 +5943,16 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 23246
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 23249
         }
       ]
     },
     "31168578": {
       "fullName": "hemanth/functional-programming-jargon",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 18736
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 18738
@@ -6604,10 +6587,6 @@
       "fullName": "oppia/oppia",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6843
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6843
         },
@@ -7038,6 +7017,19 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 6988
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 6989
+        }
+      ]
+    },
+    "40916314": {
+      "fullName": "dexidp/dex",
+      "snapshots": [
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 11252
         }
       ]
     },
@@ -7259,10 +7251,6 @@
       "fullName": "blotcms/blot",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 1983
-        },
-        {
           "capturedAt": "2026-11-05T19:58:58.651Z",
           "stars": 1984
         }
@@ -7370,15 +7358,6 @@
         {
           "capturedAt": "2026-10-24T04:39:36.996Z",
           "stars": 664
-        }
-      ]
-    },
-    "53538899": {
-      "fullName": "bitwarden/clients",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 13933
         }
       ]
     },
@@ -7614,6 +7593,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 16313
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 16313
         }
       ]
     },
@@ -7724,10 +7707,6 @@
     "62161750": {
       "fullName": "hneemann/Digital",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6069
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6069
@@ -7905,10 +7884,6 @@
     "63476337": {
       "fullName": "TheAlgorithms/Python",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 225282
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 225092
@@ -8340,6 +8315,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 226037
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 226051
         }
       ]
     },
@@ -8550,10 +8529,6 @@
     "71583602": {
       "fullName": "Developer-Y/cs-video-courses",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 83641
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 83643
@@ -8985,6 +8960,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 84822
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 84822
         }
       ]
     },
@@ -9375,6 +9354,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 18002
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 18002
         }
       ]
     },
@@ -9559,10 +9542,6 @@
     "81887991": {
       "fullName": "microsoft/AirSim",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 18539
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 18541
@@ -9768,15 +9747,6 @@
         }
       ]
     },
-    "89221572": {
-      "fullName": "DataDog/dd-trace-java",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 736
-        }
-      ]
-    },
     "89913655": {
       "fullName": "Bitcoin-ABC/bitcoin-abc",
       "snapshots": [
@@ -9815,10 +9785,6 @@
     "90796663": {
       "fullName": "puppeteer/puppeteer",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 95670
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 95670
@@ -10246,6 +10212,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 95821
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 95827
         }
       ]
     },
@@ -10472,6 +10442,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 36144
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 36145
         }
       ]
     },
@@ -10521,15 +10495,6 @@
         {
           "capturedAt": "2026-11-02T06:09:43.890Z",
           "stars": 24018
-        }
-      ]
-    },
-    "96827202": {
-      "fullName": "shd101wyy/crossnote",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 566
         }
       ]
     },
@@ -10654,10 +10619,6 @@
     "101451042": {
       "fullName": "gsantner/markor",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6238
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6241
@@ -11070,10 +11031,6 @@
     "112507086": {
       "fullName": "Chalarangelo/30-seconds-of-code",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 129340
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 129143
@@ -11505,6 +11462,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 129487
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 129490
         }
       ]
     },
@@ -11518,15 +11479,6 @@
         {
           "capturedAt": "2026-11-08T06:05:11.831Z",
           "stars": 3989
-        }
-      ]
-    },
-    "114054873": {
-      "fullName": "espnet/espnet",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 9979
         }
       ]
     },
@@ -12215,6 +12167,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 17120
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 17128
         }
       ]
     },
@@ -12267,15 +12223,6 @@
         {
           "capturedAt": "2026-10-28T12:58:33.190Z",
           "stars": 1055
-        }
-      ]
-    },
-    "144513571": {
-      "fullName": "napari/napari",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 2774
         }
       ]
     },
@@ -12702,6 +12649,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 18155
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 18154
         }
       ]
     },
@@ -12754,10 +12705,6 @@
       "fullName": "billimek/k8s-gitops",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 780
-        },
-        {
           "capturedAt": "2026-10-18T20:46:14.356Z",
           "stars": 781
         }
@@ -12775,10 +12722,6 @@
     "164140756": {
       "fullName": "files-community/Files",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 45862
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 45863
@@ -13206,6 +13149,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 46593
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 46600
         }
       ]
     },
@@ -13467,10 +13414,6 @@
     "191820100": {
       "fullName": "google-ai-edge/mediapipe",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 37189
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 37191
@@ -13902,6 +13845,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 37650
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 37656
         }
       ]
     },
@@ -13926,10 +13873,6 @@
     "192640529": {
       "fullName": "HumanSignal/label-studio",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 28418
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 28420
@@ -14361,6 +14304,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 28680
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 28683
         }
       ]
     },
@@ -14481,10 +14428,6 @@
     "203587744": {
       "fullName": "hoppscotch/hoppscotch",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 80587
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 80590
@@ -14912,6 +14855,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 80782
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 80790
         }
       ]
     },
@@ -14927,10 +14874,6 @@
     "204086862": {
       "fullName": "streamlit/streamlit",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 45920
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 45922
@@ -15358,6 +15301,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 46324
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 46331
         }
       ]
     },
@@ -15628,10 +15575,6 @@
       "fullName": "PostHog/posthog",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 40188
-        },
-        {
           "capturedAt": "2026-10-09T13:20:35.627Z",
           "stars": 40202
         },
@@ -15697,6 +15640,15 @@
         }
       ]
     },
+    "238797860": {
+      "fullName": "ethereum-optimism/optimism",
+      "snapshots": [
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 6493
+        }
+      ]
+    },
     "239121486": {
       "fullName": "un-ts/eslint-plugin-import-x",
       "snapshots": [
@@ -15712,15 +15664,6 @@
         {
           "capturedAt": "2026-10-17T20:38:25.338Z",
           "stars": 4193
-        }
-      ]
-    },
-    "242202166": {
-      "fullName": "open-telemetry/opentelemetry-go-contrib",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 1678
         }
       ]
     },
@@ -15806,10 +15749,6 @@
     "250213286": {
       "fullName": "huggingface/datasets",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 22041
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 22043
@@ -16241,6 +16180,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 22129
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 22131
         }
       ]
     },
@@ -16337,10 +16280,6 @@
     "264818686": {
       "fullName": "ultralytics/yolov5",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 58114
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 58117
@@ -16772,6 +16711,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 58262
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 58262
         }
       ]
     },
@@ -17041,10 +16984,6 @@
     "300996055": {
       "fullName": "lucidrains/vit-pytorch",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 25539
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 25538
@@ -17476,6 +17415,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 25569
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 25569
         }
       ]
     },
@@ -17558,10 +17501,6 @@
     "311525798": {
       "fullName": "microsoft/Web-Dev-For-Beginners",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 96920
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 96924
@@ -17993,6 +17932,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 97123
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 97125
         }
       ]
     },
@@ -18101,10 +18044,6 @@
     "326174741": {
       "fullName": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 37149
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 37159
@@ -18389,10 +18328,6 @@
       "fullName": "PetoiCamp/OpenCat-Quadruped-Robot",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 5424
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 5429
         }
@@ -18482,10 +18417,6 @@
     "343965132": {
       "fullName": "microsoft/ML-For-Beginners",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 91341
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 91357
@@ -18877,16 +18808,16 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 92139
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 92149
         }
       ]
     },
     "344190478": {
       "fullName": "microsoft/AI-For-Beginners",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 69566
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 69575
@@ -19246,6 +19177,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 70726
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 70734
         }
       ]
     },
@@ -19423,10 +19358,6 @@
     "384520418": {
       "fullName": "MaaAssistantArknights/MaaAssistantArknights",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 23618
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 23622
@@ -19858,6 +19789,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 24519
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 24527
         }
       ]
     },
@@ -19898,15 +19833,6 @@
         {
           "capturedAt": "2026-11-09T06:35:54.246Z",
           "stars": 963
-        }
-      ]
-    },
-    "400763760": {
-      "fullName": "DisnakeDev/disnake",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 772
         }
       ]
     },
@@ -20144,15 +20070,6 @@
         }
       ]
     },
-    "457026559": {
-      "fullName": "chainguard-dev/apko",
-      "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 1687
-        }
-      ]
-    },
     "458364565": {
       "fullName": "github/advisory-database",
       "snapshots": [
@@ -20250,10 +20167,6 @@
     "476314415": {
       "fullName": "AccumulateMore/CV",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 23926
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 23928
@@ -20747,6 +20660,10 @@
         {
           "capturedAt": "2026-11-11T19:38:37.701Z",
           "stars": 697
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 697
         }
       ]
     },
@@ -20771,10 +20688,6 @@
     "535360445": {
       "fullName": "ultralytics/ultralytics",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 62303
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 62312
@@ -21206,6 +21119,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 63318
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 63327
         }
       ]
     },
@@ -21239,10 +21156,6 @@
     "542284380": {
       "fullName": "usebruno/bruno",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 47401
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 47406
@@ -21670,6 +21583,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 48356
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 48376
         }
       ]
     },
@@ -21733,10 +21650,6 @@
     "552661142": {
       "fullName": "langchain-ai/langchain",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 147584
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 147397
@@ -22168,6 +22081,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 149387
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 149409
         }
       ]
     },
@@ -22654,6 +22571,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 132241
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 132271
         }
       ]
     },
@@ -22678,10 +22599,6 @@
     "571613891": {
       "fullName": "roboflow/supervision",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 51154
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 51155
@@ -23113,6 +23030,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 51597
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 51601
         }
       ]
     },
@@ -23258,10 +23179,6 @@
     "599320067": {
       "fullName": "langflow-ai/langflow",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 155588
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 155401
@@ -23693,6 +23610,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 156554
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 156574
         }
       ]
     },
@@ -23902,10 +23823,6 @@
     "626805178": {
       "fullName": "langgenius/dify",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 158100
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 157926
@@ -24337,6 +24254,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 161006
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 161053
         }
       ]
     },
@@ -24361,10 +24282,6 @@
     "631030757": {
       "fullName": "paradigmxyz/solar",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 571
-        },
         {
           "capturedAt": "2026-10-20T21:39:02.043Z",
           "stars": 572
@@ -24631,10 +24548,6 @@
       "fullName": "sxyazi/yazi",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 42689
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 42699
         },
@@ -24869,6 +24782,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 43370
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 43390
         }
       ]
     },
@@ -24960,6 +24877,15 @@
         {
           "capturedAt": "2026-10-24T20:52:23.957Z",
           "stars": 843
+        }
+      ]
+    },
+    "684806858": {
+      "fullName": "PaloAltoNetworks/Unit42-timely-threat-intel",
+      "snapshots": [
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 636
         }
       ]
     },
@@ -25477,6 +25403,10 @@
         {
           "capturedAt": "2026-11-03T23:25:39.482Z",
           "stars": 1725
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 1736
         }
       ]
     },
@@ -25667,10 +25597,6 @@
     "771302083": {
       "fullName": "OpenHands/OpenHands",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 90270
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 90300
@@ -26098,6 +26024,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 93286
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 93340
         }
       ]
     },
@@ -26175,10 +26105,6 @@
     "787076358": {
       "fullName": "firecrawl/firecrawl",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 189703
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 189616
@@ -26610,6 +26536,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 201043
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 201247
         }
       ]
     },
@@ -26651,10 +26581,6 @@
     "793375104": {
       "fullName": "Shubhamsaboo/awesome-llm-apps",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 140992
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 140812
@@ -26842,6 +26768,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 144462
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 144507
         }
       ]
     },
@@ -26985,10 +26915,6 @@
     "817326197": {
       "fullName": "screenpipe/screenpipe",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 21866
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 21879
@@ -27420,6 +27346,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 22352
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 22352
         }
       ]
     },
@@ -27530,6 +27460,10 @@
       "snapshots": [
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
+          "stars": 2702
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
           "stars": 2702
         }
       ]
@@ -27966,10 +27900,6 @@
       "fullName": "anthropics/claude-code",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 149849
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 149715
         },
@@ -28400,6 +28330,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 155379
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 155429
         }
       ]
     },
@@ -28449,6 +28383,10 @@
         {
           "capturedAt": "2026-10-22T21:38:09.110Z",
           "stars": 8365
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8478
         }
       ]
     },
@@ -28934,10 +28872,6 @@
       "fullName": "openai/codex",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 128366
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 128207
         },
@@ -28992,6 +28926,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 134969
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 135033
         }
       ]
     },
@@ -29061,10 +28999,6 @@
     "975734319": {
       "fullName": "anomalyco/opencode",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 212333
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 212194
@@ -29496,6 +29430,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 226250
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 226424
         }
       ]
     },
@@ -29654,10 +29592,6 @@
       "fullName": "QwenLM/qwen-code",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 28361
-        },
-        {
           "capturedAt": "2026-10-26T04:50:17.450Z",
           "stars": 28720
         },
@@ -29779,10 +29713,6 @@
     "1024554267": {
       "fullName": "NousResearch/hermes-agent",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 252136
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 252030
@@ -30214,6 +30144,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 262804
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 262935
         }
       ]
     },
@@ -30260,10 +30194,6 @@
     "1031912724": {
       "fullName": "farion1231/cc-switch",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 141447
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 141341
@@ -30761,10 +30691,6 @@
       "fullName": "anthropics/skills",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 180135
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 179992
         },
@@ -31195,6 +31121,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 193310
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 193635
         }
       ]
     },
@@ -31232,10 +31162,6 @@
     "1073224795": {
       "fullName": "obra/superpowers",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 296615
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 296555
@@ -31667,16 +31593,16 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 316422
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 316701
         }
       ]
     },
     "1075372545": {
       "fullName": "msitarzewski/agency-agents",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 158456
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 158330
@@ -32108,6 +32034,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 167820
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 167919
         }
       ]
     },
@@ -32132,10 +32062,6 @@
     "1078079172": {
       "fullName": "ComposioHQ/awesome-claude-skills",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 76699
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 76707
@@ -32455,10 +32381,6 @@
     "1100973251": {
       "fullName": "pshenok/server-survival",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6433
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6433
@@ -33265,10 +33187,6 @@
       "fullName": "sickn33/agentic-awesome-skills",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 47353
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 47364
         },
@@ -33695,6 +33613,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 49577
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 49610
         }
       ]
     },
@@ -33708,16 +33630,16 @@
         {
           "capturedAt": "2026-11-05T06:50:43.137Z",
           "stars": 1893
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 1942
         }
       ]
     },
     "1136590548": {
       "fullName": "affaan-m/ECC",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 275273
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 275371
@@ -34149,6 +34071,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 301551
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 301909
         }
       ]
     },
@@ -34208,10 +34134,6 @@
     "1139971460": {
       "fullName": "rtk-ai/rtk",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 82688
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 82716
@@ -34639,6 +34561,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 86282
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 86364
         }
       ]
     },
@@ -34765,10 +34691,6 @@
     "1148788086": {
       "fullName": "mattpocock/skills",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 280665
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 281017
@@ -35200,6 +35122,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 322285
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 322895
         }
       ]
     },
@@ -35266,6 +35192,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 57396
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 58171
         }
       ]
     },
@@ -35435,10 +35365,6 @@
     "1166102148": {
       "fullName": "DeusData/codebase-memory-mcp",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 46132
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 46164
@@ -35866,6 +35792,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 48525
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 48566
         }
       ]
     },
@@ -36026,6 +35956,10 @@
         {
           "capturedAt": "2026-10-18T15:54:20.557Z",
           "stars": 66501
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 83356
         }
       ]
     },
@@ -36182,10 +36116,6 @@
     "1185590488": {
       "fullName": "rohitg00/ai-engineering-from-scratch",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 65745
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 65861
@@ -36617,6 +36547,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 78521
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 78572
         }
       ]
     },
@@ -36720,10 +36654,6 @@
     "1193909050": {
       "fullName": "herdrdev/herdr",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 42906
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 42975
@@ -37151,6 +37081,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 50428
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 50570
         }
       ]
     },
@@ -37631,16 +37565,16 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 194792
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 194785
         }
       ]
     },
     "1197515131": {
       "fullName": "VoltAgent/awesome-design-md",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 120043
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 119906
@@ -37717,10 +37651,6 @@
     "1200597263": {
       "fullName": "Graphify-Labs/graphify",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 124849
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 124749
@@ -38148,6 +38078,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 146305
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 146651
         }
       ]
     },
@@ -38206,6 +38140,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 10752
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 10755
         }
       ]
     },
@@ -38750,6 +38688,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 453476
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 454937
         }
       ]
     },
@@ -38765,10 +38707,6 @@
     "1211139949": {
       "fullName": "tt-a1i/archify",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 79662
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 79964
@@ -39196,6 +39134,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 95722
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 95880
         }
       ]
     },
@@ -39205,6 +39147,10 @@
         {
           "capturedAt": "2026-10-25T20:53:16.079Z",
           "stars": 61024
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 66711
         }
       ]
     },
@@ -39380,10 +39326,6 @@
     "1238120057": {
       "fullName": "ayghri/i-have-adhd",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 55634
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 55783
@@ -39811,6 +39753,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 60914
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 60998
         }
       ]
     },
@@ -39978,10 +39924,6 @@
     "1266797999": {
       "fullName": "DietrichGebert/ponytail",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 158185
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 158487
@@ -40413,6 +40355,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 189322
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 189704
         }
       ]
     },
@@ -40448,6 +40394,15 @@
         {
           "capturedAt": "2026-11-06T19:26:49.385Z",
           "stars": 728
+        }
+      ]
+    },
+    "1276298467": {
+      "fullName": "FrizzleM/SideInstaller",
+      "snapshots": [
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 1404
         }
       ]
     },
@@ -40620,10 +40575,6 @@
     "1300173275": {
       "fullName": "vshulcz/deja-vu",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 1150
-        },
         {
           "capturedAt": "2026-10-14T04:56:38.786Z",
           "stars": 1192
@@ -40953,6 +40904,10 @@
         {
           "capturedAt": "2026-11-10T19:45:52.017Z",
           "stars": 6860
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 7270
         }
       ]
     },
@@ -41101,6 +41056,15 @@
         {
           "capturedAt": "2026-10-24T20:52:23.957Z",
           "stars": 2503
+        }
+      ]
+    },
+    "1336502227": {
+      "fullName": "CopilotKit/OpenBot",
+      "snapshots": [
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 11475
         }
       ]
     },
@@ -41400,6 +41364,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 1307
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 1310
         }
       ]
     },
@@ -41583,10 +41551,6 @@
       "fullName": "robbietilton/Compositor",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 12709
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 13075
         },
@@ -41699,10 +41663,6 @@
     "1373655162": {
       "fullName": "browser-use/jev-ultrafast",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 22351
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 22390
@@ -41817,10 +41777,6 @@
       "fullName": "Mak5er/AirCard",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6358
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6373
         },
@@ -41841,10 +41797,6 @@
     "1374005005": {
       "fullName": "tamaratran/fast-jev-compaction",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 7505
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 7525
@@ -41928,10 +41880,6 @@
     "1375069862": {
       "fullName": "jaredpalmer/kev",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 8714
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 8744
@@ -42061,10 +42009,6 @@
     "1375382253": {
       "fullName": "NandhaKishorM/laya",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 31636
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 31712
@@ -42233,10 +42177,6 @@
       "fullName": "cdyforever/how-to-live-better",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 10010
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 10141
         },
@@ -42382,10 +42322,6 @@
       "fullName": "mizorewww/laya-mlx",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6831
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6838
         },
@@ -42432,10 +42368,6 @@
     "1378288598": {
       "fullName": "zai-org/ZCode",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 7535
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 7545
@@ -42542,10 +42474,6 @@
       "fullName": "jev-chat/jev-chat-jarvis",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 7475
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 7483
         },
@@ -42640,10 +42568,6 @@
     "1383809012": {
       "fullName": "yetone/magpie",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6612
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6734
@@ -43062,10 +42986,6 @@
     "1385817306": {
       "fullName": "shihabal3amri/DiPlay",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 7074
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 7289
@@ -43686,16 +43606,16 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 70511
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 71257
         }
       ]
     },
     "1385946301": {
       "fullName": "Niko1221/Strata",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 17989
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 18390
@@ -44063,10 +43983,6 @@
       "fullName": "KKKKhazix/AIHOT",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 6668
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 6713
         },
@@ -44362,10 +44278,6 @@
       "fullName": "rehan-remade/universal-modder",
       "snapshots": [
         {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 5433
-        },
-        {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 5631
         },
@@ -44518,10 +44430,6 @@
     "1398080271": {
       "fullName": "storytold/photocraft",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 22645
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 26570
@@ -46239,10 +46147,6 @@
     "1407950271": {
       "fullName": "openai/math",
       "snapshots": [
-        {
-          "capturedAt": "2026-10-08T13:33:31.170Z",
-          "stars": 11421
-        },
         {
           "capturedAt": "2026-10-08T23:22:46.901Z",
           "stars": 12040
@@ -47962,6 +47866,15 @@
         }
       ]
     },
+    "1411026273": {
+      "fullName": "peiikai/LASRecomp",
+      "snapshots": [
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 2351
+        }
+      ]
+    },
     "1412939352": {
       "fullName": "eyalgolan/statecraft-israel",
       "snapshots": [
@@ -48169,6 +48082,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 14892
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 15040
         }
       ]
     },
@@ -48282,6 +48199,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 8160
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8215
         }
       ]
     },
@@ -48591,6 +48512,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 25884
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 25904
         }
       ]
     },
@@ -48632,6 +48557,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 8817
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8961
         }
       ]
     },
@@ -48918,6 +48847,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 56669
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 56948
         }
       ]
     },
@@ -49204,6 +49137,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 18795
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 18923
         }
       ]
     },
@@ -49281,6 +49218,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 7766
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 7849
         }
       ]
     },
@@ -49443,6 +49384,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 11343
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 11434
         }
       ]
     },
@@ -49508,6 +49453,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 8642
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8740
         }
       ]
     },
@@ -49664,6 +49613,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 20087
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 20668
         }
       ]
     },
@@ -49753,6 +49706,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 7787
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 7829
         }
       ]
     },
@@ -49865,6 +49822,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 8297
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8382
         }
       ]
     },
@@ -49958,6 +49919,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 14723
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 15046
         }
       ]
     },
@@ -50072,6 +50037,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 22592
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 22725
         }
       ]
     },
@@ -50113,6 +50082,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 8615
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8724
         }
       ]
     },
@@ -50198,6 +50171,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 28900
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 29691
         }
       ]
     },
@@ -50228,6 +50205,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 8336
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8620
         }
       ]
     },
@@ -50241,6 +50222,10 @@
         {
           "capturedAt": "2026-11-12T07:14:49.668Z",
           "stars": 8081
+        },
+        {
+          "capturedAt": "2026-11-12T19:57:02.221Z",
+          "stars": 8614
         }
       ]
     },
